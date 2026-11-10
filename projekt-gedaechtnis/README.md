@@ -14,6 +14,7 @@ Markdown-Dateien.
 | Datei | Inhalt | Wie pflegen |
 | --- | --- | --- |
 | [`STAND.md`](STAND.md) | Kurzer Überblick: Ziel, aktueller Stand, nächster Schritt | Bei jeder Sitzung überschreiben, damit sie aktuell bleibt |
+| [`MARKE.md`](MARKE.md) | Markentexte und Kernfakten zu Almost Gone (vorher arrel) | Freigegebene Texte wörtlich übernehmen; neue Kapitel unten anfügen |
 | [`DECISIONS.md`](DECISIONS.md) | Getroffene Entscheidungen mit Begründung | Nur ergänzen, nie löschen; überholte Entscheidungen als „ersetzt durch …“ markieren |
 | [`TODO.md`](TODO.md) | Offene und erledigte Aufgaben | Aufgaben abhaken statt löschen |
 | [`LOG.md`](LOG.md) | Datiertes Fortschrittsprotokoll | Neue Einträge oben anfügen |

@@ -5,11 +5,15 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Ziel und Ausgangslage von ALREADY-GONE mit Marc klären und in
-  `STAND.md` eintragen (Was ist das Produkt oder die Marke? Zielgruppe?
-  Was gibt es schon?)
-- [ ] Erste Brandbuilding-Aufgaben festlegen und hier eintragen
+- [ ] Klären: Projekt heißt „ALREADY-GONE“, die Marke „Almost Gone“. Ist das
+  Absicht oder soll der Projektname angepasst werden?
+- [ ] Weitere Kapitel der Markengeschichte (02 ff.) von Marc einholen und in
+  `MARKE.md` eintragen
+- [ ] Erste Brandbuilding-Aufgaben festlegen und hier eintragen (zum Beispiel
+  Zielgruppe, Tonalität, Kanäle, Ankündigung der Umbenennung)
 
 ## Erledigt
 
 - [x] 2026-11-10: Projekt-Gedächtnis in `projekt-gedaechtnis/` angelegt
+- [x] 2026-11-10: Ziel und Ausgangslage geklärt (Kapitel 01 der
+  Markengeschichte, siehe `MARKE.md`)

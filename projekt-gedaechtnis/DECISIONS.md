@@ -46,3 +46,13 @@ Vorlage:
   davon. Ein kurzer Verweis ganz oben in `AGENTS.md` sorgt dafür, dass Claude
   und Codex den Ordner finden.
 - Status: gültig
+
+## E-004: Aus arrel wird Almost Gone
+- Datum: 2026-11-10
+- Entschieden von: Marc (Markenteam)
+- Entscheidung: Die Marke arrel heißt künftig **Almost Gone**. Die
+  Umbenennung wird als Weiterentwicklung erzählt, nicht als Neuanfang.
+  Claim: „Gleiche Wurzeln. Neue Stimme.“
+- Begründung: Der neue Name drückt stärker aus, worum es der Marke heute geht.
+  Werte, Verantwortung und Geschichte von arrel bleiben erhalten.
+- Status: gültig
