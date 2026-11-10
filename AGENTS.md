@@ -1,3 +1,20 @@
+<!-- projekt-gedaechtnis:start -->
+## Projekt-Gedächtnis (ALREADY-GONE) – zuerst lesen
+
+Dieses Repository dient Marc auch als Projekt-Gedächtnis für das Projekt
+**ALREADY-GONE** (Brandbuilding). Wenn du an diesem Projekt arbeitest und
+nicht am ai-memory-Quellcode:
+
+1. Lies zuerst `projekt-gedaechtnis/README.md` und `projekt-gedaechtnis/STAND.md`.
+2. Arbeite mit der nächsten offenen Aufgabe aus `projekt-gedaechtnis/TODO.md` weiter.
+3. Halte neue Entscheidungen in `projekt-gedaechtnis/DECISIONS.md` fest und
+   schreibe am Ende einen datierten Eintrag in `projekt-gedaechtnis/LOG.md`.
+4. Committe und pushe deine Änderungen, damit Claude oder Codex sie sehen.
+
+Schreibe dort auf Deutsch. Die übrigen Regeln in dieser Datei betreffen nur die
+Entwicklung des Werkzeugs ai-memory.
+<!-- projekt-gedaechtnis:end -->
+
 <!-- ai-memory:start -->
 ## Long-term memory (ai-memory)
 
