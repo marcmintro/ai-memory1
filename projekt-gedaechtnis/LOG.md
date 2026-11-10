@@ -10,6 +10,15 @@ Neue Einträge **oben** anfügen. Format:
 
 ---
 
+## 2026-11-10 – Claude (Referenzordner)
+- Ordner `~/Desktop/Alrerady Gone./` auf Marcs Mac gesichtet: Pitch Deck,
+  Flyer, Logo-Dateien angesehen, Rest inventarisiert. Ergebnis in
+  `REFERENZ.md`, Entscheidung E-006.
+- Gefunden: Namenswechsel Almost Gone (bis Sept.) → Already Gone (ab Okt.),
+  Claim „The good will last.“, Tippfehler im Flyer.
+- Offen: Ist das organische „A“ final? Keynote, BI-AG-1.indd, PLOT.ai und
+  Filme noch nicht ausgewertet.
+
 ## 2026-11-10 – Claude (Korrektur)
 - Marc hat klargestellt: Die Marke heißt **Already Gone**, nicht „Almost
   Gone“. Name in allen Dateien korrigiert, auch im Kapiteltext. Entscheidung

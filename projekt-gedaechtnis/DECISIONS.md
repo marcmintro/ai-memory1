@@ -65,3 +65,12 @@ Vorlage:
   01 war falsch und wurde überall in „Already Gone“ korrigiert.
 - Begründung: Klarstellung von Marc am 2026-11-10.
 - Status: gültig
+
+## E-006: Ordner „Already Gone“ auf dem Schreibtisch ist die Referenz
+- Datum: 2026-11-10
+- Entschieden von: Marc
+- Entscheidung: Der Ordner `~/Desktop/Alrerady Gone./` auf Marcs Mac ist die
+  Referenz für dieses Projekt (Logo, Claim, Bildsprache, Flyer, Filme). Die
+  Auswertung steht in `REFERENZ.md`; die Dateien bleiben auf dem Mac.
+- Begründung: Dort liegt die bisherige Markenarbeit gesammelt.
+- Status: gültig

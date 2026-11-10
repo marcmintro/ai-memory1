@@ -20,6 +20,9 @@ bekommt eine neue Stimme. Details und Markentexte stehen in
 - Das Projekt-Gedächtnis ist angelegt.
 - Kapitel 01 der Markengeschichte („Von arrel zu Already Gone“) liegt vor und
   steht wörtlich in `MARKE.md`.
+- Der Referenzordner auf Marcs Schreibtisch ist gesichtet (`REFERENZ.md`):
+  Claim „The good will last.“, organisches „A“ als Logo, unscharfe, filmische
+  Bildsprache, Ankündigungs-Flyer liegt als Entwurf vor.
 - Die Nummerierung „01“ deutet auf weitere Kapitel hin, die noch fehlen.
 
 ## Nächster Schritt
