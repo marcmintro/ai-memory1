@@ -9,7 +9,6 @@ statt sie zu löschen.
   `MARKE.md` eintragen
 - [ ] Erste Brandbuilding-Aufgaben festlegen und hier eintragen (zum Beispiel
   Zielgruppe, Tonalität, Kanäle, Ankündigung der Umbenennung)
-
 - [ ] Mit Marc klären: Ist das organische „A“ (Stand 2026-10-08) das finale
   Logo, oder ist die Logo-Entwicklung noch offen?
 - [ ] Flyer korrigieren: „AREADY GONE“ → „ALREADY GONE“; Zeile „Tres chicos
