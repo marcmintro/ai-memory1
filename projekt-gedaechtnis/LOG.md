@@ -10,14 +10,18 @@ Neue Einträge **oben** anfügen. Format:
 
 ---
 
+## 2026-11-10 – Claude (Korrektur)
+- Marc hat klargestellt: Die Marke heißt **Already Gone**, nicht „Almost
+  Gone“. Name in allen Dateien korrigiert, auch im Kapiteltext. Entscheidung
+  E-005 eingetragen.
+
 ## 2026-11-10 – Claude (Nachtrag)
-- Marc hat Kapitel 01 der Markengeschichte geliefert („Von arrel zu Almost
+- Marc hat Kapitel 01 der Markengeschichte geliefert („Von arrel zu Already
   Gone“). Wörtlich in `MARKE.md` übernommen, Kernfakten daneben
   zusammengefasst.
 - `STAND.md` um Ziel und Marke ergänzt, Entscheidung E-004 (Umbenennung)
   eingetragen, `TODO.md` aktualisiert.
-- Offen: weitere Kapitel, Abgleich Projektname „ALREADY-GONE“ und Marke
-  „Almost Gone“.
+- Offen: weitere Kapitel.
 
 ## 2026-11-10 – Claude
 - Projekt-Gedächtnis angelegt: `README.md`, `STAND.md`, `DECISIONS.md`,

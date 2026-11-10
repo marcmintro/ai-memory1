@@ -1,12 +1,12 @@
-# Marke: Almost Gone
+# Marke: Already Gone
 
-Hier stehen die Markentexte und Kernfakten zu **Almost Gone** (vorher
+Hier stehen die Markentexte und Kernfakten zu **Already Gone** (vorher
 **arrel**). Freigegebene Texte von Marc werden wörtlich übernommen und nicht
 umformuliert. Neue Kapitel unten anfügen.
 
 ## Kernfakten
 
-- **Name heute:** Almost Gone
+- **Name heute:** Already Gone
 - **Vorheriger Name:** arrel
 - **Kategorie:** faire Fashion
 - **Gründer:** drei Freunde mit Wurzeln in Südkorea, Deutschland und dem
@@ -21,11 +21,11 @@ umformuliert. Neue Kapitel unten anfügen.
 
 ---
 
-## Kapitel 01 – Von arrel zu Almost Gone
+## Kapitel 01 – Von arrel zu Already Gone
 
-*Von Marc geliefert am 2026-11-10, wörtlich übernommen.*
+*Von Marc geliefert am 2026-11-10, wörtlich übernommen. Einzige Korrektur: „Almost Gone“ wurde auf Marcs Hinweis in „Already Gone“ geändert (E-005).*
 
-> ## 01 — VON ARREL ZU ALMOST GONE
+> ## 01 — VON ARREL ZU ALREADY GONE
 >
 > ### Drei Freunde. Drei kulturelle Prägungen. Eine gemeinsame Haltung.
 >
@@ -37,7 +37,7 @@ umformuliert. Neue Kapitel unten anfügen.
 >
 > Dabei ging Verantwortung immer über die Produktion hinaus. Mit Spenden und gemeinsamen Projekten unterstützte arrel unter anderem Hospize sowie Initiativen rund um das Thema Brustkrebs.
 >
-> Almost Gone ist deshalb kein Neuanfang.
+> Already Gone ist deshalb kein Neuanfang.
 >
 > Es ist die Weiterentwicklung dessen, was mit arrel begonnen hat.
 >
@@ -47,6 +47,6 @@ umformuliert. Neue Kapitel unten anfügen.
 >
 > Aber die Idee bekommt einen Namen, der stärker ausdrückt, worum es heute geht.
 >
-> **Aus arrel wird Almost Gone.**
+> **Aus arrel wird Already Gone.**
 >
 > **Gleiche Wurzeln. Neue Stimme.**

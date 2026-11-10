@@ -5,8 +5,6 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Klären: Projekt heißt „ALREADY-GONE“, die Marke „Almost Gone“. Ist das
-  Absicht oder soll der Projektname angepasst werden?
 - [ ] Weitere Kapitel der Markengeschichte (02 ff.) von Marc einholen und in
   `MARKE.md` eintragen
 - [ ] Erste Brandbuilding-Aufgaben festlegen und hier eintragen (zum Beispiel
@@ -14,6 +12,7 @@ statt sie zu löschen.
 
 ## Erledigt
 
+- [x] 2026-11-10: Markenname geklärt: **Already Gone** ist richtig (siehe E-005)
 - [x] 2026-11-10: Projekt-Gedächtnis in `projekt-gedaechtnis/` angelegt
 - [x] 2026-11-10: Ziel und Ausgangslage geklärt (Kapitel 01 der
   Markengeschichte, siehe `MARKE.md`)

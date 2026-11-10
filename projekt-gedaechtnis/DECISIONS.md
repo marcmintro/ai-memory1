@@ -47,12 +47,21 @@ Vorlage:
   und Codex den Ordner finden.
 - Status: gültig
 
-## E-004: Aus arrel wird Almost Gone
+## E-004: Aus arrel wird Already Gone
 - Datum: 2026-11-10
 - Entschieden von: Marc (Markenteam)
-- Entscheidung: Die Marke arrel heißt künftig **Almost Gone**. Die
+- Entscheidung: Die Marke arrel heißt künftig **Already Gone**. Die
   Umbenennung wird als Weiterentwicklung erzählt, nicht als Neuanfang.
   Claim: „Gleiche Wurzeln. Neue Stimme.“
 - Begründung: Der neue Name drückt stärker aus, worum es der Marke heute geht.
   Werte, Verantwortung und Geschichte von arrel bleiben erhalten.
+- Status: gültig
+
+## E-005: Der Markenname lautet „Already Gone“
+- Datum: 2026-11-10
+- Entschieden von: Marc
+- Entscheidung: Die Marke heißt **Already Gone**, passend zum Projektnamen
+  ALREADY-GONE. Die Schreibweise „Almost Gone“ im ersten Entwurf von Kapitel
+  01 war falsch und wurde überall in „Already Gone“ korrigiert.
+- Begründung: Klarstellung von Marc am 2026-11-10.
 - Status: gültig
