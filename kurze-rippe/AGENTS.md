@@ -1,7 +1,7 @@
 # AGENTS.md: Kundenprojekt Kurze Rippe
 
 Dieser Ordner ist der Arbeitsbereich für den Auftrag **Kurze Rippe**
-(Website kurz-rippe.de neu gestalten, Social-Media-Branding, Content-Säulen).
+(Website kurze-rippe.de neu gestalten, Social-Media-Branding, Content-Säulen).
 Er gilt für jeden Agenten gleich: Claude Code, Codex und alle anderen.
 Die Regeln im Repo-Root (`../AGENTS.md`) betreffen die Rust-Codebasis von
 ai-memory und gelten hier **nicht**, außer dem Abschnitt zu ai-memory selbst.

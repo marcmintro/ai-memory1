@@ -18,7 +18,7 @@ Erteilt von Marc am 11.11.2026.
 ## Aufgaben
 
 1. AI-Memory einrichten, damit Claude und Codex nahtlos übergeben können.
-2. Website kurz-rippe.de analysieren (Netzwerkzugang muss ggf. freigeschaltet
+2. Website kurze-rippe.de (im Auftrag „kurz-rippe.de“ geschrieben) analysieren (Netzwerkzugang muss ggf. freigeschaltet
    werden).
 3. Content-Säulen erarbeiten:
    - **Angebot:** was die Kurze Rippe anbietet.
