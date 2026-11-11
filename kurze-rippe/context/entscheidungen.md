@@ -2,6 +2,14 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-11: Domain ist kurze-rippe.de, Farbwelt schwarz-weiß + Rot (Vorschlag)
+
+Die Website liegt unter kurze-rippe.de (nicht kurz-rippe.de). Für Social
+Media wird Schwarz-Weiß aus dem Logo mit rotem Akzent vorgeschlagen, das
+Website-Blau soll weg. Status: **Vorschlag, wartet auf Marcs Freigabe.**
+**Grund:** Das Logo ist schwarz-weiß, rote Handschuhe/Sandsäcke prägen die
+Fotos; das blaue Theme passt nicht dazu.
+
 ## 2026-11-11: Gedächtnis liegt als Markdown im Repo
 
 Der Arbeitsstand für Kurze Rippe liegt in `kurze-rippe/` im Repo
