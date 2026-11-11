@@ -1,0 +1,5 @@
+# Eigener ai-memory-Bereich für den Kundenauftrag Kurze Rippe.
+# Claude Code und Codex landen so im selben Projektgedächtnis, egal
+# wie der Ordner auf dem jeweiligen Rechner heißt.
+workspace = "kurze-rippe"
+project = "kurze-rippe"
