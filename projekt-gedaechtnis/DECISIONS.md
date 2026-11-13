@@ -94,8 +94,9 @@ Vorlage:
 - Datum: 2026-11-13
 - Entschieden von: Marc (Schrift-Vorschlag Claude)
 - Entscheidung: **ALREADY GONE** immer in Bold, Nebentexte in Medium (Inter).
-  Dazu eine lizenzfreie Handschrift für Akzente; Vorschlag: „Homemade Apple“
-  (Apache 2.0). Wartet auf Marcs Okay.
+  Dazu eine lizenzfreie Handschrift für Akzente. Marc will Filzstift-Charakter
+  (gut lesbar, nicht Graffiti, nicht zu dick) statt Kuli; Vorschlag jetzt
+  „Nanum Pen Script“ (OFL), Alternativen Kalam und Marck Script.
 - Status: vorgeschlagen
 
 ## E-010: Logo-Animation in echtem Weiß
@@ -105,3 +106,11 @@ Vorlage:
   das zum A wird; darunter erscheint die Schrift (ALREADY GONE. / The good will
   last.).
 - Status: gültig, Umsetzung offen
+
+## E-011: Bildstimmung Film / Retro
+- Datum: 2026-11-13
+- Entschieden von: Marc (per Referenzbildern)
+- Entscheidung: Verläufe mit deutlicher Filmkörnung, Nostalgie- und
+  Retro-Look: Schwarz, Petrol-Blau, Rot-Orange-Horizont, schwarz-bläulich-rosa
+  Wolken, Lichtlecks und Lichtstreifen wie auf analogem Film.
+- Status: gültig

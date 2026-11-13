@@ -3,6 +3,11 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-13 – Claude (Teaser Sunset V2)
+- Nach Marcs Referenzbildern: Teaser mit Filmkorn, Lichtlecks, Petrol-Blau und
+  Rot-Orange neu gerendert, Handschrift auf Filzstift (Nanum Pen Script).
+  Ablage: `Alrerady Gone./Teaser_Sunset_V2_2026-11-13/`. E-011 eingetragen.
+
 ## 2026-11-13 – Claude (Teaser Sunset)
 - Marc: V3 gilt, Farben Richtung Sonnenuntergang, Claim „The good will last.“,
   Logo-Animation weiß, ALREADY GONE in Bold / Rest Medium, Handschrift als Akzent.
