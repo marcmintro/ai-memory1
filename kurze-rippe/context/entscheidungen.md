@@ -28,3 +28,12 @@ Der Arbeitsstand für Kurze Rippe liegt in `kurze-rippe/` im Repo
 Speicher, den Claude in der Cloud und Codex beide sicher erreichen. Ein
 ai-memory-Server in der Cloud-Sitzung würde mit der Sitzung verschwinden.
 Lokal installiertes ai-memory kommt über `.ai-memory.toml` ergänzend dazu.
+
+## 2026-11-13: Mediatage separat vom Betreuungsangebot
+
+**Entscheidung (Marc):** Das Social-Media-Angebot berechnet nur Betreuung
+(Erstellen, Posten, Organisieren). Mediatage werden separat angeboten,
+Richtwert ca. 1.800 € pro Tag (professionell gefilmt plus Handy-Content).
+Monatspreise höher als in v1 (390 € war zu knapp kalkuliert).
+**Grund:** Marc will erst das vorhandene Material des Clubs sichten und mit
+der Geschäftsführerin besprechen, ob und wie viele Mediatage nötig sind.

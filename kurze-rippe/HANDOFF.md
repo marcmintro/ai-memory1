@@ -18,8 +18,8 @@ Zuletzt aktualisiert: 2026-11-13 (Angebotspaket) von Claude.
       Merch, Familiengeschichte, Gym-Miete, mögliche Tarife ab 01.01)
 - [x] Website-Entwurf v1 → `arbeit/website-entwurf/` (Vorbilder Fenriz Gym +
       Monument, Live-Vorschau im README)
-- [x] Angebotspaket Social Media Entwurf v1 → `arbeit/angebot-paket.md`
-      (3 Phasen Dez–Mai, 2 Mediatage, Preise nur als Vorschlag; PDF in
+- [x] Angebotspaket Social Media v2 → `arbeit/angebot-paket.md`
+      (3 Phasen Dez–Mai, 6.330 € ohne Mediatage; Mediatage separat; PDF in
       Marcs Stil folgt später)
 - [ ] Feedback von Marc zum Website-Entwurf (Rot oder Blau?)
 - [ ] Marc bestätigt Preise des Angebotspakets, dann PDF
@@ -45,8 +45,10 @@ freigeschaltet) und den ersten Monat konkret mit Caption-Entwürfen planen.
 - Pro Trainer Fokus/Stil, Infos zu Fatih und Lukas.
 - Merch: Preise, nur vor Ort oder online?
 - Tarife ab 01.01: beschlossen? Was gilt für Bestandsmitglieder?
-- Angebotspaket: passen 490 € Start, 450 €/Mediatag, 390/690/250 €/Monat?
+- Angebotspaket v2: passen 990 € Start, 590/1.190/390 €/Monat?
   Preis Website-Relaunch? Umsatzsteuerpflichtig (netto/brutto)?
+- Mediatage (ca. 1.800 €/Tag) separat: Marc entscheidet nach Sichtung des
+  Club-Materials und Gespräch mit der GF.
 
 ## So geht es in Codex weiter
 
