@@ -1,0 +1,774 @@
+<title>Kurze Rippe Boxclub Blau</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Big+Shoulders+Stencil+Display:wght@800;900&family=Inter+Tight:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: ein dunkler Boxkeller. Gestapelte Vollbild-Kapitel (sticky), dazwischen
+   ruhige Raster-Sektionen nach Fenriz-Vorbild. Ein Akzent: Handschuh-Rot. */
+:root{
+  --ink:#0b0d10;        /* Boden, fast schwarz, kühl wie Stahl */
+  --ink-2:#13171c;      /* Flächen */
+  --ink-3:#1f252c;      /* Linien, Hover-Flächen */
+  --chalk:#e9edf1;      /* Text, kühles Weiß */
+  --concrete:#8a939d;   /* Sekundärtext, Beton */
+  --glove:#4f7396;      /* verblasstes Blau, wie ausgewaschener Denim */
+  --glove-hi:#7d9fc0;
+  --rgb:79,115,150;     /* dasselbe Blau für Schatten */
+  --tint:grayscale(1) sepia(.5) hue-rotate(175deg) saturate(1.6);
+  --f-display:"Big Shoulders Display","Oswald","Arial Narrow",Impact,sans-serif;
+  --f-stencil:"Big Shoulders Stencil Display","Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --f-body:"Inter Tight","Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --ease-out:cubic-bezier(.23,1,.32,1);
+  --ease-io:cubic-bezier(.77,0,.175,1);
+  --gutter:max(20px, env(safe-area-inset-left,0px));
+  --gutter-r:max(20px, env(safe-area-inset-right,0px));
+  --wrap:1240px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--ink);scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--chalk);font-family:var(--f-body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--glove);color:#fff}
+:focus-visible{outline:2px solid var(--glove-hi);outline-offset:3px;border-radius:6px}
+
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-left:var(--gutter);padding-right:var(--gutter-r)}
+.eyebrow{font:600 13px/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--concrete);display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--glove);border-radius:2px}
+h1,h2,h3{font-family:var(--f-display);font-weight:900;text-transform:uppercase;line-height:.92;letter-spacing:.005em;margin:0;text-wrap:balance}
+h2{font-size:clamp(48px,7.4vw,112px)}
+h3{font-size:clamp(28px,2.6vw,38px);font-weight:800;line-height:1}
+p{margin:0;max-width:62ch}
+.lead{font-size:clamp(18px,1.5vw,21px);color:#cfccc6;line-height:1.55}
+.muted{color:var(--concrete)}
+section{position:relative}
+.pad{padding-block:clamp(88px,12vw,168px)}
+
+/* Buttons: hebt sich beim Hover leicht an, gibt beim Drücken nach */
+.btn{--bg:var(--glove);--fg:#fff;display:inline-flex;align-items:center;gap:10px;padding:15px 24px;border-radius:999px;background:var(--bg);color:var(--fg);font:600 15px/1 var(--f-body);letter-spacing:.01em;text-decoration:none;border:0;cursor:pointer;
+  transition:transform 240ms var(--ease-out),box-shadow 240ms var(--ease-out),background-color 200ms ease;box-shadow:0 1px 0 rgba(255,255,255,.12) inset,0 0 0 rgba(var(--rgb),0);will-change:transform}
+.btn svg{width:16px;height:16px;transition:transform 240ms var(--ease-out)}
+.btn.ghost{--bg:rgba(238,236,231,.08);--fg:var(--chalk);box-shadow:0 0 0 1px rgba(238,236,231,.18) inset}
+.btn.light{--bg:var(--chalk);--fg:var(--ink)}
+@media (hover:hover) and (pointer:fine){
+  .btn:hover{transform:translateY(-2px) scale(1.035);box-shadow:0 1px 0 rgba(255,255,255,.14) inset,0 14px 34px -10px rgba(var(--rgb),.6)}
+  .btn.ghost:hover{background:rgba(238,236,231,.14);box-shadow:0 0 0 1px rgba(238,236,231,.32) inset,0 14px 30px -14px rgba(0,0,0,.8)}
+  .btn.light:hover{box-shadow:0 14px 34px -12px rgba(238,236,231,.45)}
+  .btn:hover svg{transform:translateX(3px)}
+}
+.btn:active{transform:scale(.97);transition-duration:120ms}
+
+/* Navigation */
+.nav{position:fixed;inset:0 0 auto;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background-color 300ms ease,backdrop-filter 300ms ease,border-color 300ms ease;border-bottom:1px solid transparent}
+.nav.solid{background:rgba(13,12,11,.72);backdrop-filter:saturate(140%) blur(14px);-webkit-backdrop-filter:saturate(140%) blur(14px);border-color:rgba(238,236,231,.08)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:58px;height:auto}
+.brand span{font:900 22px/1 var(--f-stencil);letter-spacing:.06em;text-transform:uppercase}
+.nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0}
+.nav ul a{display:block;padding:9px 13px;border-radius:999px;font:500 15px/1 var(--f-body);text-decoration:none;color:#d9d6d0;transition:background-color 180ms ease,color 180ms ease}
+@media (hover:hover){.nav ul a:hover{background:rgba(238,236,231,.08);color:#fff}}
+.nav .btn{padding:12px 18px;font-size:14px}
+.menu-btn{display:none;background:none;border:0;color:var(--chalk);font:600 15px/1 var(--f-body);letter-spacing:.08em;text-transform:uppercase;align-items:center;gap:10px;padding:10px 4px;cursor:pointer}
+.menu-btn i{display:grid;gap:5px}.menu-btn i b{display:block;width:22px;height:2px;background:currentColor;border-radius:2px;transition:transform 260ms var(--ease-out)}
+.menu-open .menu-btn i b:first-child{transform:translateY(3.5px) rotate(45deg)}
+.menu-open .menu-btn i b:last-child{transform:translateY(-3.5px) rotate(-45deg)}
+.sheet{position:fixed;inset:0;z-index:40;background:var(--ink);padding:calc(96px + env(safe-area-inset-top,0px)) var(--gutter-r) 40px var(--gutter);display:flex;flex-direction:column;gap:6px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity 260ms var(--ease-out),transform 260ms var(--ease-out),visibility 0s 260ms}
+.menu-open .sheet{opacity:1;visibility:visible;transform:none;transition-delay:0s}
+.sheet a{font:900 44px/1.1 var(--f-display);text-transform:uppercase;text-decoration:none}
+.sheet .btn{margin-top:24px;align-self:flex-start}
+@media (max-width:980px){.nav ul,.nav .wrap>.btn{display:none}.menu-btn{display:inline-flex}}
+
+/* Intro / Hero */
+.hero{height:100svh;min-height:620px;position:relative;overflow:hidden;background:var(--ink)}
+.hero-img{position:absolute;inset:0;clip-path:inset(0 0 0 0 round 0px);will-change:clip-path}
+.hero-img img{width:100%;height:100%;object-fit:cover;filter:var(--tint) contrast(1.08) brightness(.62);transform:scale(1.08);will-change:transform}
+.hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,12,11,.55) 0%,rgba(13,12,11,0) 35%,rgba(13,12,11,.15) 60%,rgba(13,12,11,.92) 100%)}
+.wordmark{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;z-index:2}
+.wordmark h1{font-family:var(--f-stencil);font-size:clamp(78px,17.5vw,300px);line-height:.8;letter-spacing:.02em;text-align:center;color:var(--chalk);will-change:transform}
+.wordmark h1 .ch{display:inline-block;will-change:transform}
+.wordmark h1 .row,.wordmark .wm2 .row{display:block;overflow:hidden;padding-block:.04em}
+.wordmark > *{grid-area:1/1}
+.wordmark .wm2{font-family:var(--f-stencil);font-weight:900;text-transform:uppercase;font-size:clamp(70px,15vw,250px);line-height:.8;letter-spacing:.02em;text-align:center;color:var(--chalk);visibility:hidden}
+.js .wordmark .wm2{visibility:visible}
+.wordmark .wm2 .ch{display:inline-block;will-change:transform}
+.wordmark .wm2 .row{padding-top:.16em;margin-top:-.12em}
+.wordmark .wm2 .row:last-child{color:var(--glove-hi)}
+.hero-foot{position:absolute;left:0;right:0;bottom:0;z-index:3;padding-bottom:max(36px,env(safe-area-inset-bottom,0px))}
+.hero-foot .wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;flex-wrap:wrap}
+.hero-foot p{font-size:clamp(17px,1.4vw,20px);max-width:36ch;color:#e3e0da}
+.hero-foot .cta{display:flex;gap:12px;flex-wrap:wrap}
+.js .hero-img{clip-path:inset(0 100% 0 0)}
+.wipe-edge{position:absolute;top:0;bottom:0;left:0;width:2px;background:var(--glove);z-index:2;box-shadow:0 0 24px 2px rgba(var(--rgb),.55);opacity:0;pointer-events:none;will-change:transform}
+.hero-hint{position:absolute;left:50%;bottom:84px;transform:translateX(-50%);z-index:3;font:600 12px/1 var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--concrete)}
+@media (max-width:700px){.hero-hint{display:none}}
+.scroll-hint{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:3;width:1px;height:46px;background:linear-gradient(var(--chalk),transparent);opacity:.5}
+@media (max-width:700px){.scroll-hint{display:none}}
+
+/* Laufband */
+.ticker{border-block:1px solid var(--ink-3);overflow:hidden;background:var(--ink-2)}
+.ticker-track{display:flex;width:max-content;animation:tick 38s linear infinite}
+.ticker span{font:800 clamp(22px,2.4vw,30px)/1 var(--f-display);text-transform:uppercase;letter-spacing:.03em;padding:22px 28px;white-space:nowrap;display:flex;align-items:center;gap:28px}
+.ticker span::after{content:"";width:9px;height:9px;border-radius:50%;background:var(--glove)}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* Statement mit Wort-für-Wort-Füllung */
+.statement p{font:900 clamp(40px,6.2vw,96px)/.98 var(--f-display);text-transform:uppercase;max-width:none;letter-spacing:.005em}
+.statement .w{color:#3a3733;transition:color 300ms ease}
+.statement .w.on{color:var(--chalk)}
+.statement .w.red.on{color:var(--glove-hi)}
+.statement .sub{margin-top:40px;display:flex;gap:40px;flex-wrap:wrap;align-items:flex-start}
+
+/* Kurse (Raster wie Fenriz) */
+.head-row{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:56px}
+.head-row > div{display:grid;gap:22px}
+.courses{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.course{position:relative;border-radius:18px;overflow:hidden;background:var(--ink-2);min-height:430px;display:flex;flex-direction:column;justify-content:flex-end;text-decoration:none;isolation:isolate;
+  transition:transform 320ms var(--ease-out),box-shadow 320ms var(--ease-out)}
+.course img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;filter:var(--tint) brightness(.55);transform:scale(1.02);transition:transform 700ms var(--ease-out),filter 500ms ease}
+.course::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(13,12,11,0) 30%,rgba(13,12,11,.92) 92%)}
+.course .body{padding:26px;display:grid;gap:12px}
+.course .tag{justify-self:start;font:600 12px/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;padding:8px 11px;border-radius:999px;background:rgba(238,236,231,.12);backdrop-filter:blur(6px)}
+.course .tag.red{background:var(--glove)}
+.course p{color:#cfccc6;font-size:16px}
+.course .when{font:600 14px/1.4 var(--f-body);color:var(--chalk);display:flex;gap:8px;align-items:center}
+.course .when::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--glove);flex:none}
+.course.plain{background:var(--ink-2);justify-content:space-between;border:1px solid var(--ink-3)}
+.course.plain::before{display:none}
+.course.plain .big{font:900 120px/.8 var(--f-stencil);color:var(--ink-3);padding:24px 26px 0;transition:color 300ms ease}
+@media (hover:hover) and (pointer:fine){
+  .course:hover{transform:translateY(-6px);box-shadow:0 30px 60px -30px rgba(0,0,0,.9)}
+  .course:hover img{transform:scale(1.07);filter:var(--tint) brightness(.68)}
+  .course.plain:hover .big{color:var(--glove)}
+}
+@media (max-width:980px){.courses{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.courses{grid-template-columns:1fr}.course{min-height:360px}}
+
+/* Gestapelte Kapitel (Monument-Stil) */
+.stack{position:relative}
+.chapter{position:sticky;top:0;height:100svh;min-height:600px;overflow:hidden;display:flex;align-items:flex-end;background:var(--ink)}
+.chapter img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:var(--tint) contrast(1.05) brightness(.5)}
+.chapter::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,12,11,.92) 0%,rgba(13,12,11,.55) 48%,rgba(13,12,11,.1) 100%)}
+.chapter .wrap{position:relative;z-index:2;width:100%;padding-bottom:clamp(56px,9vh,110px);display:grid;gap:26px}
+.chapter .num{font:900 clamp(18px,1.4vw,20px)/1 var(--f-body);letter-spacing:.14em;color:var(--glove-hi);text-transform:uppercase}
+.chapter h2{font-size:clamp(54px,9vw,148px);max-width:11ch}
+.chapter .facts{display:flex;gap:clamp(24px,4vw,64px);flex-wrap:wrap;margin-top:8px}
+.chapter .facts div{display:grid;gap:6px}
+.chapter .facts b{font:900 clamp(44px,5vw,72px)/.9 var(--f-display)}
+.chapter .facts span{font-size:14px;color:var(--concrete);letter-spacing:.04em}
+
+/* Probetraining */
+.trial{background:#e4e9ee;color:var(--ink)}
+.trial .eyebrow{color:#5f5b55}
+.trial .lead{color:#3c3934}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:64px}
+.step{border-radius:18px;background:#d3dbe3;padding:30px 28px 32px;display:grid;gap:14px;align-content:start;transition:transform 320ms var(--ease-out),background-color 240ms ease}
+.step .n{font:900 76px/.8 var(--f-stencil);color:var(--glove)}
+.step h3{color:var(--ink)}
+.step p{color:#4a463f;font-size:16px}
+@media (hover:hover) and (pointer:fine){.step:hover{transform:translateY(-4px);background:#ffffff}}
+.trial-foot{margin-top:40px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.pack{display:flex;gap:10px;flex-wrap:wrap}
+.pack span{font:500 14px/1 var(--f-body);padding:10px 14px;border-radius:999px;border:1px solid #b9c4cf;color:#2f3943}
+@media (max-width:860px){.steps{grid-template-columns:1fr}}
+
+/* Parallax-Bildband */
+.band{height:min(78vh,720px);overflow:hidden;position:relative}
+.band img{position:absolute;left:0;width:100%;height:130%;top:-15%;object-fit:cover;filter:var(--tint) brightness(.7);will-change:transform}
+.band .cap{position:absolute;inset:auto 0 0;padding-bottom:36px;z-index:2}
+.band .cap p{font:900 clamp(34px,5vw,72px)/.95 var(--f-display);text-transform:uppercase;max-width:16ch}
+.band::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,12,11,0) 45%,rgba(13,12,11,.85))}
+
+/* Preise */
+.prices{display:grid;grid-template-columns:1.25fr 1fr;gap:16px;margin-top:56px}
+.price{border-radius:22px;padding:clamp(28px,3vw,44px);background:var(--ink-2);border:1px solid var(--ink-3);display:grid;gap:22px;align-content:start;transition:transform 320ms var(--ease-out),border-color 240ms ease}
+.price.main{background:var(--glove);border-color:var(--glove)}
+.price .amt{display:flex;align-items:flex-start;gap:6px;font-family:var(--f-display);font-weight:900;line-height:.8}
+.price .amt b{font-size:clamp(110px,12vw,168px);font-variant-numeric:tabular-nums}
+.price .amt i{font-style:normal;font-size:40px;margin-top:10px}
+.price .per{font:600 15px/1 var(--f-body);letter-spacing:.04em;opacity:.85}
+.price ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.price li{display:flex;gap:12px;align-items:flex-start;font-size:16px}
+.price li::before{content:"";flex:none;width:18px;height:18px;margin-top:3px;border-radius:50%;background:rgba(255,255,255,.18) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/11px no-repeat}
+.price:not(.main) li::before{background-color:var(--ink-3)}
+@media (hover:hover) and (pointer:fine){.price:hover{transform:translateY(-4px)}.price:not(.main):hover{border-color:#3a3733}}
+.fine{margin-top:22px;font-size:14px;color:var(--concrete)}
+@media (max-width:860px){.prices{grid-template-columns:1fr}}
+
+/* Kursplan */
+.plan-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:36px}
+.seg{position:relative;display:inline-flex;padding:5px;border-radius:999px;background:var(--ink-2);border:1px solid var(--ink-3)}
+.seg button{position:relative;z-index:1;background:none;border:0;color:var(--concrete);font:600 15px/1 var(--f-body);padding:13px 20px;border-radius:999px;cursor:pointer;transition:color 200ms ease}
+.seg button[aria-selected="true"]{color:#fff}
+.seg .pill{position:absolute;top:5px;bottom:5px;left:5px;border-radius:999px;background:var(--glove);transition:transform 360ms var(--ease-out),width 360ms var(--ease-out)}
+.week{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.day{display:grid;gap:8px;align-content:start;min-width:0}
+.day h4{margin:0 0 4px;font:800 22px/1 var(--f-display);text-transform:uppercase;letter-spacing:.04em;color:var(--concrete);padding:0 4px}
+.slot{border-radius:14px;background:var(--ink-2);border:1px solid var(--ink-3);padding:14px 14px 15px;display:grid;gap:6px;transition:transform 260ms var(--ease-out),border-color 200ms ease,background-color 200ms ease}
+.slot time{font:700 15px/1 var(--f-body);font-variant-numeric:tabular-nums}
+.slot b{font:600 14px/1.25 var(--f-body)}
+.slot span{font-size:13px;color:var(--concrete);line-height:1.3}
+.slot.beg{border-color:rgba(238,236,231,.35)}
+.slot.adv{background:#141c25;border-color:#2b3d50}
+.slot.kid{background:#17191d;border-color:#323840}
+@media (hover:hover) and (pointer:fine){.slot:hover{transform:translateY(-3px);border-color:#4a4642}}
+.legend{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;font-size:14px;color:var(--concrete)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:8px;vertical-align:-1px;border:1px solid}
+@media (max-width:1060px){.week{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:28px}}
+@media (max-width:620px){.week{grid-template-columns:1fr}}
+
+/* Trainer: horizontale Spur. „Ecke Rot“ bleibt rot. */
+#trainer{--glove:#d01c2f;--glove-hi:#e8344a;--rgb:208,28,47}
+#trainer h2{color:var(--glove)}
+.team{overflow:hidden}
+.team-track{display:flex;gap:16px;padding-left:var(--gutter);padding-right:var(--gutter-r);width:max-content;will-change:transform}
+.coach{width:clamp(270px,24vw,330px);flex:none;display:grid;gap:16px;align-content:start}
+.coach figure{margin:0;border-radius:18px;overflow:hidden;aspect-ratio:4/5;background:var(--ink-2);position:relative}
+.coach figure img{width:100%;height:100%;object-fit:cover;transition:transform 700ms var(--ease-out),filter 400ms ease;filter:contrast(1.05)}
+.coach figure .ph{position:absolute;inset:0;display:grid;place-items:center;font:900 140px/1 var(--f-stencil);color:var(--ink-3)}
+.coach figure .ph small{position:absolute;bottom:18px;font:500 13px/1 var(--f-body);color:var(--concrete);letter-spacing:.06em}
+.coach h3{font-size:34px}
+.coach .ttl{font:600 13px/1.3 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--glove)}
+.coach p{font-size:15px;color:#c9c6c0}
+@media (hover:hover) and (pointer:fine){.coach:hover figure img{transform:scale(1.05)}}
+@media (max-width:900px){.team{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}.team::-webkit-scrollbar{display:none}.coach{scroll-snap-align:start}.team-track{transform:none!important}}
+.team-intro{margin-bottom:56px}
+
+/* Miete unser Gym */
+.rent{background:var(--ink-2);border-top:1px solid var(--ink-3)}
+.rent.pad{padding-bottom:clamp(32px,3.5vw,48px)}
+.rent-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;grid-template-rows:auto auto;gap:16px;margin-top:56px}
+.use{position:relative;border-radius:18px;overflow:hidden;background:var(--ink);border:1px solid var(--ink-3);padding:26px;min-height:220px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;isolation:isolate;transition:transform 320ms var(--ease-out),border-color 240ms ease}
+.use h3{font-size:clamp(28px,2.4vw,36px)}
+.use p{font-size:15px;color:#c9c6c0}
+.use.feature{grid-row:span 2;min-height:480px;border:0}
+.use.feature img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;filter:var(--tint) brightness(.55);transition:transform 700ms var(--ease-out)}
+.use.feature::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(13,12,11,0) 35%,rgba(13,12,11,.9))}
+.use .ico{position:absolute;top:24px;left:26px;font:900 15px/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--glove-hi)}
+@media (hover:hover) and (pointer:fine){.use:hover{transform:translateY(-5px);border-color:#3a3733}.use.feature:hover img{transform:scale(1.05)}}
+.rent-foot{margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;border-radius:18px;padding:24px 28px;background:var(--ink);border:1px solid var(--ink-3)}
+.rent-foot p{font-size:17px}
+@media (max-width:980px){.rent-grid{grid-template-columns:1fr 1fr}.use.feature{grid-column:span 2;grid-row:auto;min-height:380px}}
+@media (max-width:620px){.rent-grid{grid-template-columns:1fr}.use.feature{grid-column:auto}}
+
+/* Bekannt aus */
+.press{overflow:hidden;padding-block:0 clamp(56px,7vw,96px);background:var(--ink-2);border-bottom:1px solid var(--ink-3)}
+.press .label{margin-bottom:20px}
+.press .row{display:flex;width:max-content;animation:tick 60s linear infinite}
+.press .row.rev{animation-direction:reverse;animation-duration:70s}
+.press .row span{font:900 clamp(48px,7vw,104px)/1.05 var(--f-display);text-transform:uppercase;padding-inline:26px;white-space:nowrap;color:transparent;-webkit-text-stroke:1.5px #4a4642;transition:color 300ms ease,-webkit-text-stroke-color 300ms ease}
+.press .row span:nth-child(3n+1){color:var(--chalk);-webkit-text-stroke-color:transparent}
+
+/* Merch */
+.merch{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,80px);align-items:center}
+.merch figure{margin:0;border-radius:22px;overflow:hidden;aspect-ratio:4/5;position:relative}
+.merch figure img{width:100%;height:100%;object-fit:cover;filter:var(--tint)}
+.merch figure .logo{position:absolute;right:22px;bottom:22px;width:120px;opacity:.9}
+.merch .items{display:grid;gap:0;margin:30px 0 36px}
+.merch .items div{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--ink-3);font-size:17px}
+.merch .items div span:last-child{color:var(--concrete);font-size:14px}
+@media (max-width:860px){.merch{grid-template-columns:1fr}}
+
+/* FAQ */
+.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,96px)}
+.qa{border-bottom:1px solid var(--ink-3)}
+.qa button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:18px;background:none;border:0;color:var(--chalk);text-align:left;padding:24px 0;font:600 19px/1.35 var(--f-body);cursor:pointer}
+.qa button .pm{flex:none;width:34px;height:34px;border-radius:50%;background:var(--ink-2);border:1px solid var(--ink-3);position:relative;transition:transform 300ms var(--ease-out),background-color 200ms ease}
+.qa button .pm::before,.qa button .pm::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;background:currentColor;border-radius:2px;transform:translate(-50%,-50%)}
+.qa button .pm::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform 300ms var(--ease-out)}
+.qa.open .pm{background:var(--glove);border-color:var(--glove)}
+.qa.open .pm::after{transform:translate(-50%,-50%) rotate(0)}
+.qa .a{display:grid;grid-template-rows:0fr;transition:grid-template-rows 360ms var(--ease-out)}
+.qa.open .a{grid-template-rows:1fr}
+.qa .a > div{overflow:hidden}
+.qa .a p{padding-bottom:26px;color:#c9c6c0}
+@media (hover:hover){.qa button:hover .pm{transform:scale(1.08)}}
+@media (max-width:860px){.faq{grid-template-columns:1fr}}
+
+/* Standorte / Kontakt */
+.spots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:56px}
+.spot{border-radius:22px;background:var(--ink-2);border:1px solid var(--ink-3);padding:clamp(28px,3vw,40px);display:grid;gap:18px;align-content:start;transition:transform 320ms var(--ease-out)}
+.spot .k{font:900 clamp(56px,6vw,88px)/.85 var(--f-display);text-transform:uppercase}
+.spot .k small{display:block;font:600 14px/1 var(--f-body);letter-spacing:.12em;color:var(--glove-hi);margin-bottom:14px}
+.spot address{font-style:normal;font-size:18px;line-height:1.5}
+.spot .note{font-size:14px;color:var(--concrete)}
+@media (hover:hover) and (pointer:fine){.spot:hover{transform:translateY(-4px)}}
+.contact-row{margin-top:24px;border-radius:22px;padding:clamp(28px,3vw,40px);background:#e4e9ee;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.contact-row .big{font:900 clamp(34px,4vw,56px)/1 var(--f-display);text-transform:uppercase}
+.contact-row .lines{display:grid;gap:6px;font:600 18px/1.3 var(--f-body)}
+.contact-row .lines span{user-select:all}
+@media (max-width:760px){.spots{grid-template-columns:1fr}}
+
+/* Footer */
+footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot img{width:150px}
+.foot h5{margin:0 0 14px;font:600 13px/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--concrete)}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.foot a{text-decoration:none;color:#d9d6d0}
+@media (hover:hover){.foot a:hover{color:#fff}}
+.legal{margin-top:56px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--concrete)}
+.draft{display:inline-flex;gap:8px;align-items:center}
+.draft::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--glove)}
+@media (max-width:760px){.foot{grid-template-columns:1fr}}
+
+/* Mobile Probetraining-Leiste */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:45;padding:12px var(--gutter-r) max(12px,env(safe-area-inset-bottom,0px)) var(--gutter);display:none;transform:translateY(110%);transition:transform 360ms var(--ease-out)}
+.dock.show{transform:none}
+.dock .btn{width:100%;justify-content:center;box-shadow:0 16px 40px -12px rgba(0,0,0,.9)}
+@media (max-width:700px){.dock{display:block}}
+
+/* Reveal: Grundzustand ist sichtbar; nur Elemente unterhalb des Bildschirms
+   werden kurz vorbereitet und gleiten beim Erreichen hoch */
+.rv{transition:transform 900ms var(--ease-out),opacity 900ms var(--ease-out)}
+.rv.pre{opacity:0;transform:translateY(48px)}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:1ms!important;scroll-behavior:auto!important}
+}
+</style>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Kurze Rippe Boxclub, zum Anfang">
+      <img src="img/logo.png" alt="">
+      <span>Kurze Rippe</span>
+    </a>
+    <nav aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="#kurse">Kurse</a></li>
+        <li><a href="#preise">Preise</a></li>
+        <li><a href="#kursplan">Kursplan</a></li>
+        <li><a href="#trainer">Trainer</a></li>
+        <li><a href="#gym-mieten">Gym mieten</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="#probetraining">Probetraining</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="sheet">Menü <i><b></b><b></b></i></button>
+  </div>
+</header>
+<div class="sheet" id="sheet">
+  <a href="#kurse">Kurse</a><a href="#preise">Preise</a><a href="#kursplan">Kursplan</a><a href="#trainer">Trainer</a><a href="#gym-mieten">Gym mieten</a><a href="#kontakt">Kontakt</a>
+  <a class="btn" href="#probetraining">14 Tage gratis testen</a>
+</div>
+
+<main id="top">
+  <!-- Intro: Schriftzug, dann zieht das Bild auf -->
+  <section class="hero" id="hero">
+    <div class="wipe-edge" id="wipeEdge" aria-hidden="true"></div>
+    <div class="hero-img" id="heroImg"><img src="img/hero.webp" alt="Der Ring in der Weyerstraße, ein Boxer sitzt in der Ecke"></div>
+    <div class="wordmark"><h1 id="wordmark" aria-label="Kurze Rippe Box-Club aus Köln"><span class="row">Kurze</span><span class="row">Rippe</span></h1><div class="wm2" id="wordmark2" aria-hidden="true"><span class="row">Box-Club</span><span class="row">aus Köln</span></div></div>
+    <div class="hero-foot" id="heroFoot">
+      <div class="wrap">
+        <p>Kölns Kultboxclub mit Old-School-Vibe. Echtes Boxen von Leuten, die selbst im Ring standen. Für jeden, der reinkommt.</p>
+        <div class="cta">
+          <a class="btn" href="#probetraining">14 Tage gratis testen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn ghost" href="#kursplan">Kursplan ansehen</a>
+        </div>
+      </div>
+    </div>
+    <span class="hero-hint" id="heroHint" aria-hidden="true">Scrollen</span>
+    <div class="scroll-hint" aria-hidden="true"></div>
+  </section>
+  <script>if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('js')}</script>
+
+  <div class="ticker" aria-hidden="true"><div class="ticker-track">
+    <span>14 Tage Probetraining gratis</span><span>49 € im Monat</span><span>2 Standorte in Köln</span><span>6 Tage die Woche</span><span>Keine Anmeldegebühr</span><span>Kids ab ca. 6 Jahren</span>
+    <span>14 Tage Probetraining gratis</span><span>49 € im Monat</span><span>2 Standorte in Köln</span><span>6 Tage die Woche</span><span>Keine Anmeldegebühr</span><span>Kids ab ca. 6 Jahren</span>
+  </div></div>
+
+  <section class="statement pad">
+    <div class="wrap">
+      <p id="statement">Abgerockt. Authentisch. Kein Schicki-Micki. Hier lernst du richtig boxen, egal ob du 8 bist oder 68.</p>
+      <div class="sub">
+        <span class="eyebrow">Fitness · Technik · Kondition · Spaß · Respekt</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kurse -->
+  <section class="pad" id="kurse" style="padding-top:0">
+    <div class="wrap">
+      <div class="head-row">
+        <div><span class="eyebrow">Unsere Kurse</span><h2>Für jedes Level</h2></div>
+        <p class="lead">Alle Kurse sind Drop-in: Du steigst ein, wann du willst. Jede Einheit dauert 90 Minuten und läuft mit Trainer in der Gruppe. Der Unterschied liegt im Trainer, jeder hat seinen eigenen Stil.</p>
+      </div>
+      <div class="courses">
+        <a class="course reveal" href="#kursplan"><img src="img/shadow.webp" alt="" loading="lazy"><div class="body"><span class="tag red">Neu hier?</span><h3>Anfänger&shy;training</h3><p>Für alle, die noch nie geboxt haben. Macht den Einstieg in die normalen Gruppen leichter.</p><span class="when">Mi 19:00 und Sa 13:30 · city</span></div></a>
+        <a class="course reveal" href="#kursplan"><img src="img/gym.webp" alt="" loading="lazy"><div class="body"><span class="tag">Alle Level</span><h3>Boxtraining Open Level</h3><p>Aufwärmen, Sandsack, Partnerübungen, freiwilliges Sparring, zum Schluss Bauch und Kraft.</p><span class="when">Mo bis Sa · beide Standorte</span></div></a>
+        <a class="course reveal" href="#kursplan"><img src="img/fight.webp" alt="" loading="lazy"><div class="body"><span class="tag">Fortgeschritten</span><h3>Advanced &amp; Wettkampf</h3><p>Für alle mit soliden Kenntnissen oder Wettkampfambitionen im olympischen Boxen (DBV).</p><span class="when">Fr 18:00, Sa 11:30 · Di 18:30 city-nord</span></div></a>
+        <a class="course reveal" href="#kursplan"><img src="img/kids.webp" alt="" loading="lazy"><div class="body"><span class="tag">6 bis 12 Jahre</span><h3>Kinder&shy;boxen</h3><p>Spielerisch Koordination, Beweglichkeit und Respekt lernen. Mit Rene, unserem dienstältesten Trainer.</p><span class="when">Dienstag 17:00 · city</span></div></a>
+        <a class="course reveal" href="#kursplan"><img src="img/ropes.webp" alt="" loading="lazy"><div class="body"><span class="tag">Kraftausdauer</span><h3>Fitness&shy;boxen</h3><p>Bilals Training bringt dich richtig ins Schwitzen. Explosive Kraft trifft maximale Ausdauer.</p><span class="when">Samstag 11:00 · city-nord</span></div></a>
+        <a class="course plain reveal" href="#kontakt"><span class="big" aria-hidden="true">1:1</span><div class="body"><span class="tag">Einzeltraining</span><h3>Personal Training</h3><p>Training genau nach deinen Zielen. Schreib uns, wir finden den passenden Trainer.</p><span class="when">Auf Anfrage</span></div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gestapelte Kapitel -->
+  <div class="stack" id="ueber-uns">
+    <section class="chapter">
+      <img src="img/hero.webp" alt="" loading="lazy">
+      <div class="wrap">
+        <span class="num">Familiensache</span>
+        <h2>40 Jahre Boxsport</h2>
+        <p class="lead">Unser Gründer ist seit rund 40 Jahren im Boxsport und hatte schon mehrere Boxstudios. Heute führt er die Kurze Rippe gemeinsam mit seiner Tochter. Zwei Generationen, ein Club.</p>
+      </div>
+    </section>
+    <section class="chapter">
+      <img src="img/hands.webp" alt="" loading="lazy">
+      <div class="wrap">
+        <span class="num">Echtes Boxen</span>
+        <h2>Trainer, die im Ring standen</h2>
+        <p class="lead">Keine Fitnesstrainer mit Handschuhen. Unsere neun Trainer haben selbst gekämpft oder kämpfen noch. Du lernst die richtige Technik von Anfang an.</p>
+        <div class="facts">
+          <div><b>9</b><span>Trainer</span></div>
+          <div><b>130+</b><span>Kämpfe allein von Alex</span></div>
+          <div><b>2×</b><span>WM-Teilnahme</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="chapter">
+      <img src="img/fight.webp" alt="" loading="lazy">
+      <div class="wrap">
+        <span class="num">Ring frei</span>
+        <h2>Vom Hobby bis zum Titel</h2>
+        <p class="lead">Die meisten kommen zum Fitwerden. Wer mehr will, kämpft für uns im Verband. Unsere Leute holten zuletzt NRW-Titel im Superschwergewicht, in der U19 und U23 sowie die Mittelrheinmeisterschaft.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Probetraining -->
+  <section class="trial pad" id="probetraining">
+    <div class="wrap">
+      <div class="head-row" style="margin-bottom:0">
+        <div><span class="eyebrow">Probetraining</span><h2>14 Tage gratis.<br>Ohne Anmeldung.</h2></div>
+        <p class="lead">Komm einfach während der Trainingszeiten vorbei, an beiden Standorten. Unverbindlich, ohne Vertrag. Ausrüstung leihen wir dir für die ganze Probezeit.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><span class="n">1</span><h3>Vorbeikommen</h3><p>Such dir eine Einheit im Kursplan aus. Neu dabei? Dann am besten Mittwoch 19 Uhr oder Samstag 13:30.</p></div>
+        <div class="step reveal"><span class="n">2</span><h3>QR-Code scannen</h3><p>Vor Ort registrierst du dich in einer Minute mit deinem Namen. Fertig.</p></div>
+        <div class="step reveal"><span class="n">3</span><h3>Handschuhe an</h3><p>Trainiere 14 Tage so oft du willst und lern alle Trainer kennen. Danach entscheidest du.</p></div>
+      </div>
+      <div class="trial-foot">
+        <div class="pack" aria-label="Das bringst du mit"><span>Sportkleidung</span><span>Hallenschuhe</span><span>Handtuch</span><span>Etwas zu trinken</span></div>
+        <a class="btn" href="#kursplan">Passende Einheit finden <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true">
+    <img src="img/gym.webp" alt="" class="para" loading="lazy">
+    <div class="cap"><div class="wrap"><p>Der Kultboxstall am Barbarossaplatz</p></div></div>
+  </div>
+
+  <!-- Preise -->
+  <section class="pad" id="preise">
+    <div class="wrap">
+      <div class="head-row" style="margin-bottom:0">
+        <div><span class="eyebrow">Mitgliedschaft</span><h2>Kein Schnick&shy;schnack</h2></div>
+        <p class="lead">Keine Anmeldegebühr, keine versteckten Kosten, keine lange Laufzeit. Anmelden kannst du dich direkt vor Ort.</p>
+      </div>
+      <div class="prices">
+        <div class="price main reveal">
+          <span class="per">Standard · ab ca. 12–13 Jahren</span>
+          <div class="amt"><b>49</b><i>€</i></div>
+          <span class="per">pro Monat</span>
+          <ul><li>Unbegrenzt trainieren, Montag bis Samstag</li><li>Beide Standorte mitten in Köln</li><li>Alle Kurse inklusive, vom Anfänger bis Advanced</li><li>Kündigung jederzeit mit drei Monaten Frist</li></ul>
+          <a class="btn light" href="#probetraining" style="justify-self:start">Erst gratis testen</a>
+        </div>
+        <div class="price reveal">
+          <span class="per">Kids · ca. 6–12 Jahre</span>
+          <div class="amt"><b>25</b><i>€</i></div>
+          <span class="per">pro Monat</span>
+          <ul><li>Jeden Dienstag 17:00 in der Weyerstraße</li><li>Spielerisch Koordination und Respekt lernen</li><li>Altersgrenze je nach Entwicklungsstand</li></ul>
+          <a class="btn ghost" href="#probetraining" style="justify-self:start">Probetraining fürs Kind</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kursplan -->
+  <section class="pad" id="kursplan" style="padding-top:0">
+    <div class="wrap">
+      <div class="plan-top">
+        <div style="display:grid;gap:22px"><span class="eyebrow">Kursplan</span><h2>Wann du kommst</h2></div>
+        <div class="seg" role="tablist" aria-label="Standort wählen">
+          <span class="pill" id="pill" aria-hidden="true"></span>
+          <button role="tab" id="tab-city" aria-selected="true" data-loc="city">city · Weyerstr. 57</button>
+          <button role="tab" id="tab-nord" aria-selected="false" data-loc="nord">city-nord · Maybachstr. 171</button>
+        </div>
+      </div>
+      <div class="week" id="week" role="tabpanel" aria-live="polite"></div>
+      <div class="legend"><span><i style="border-color:rgba(238,236,231,.35);background:var(--ink-2)"></i>Anfänger</span><span><i style="border-color:#2b3d50;background:#141c25"></i>Advanced / Sparring</span><span><i style="border-color:#323840;background:#17191d"></i>Kids</span><span>Stand: November 2026</span></div>
+    </div>
+  </section>
+
+  <!-- Trainer -->
+  <section class="pad" id="trainer" style="padding-top:0">
+    <div class="wrap team-intro">
+      <div class="head-row" style="margin-bottom:0">
+        <div><span class="eyebrow">Trainerteam</span><h2>Ecke Rot</h2></div>
+        <p class="lead">Meister, Ligaboxer, WM-Teilnehmer. Und alle bringen dir den Jab bei. Jeder Trainer hat seinen eigenen Stil, probier sie alle aus.</p>
+      </div>
+    </div>
+    <div class="team" id="team">
+      <div class="team-track" id="teamTrack"></div>
+    </div>
+  </section>
+
+  <!-- Miete unser Gym -->
+  <section class="rent pad" id="gym-mieten">
+    <div class="wrap">
+      <div class="head-row" style="margin-bottom:0">
+        <div><span class="eyebrow">Location</span><h2>Miete unser Gym</h2></div>
+        <p class="lead">Echter Ring, rote Sandsäcke, abgeschabte Wände. Außerhalb der Trainingszeiten kannst du die Halle für Drehs, Shootings und Events buchen.</p>
+      </div>
+      <div class="rent-grid">
+        <div class="use feature reveal"><img src="img/hero.webp" alt="" loading="lazy"><span class="ico">Film &amp; TV</span><h3>Dreh&shy;location</h3><p>Für Film, Fernsehen, Musikvideos und YouTube. Hier drehten schon der WDR, Kollegah und die Knallerfrauen.</p></div>
+        <div class="use reveal"><span class="ico">Shooting</span><h3>Fotoshootings</h3><p>Der Ring als Kulisse für Marken und Fotografen, zuletzt für ein Snipes-Shooting.</p></div>
+        <div class="use reveal"><span class="ico">Schule</span><h3>Schulklassen &amp; AGs</h3><p>Boxen als Projekttag oder AG, mit Fokus auf Respekt und Fairness.</p></div>
+        <div class="use reveal"><span class="ico">Feiern</span><h3>Junggesellen&shy;abschied</h3><p>Einmal richtig in den Ring. Mit Trainer, Handschuhen und viel Spaß.</p></div>
+        <div class="use reveal"><span class="ico">Team</span><h3>Firmen-Events</h3><p>Ein Teamtraining, das mehr zusammenschweißt als jeder Workshop.</p></div>
+      </div>
+      <div class="rent-foot reveal">
+        <p>Anfragen per WhatsApp an <strong>0171 5286751</strong> oder an <strong>worthoff@t-online.de</strong></p>
+        <a class="btn" href="#kontakt">Gym anfragen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="press" aria-label="Hier wurde schon gedreht">
+    <div class="wrap label"><span class="eyebrow">Hier wurde schon gedreht</span></div>
+    <div class="row" aria-hidden="true"><span>WDR Lokalzeit</span><span>Kollegah</span><span>Loredana</span><span>Knallerfrauen</span><span>Köln 50667</span><span>Y-Titty</span><span>Snipes</span><span>WDR Lokalzeit</span><span>Kollegah</span><span>Loredana</span><span>Knallerfrauen</span><span>Köln 50667</span><span>Y-Titty</span><span>Snipes</span></div>
+    <div class="row rev" aria-hidden="true"><span>Filow &amp; Zarbex</span><span>Leeroy</span><span>Agit Kabayel</span><span>Martina Hill</span><span>Rebell Comedy</span><span>Filow &amp; Zarbex</span><span>Leeroy</span><span>Agit Kabayel</span><span>Martina Hill</span><span>Rebell Comedy</span></div>
+  </section>
+
+  <!-- Merch -->
+  <section class="pad">
+    <div class="wrap merch">
+      <figure class="reveal"><img src="img/hoodie.webp" alt="Mitglied im Hoodie im Ring" loading="lazy"><img class="logo" src="img/logo.png" alt=""></figure>
+      <div>
+        <span class="eyebrow">Rippe-Gear</span>
+        <h2 style="margin-top:22px">Trag den Club</h2>
+        <div class="items">
+          <div><span>Boxhandschuhe &amp; Bandagen</span><span>mit Logo</span></div>
+          <div><span>Hoodies, Shirts, Sportjacken</span><span>mit Logo</span></div>
+          <div><span>Springseile &amp; Zahnschutz</span><span>vor Ort</span></div>
+        </div>
+        <p class="muted" style="margin-bottom:28px">Erhältlich am Tresen in beiden Gyms. Frag einfach deinen Trainer.</p>
+        <a class="btn ghost" href="#kontakt">Nach Größen fragen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="pad" id="faq" style="padding-top:0">
+    <div class="wrap faq">
+      <div style="display:grid;gap:22px;align-content:start"><span class="eyebrow">FAQ</span><h2>Gut informiert in die erste Runde</h2></div>
+      <div id="faqList"></div>
+    </div>
+  </section>
+
+  <!-- Standorte & Kontakt -->
+  <section class="pad" id="kontakt" style="padding-top:0">
+    <div class="wrap">
+      <div class="head-row" style="margin-bottom:0">
+        <div><span class="eyebrow">Standorte</span><h2>Zweimal mitten in Köln</h2></div>
+        <p class="lead">Eine Mitgliedschaft, beide Gyms. Trainiere da, wo es für dich gerade passt.</p>
+      </div>
+      <div class="spots">
+        <div class="spot reveal"><div class="k"><small>Kurze Rippe Boxclub</small>city</div><address>Weyerstraße 57<br>50676 Köln, Barbarossaplatz</address><span class="note">Anfänger- und Kindertraining finden hier statt. Keine separate Frauenumkleide, abschließbare Duschen zum Umziehen.</span></div>
+        <div class="spot reveal"><div class="k"><small>Kurze Rippe Boxclub</small>city-nord</div><address>Maybachstraße 171 (Toreinfahrt)<br>50670 Köln</address><span class="note">Früher Worthoff Boxing. Samstags Fitnessboxen mit Bilal.</span></div>
+      </div>
+      <div class="contact-row reveal">
+        <span class="big">Fragen? Schreib uns.</span>
+        <div class="lines"><span>0171 5286751 · auch WhatsApp</span><span>worthoff@t-online.de</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div style="display:grid;gap:18px;align-content:start"><img src="img/logo.png" alt="Kurze Rippe Box-Club"><p class="muted">Kölns Kultboxclub mit Old-School-Vibe.</p></div>
+      <div><h5>Club</h5><ul><li><a href="#kurse">Kurse</a></li><li><a href="#preise">Preise</a></li><li><a href="#kursplan">Kursplan</a></li><li><a href="#trainer">Trainer</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+      <div><h5>Folge uns</h5><ul><li><a href="https://www.instagram.com/kurze_rippe_boxclub/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.facebook.com/KurzeRippe/" target="_blank" rel="noopener">Facebook</a></li><li><a href="#gym-mieten">Gym mieten</a></li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 Worthoff-boxing GmbH · Impressum · Datenschutz</span><span class="draft">Entwurf, Variante Blau · Bilder vorerst von kurze-rippe.de</span></div>
+  </div>
+</footer>
+
+<div class="dock" id="dock"><a class="btn" href="#probetraining">14 Tage gratis testen</a></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- Daten ---------- */
+  var plan = {
+    city: [
+      ['Mo',[['17:00–18:30','Boxtraining alle Level','Marc'],['18:30–20:00','Boxtraining alle Level','Marc'],['20:00–21:30','Boxtraining alle Level','Sebastian']]],
+      ['Di',[['15:30–17:00','Boxtraining alle Level','Rene'],['17:00–18:00','Kids, ca. 6–12 Jahre','Rene','kid'],['18:00–19:30','Boxtraining alle Level','Rene'],['19:30–21:00','Boxtraining alle Level','Rene']]],
+      ['Mi',[['16:00–17:30','Boxtraining alle Level','Sebastian'],['17:30–19:00','Boxtraining alle Level','Sebastian'],['19:00–20:30','Anfänger only','Sebastian','beg']]],
+      ['Do',[['17:30–19:00','Boxtraining alle Level','Alex'],['19:00–20:30','Boxtraining alle Level','Alex']]],
+      ['Fr',[['16:30–18:00','Boxtraining alle Level','Eike'],['18:00–19:30','Sparring / Advanced','Eike','adv']]],
+      ['Sa',[['11:30–13:00','Boxtraining Advanced','Eike','adv'],['13:30–15:00','Anfänger only','Sebastian','beg'],['15:00–16:30','Boxtraining alle Level','Sebastian']]]
+    ],
+    nord: [
+      ['Mo',[['18:00–19:30','Boxtraining alle Level','Fatih (Vertretung Eike)'],['19:30–21:00','Boxtraining alle Level','Fatih (Vertretung Eike)']]],
+      ['Di',[['17:00–18:30','Boxtraining alle Level','Eike'],['18:30–20:00','Boxtraining Advanced','Eike','adv']]],
+      ['Mi',[['18:00–19:30','Boxtraining alle Level','Alex'],['19:30–21:00','Boxtraining alle Level','Alex']]],
+      ['Do',[['10:00–11:30','Boxtraining alle Level','Moris'],['17:30–19:00','Boxtraining alle Level','Moris'],['19:00–20:30','Boxtraining alle Level','Moris']]],
+      ['Fr',[['17:00–18:30','Boxtraining alle Level','Lukas']]],
+      ['Sa',[['11:00–12:30','Fitnessboxen alle Level','Bilal']]]
+    ]
+  };
+  var dayName={Mo:'Montag',Di:'Dienstag',Mi:'Mittwoch',Do:'Donnerstag',Fr:'Freitag',Sa:'Samstag'};
+  var coaches = [
+    ['Rene','rene','Dienstältester Trainer','Ex Mittelrhein- und Westdeutscher Meister, Ligaboxer. Spezialisiert auf Jugendarbeit, Schulprojekte und Gewaltprävention.'],
+    ['Alex','alex','WM-Teilnehmer 2016 & 2019','Über 130 Amateurkämpfe, ukrainischer Meister, Bronze bei der Deutschen Meisterschaft 2022.'],
+    ['Marc','marc','WBF International Champion','Aktiver Profiboxer im Supermittelgewicht, Mittelrheinmeister, mehrfach Medaillen bei Hochschulmeisterschaften.'],
+    ['Sebastian','sebastian','Boxerfamilie in 3. Generation','Über 60 Amateurkämpfe in Deutschland, Italien und Ecuador. Mittelrhein- und NRW-Meister.'],
+    ['Eike','eike','Wettkampftrainer','DOSB-B-Lizenz, Deutscher Hochschulmeister. Seit zehn Jahren im Team und verantwortlich für unsere Kämpfer.'],
+    ['Moris','moris','Grenzen verschieben','„Die Grenze ist nicht dort, wo es unangenehm wird. Da fängt das interessante Training meistens erst an.“'],
+    ['Bilal','bilal','Kraftausdauer','14 Jahre Boxerfahrung. Sein Training bringt dich richtig ins Schwitzen, mit Fokus auf saubere Ausführung.'],
+    ['Fatih','fatih','Trainer city-nord','Profil folgt.'],
+    ['Lukas','','Trainer city-nord','Profil und Foto folgen.']
+  ];
+  var faqs = [
+    ['Ich habe noch nie geboxt. Wie steige ich ein?','Am besten über unsere Anfängergruppe, mittwochs 19:00 und samstags 13:30 in der Weyerstraße. Das ist eine Empfehlung, kein Muss. Du kannst auch direkt in eine Open-Level-Gruppe springen.'],
+    ['Muss ich mich vorher anmelden?','Nein. Komm einfach während der Trainingszeiten vorbei und registriere dich vor Ort über den QR-Code.'],
+    ['Muss ich sparren?','Nein. Sparring ist freiwillig. Niemand muss in den Ring steigen, wenn er das nicht möchte.'],
+    ['Was brauche ich fürs Probetraining?','Sportkleidung, Hallenschuhe, ein Handtuch und etwas zu trinken. Handschuhe, Bandagen und Springseil leihen wir dir für die Probezeit kostenlos.'],
+    ['Trainieren bei euch auch Frauen?','Ja, in fast jeder Gruppe. Wichtig: In der Weyerstraße gibt es keine separate Frauenumkleide. Komm am besten schon umgezogen oder nutz eine der abschließbaren Duschen.'],
+    ['Für welches Alter ist das Kindertraining?','Für Kinder von etwa 6 bis 12 Jahren, je nach Entwicklungsstand auch etwas darüber. Ab ca. 12–13 Jahren gilt der Standard-Tarif.'],
+    ['Wie läuft ein Training ab?','90 Minuten in der Gruppe mit Trainer: Aufwärmen, oft mit Seilspringen, dann Sandsack und Partnerübungen, für wer will auch Sparring, zum Schluss Bauch- oder Krafttraining.'],
+    ['Wie melde ich mich an?','Nach dem Probetraining füllst du vor Ort die Anmeldekarte aus und gibst sie am Empfang oder beim Trainer ab.']
+  ];
+
+  /* ---------- Kursplan ---------- */
+  var week=document.getElementById('week');
+  function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+  function renderPlan(loc){
+    week.innerHTML = plan[loc].map(function(d){
+      return '<div class="day"><h4>'+dayName[d[0]]+'</h4>'+d[1].map(function(s){
+        return '<div class="slot '+(s[3]||'')+'"><time>'+s[0]+'</time><b>'+esc(s[1])+'</b><span>'+esc(s[2])+'</span></div>';
+      }).join('')+'</div>';
+    }).join('');
+    if(window.gsap && !reduce){ gsap.fromTo('#week .slot',{y:10,opacity:.0},{y:0,opacity:1,duration:.4,stagger:.025,ease:'power3.out'}); }
+  }
+  var tabs=[].slice.call(document.querySelectorAll('.seg button')), pill=document.getElementById('pill');
+  function movePill(btn){ pill.style.width=btn.offsetWidth+'px'; pill.style.transform='translateX('+(btn.offsetLeft-5)+'px)'; }
+  tabs.forEach(function(b){ b.addEventListener('click',function(){
+    tabs.forEach(function(t){t.setAttribute('aria-selected', t===b?'true':'false')});
+    movePill(b); renderPlan(b.dataset.loc);
+  });});
+  renderPlan('city'); requestAnimationFrame(function(){movePill(tabs[0])});
+  window.addEventListener('resize',function(){movePill(tabs.filter(function(t){return t.getAttribute('aria-selected')==='true'})[0])});
+
+  /* ---------- Trainer ---------- */
+  document.getElementById('teamTrack').innerHTML = coaches.map(function(c){
+    var fig = c[1] ? '<img src="img/t_'+c[1]+'.webp" alt="'+c[0]+'" loading="lazy">' : '<div class="ph">'+c[0][0]+'<small>Foto folgt</small></div>';
+    return '<article class="coach"><figure>'+fig+'</figure><span class="ttl">'+esc(c[2])+'</span><h3>'+c[0]+'</h3><p>'+esc(c[3])+'</p></article>';
+  }).join('');
+
+  /* ---------- FAQ ---------- */
+  document.getElementById('faqList').innerHTML = faqs.map(function(f,i){
+    return '<div class="qa'+(i===0?' open':'')+'"><button id="q'+i+'" aria-expanded="'+(i===0)+'" aria-controls="a'+i+'"><span>'+esc(f[0])+'</span><span class="pm" aria-hidden="true"></span></button><div class="a" id="a'+i+'" role="region" aria-labelledby="q'+i+'"><div><p>'+esc(f[1])+'</p></div></div></div>';
+  }).join('');
+  document.getElementById('faqList').addEventListener('click',function(e){
+    var b=e.target.closest('button'); if(!b) return; var qa=b.parentNode; var open=!qa.classList.contains('open');
+    qa.classList.toggle('open',open); b.setAttribute('aria-expanded',open);
+  });
+
+  /* ---------- Menü & Nav ---------- */
+  var nav=document.getElementById('nav'), dock=document.getElementById('dock'), menuBtn=document.getElementById('menuBtn');
+  menuBtn.addEventListener('click',function(){ var o=!document.body.classList.contains('menu-open'); document.body.classList.toggle('menu-open',o); menuBtn.setAttribute('aria-expanded',o); });
+  document.querySelectorAll('.sheet a').forEach(function(a){a.addEventListener('click',function(){document.body.classList.remove('menu-open');menuBtn.setAttribute('aria-expanded','false');})});
+  function onScroll(){ var y=window.scrollY; nav.classList.toggle('solid', y>40); dock.classList.toggle('show', y>window.innerHeight*0.9); }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  /* ---------- Statement: Wörter füllen sich beim Scrollen ---------- */
+  var st=document.getElementById('statement');
+  st.innerHTML = st.textContent.split(' ').map(function(w){
+    var red = /^(richtig|boxen,)$/i.test(w);
+    return '<span class="w'+(red?' red':'')+'">'+w+'</span>';
+  }).join(' ');
+  var words=[].slice.call(st.querySelectorAll('.w'));
+  if(reduce || !window.gsap){ words.forEach(function(w){w.classList.add('on')}); }
+
+  if(!window.gsap || reduce){ document.documentElement.classList.remove('js'); return; }
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* Intro: Buchstaben fallen ein */
+  var wm=document.getElementById('wordmark');
+  document.querySelectorAll('#wordmark .row, #wordmark2 .row').forEach(function(r){
+    r.innerHTML = r.textContent.split('').map(function(c){return c===' '?'<span class="ch">&nbsp;</span>':'<span class="ch">'+c+'</span>'}).join('');
+  });
+  gsap.set('#wordmark2 .ch',{yPercent:160});
+  var heroImg=document.getElementById('heroImg'), edge=document.getElementById('wipeEdge');
+  gsap.timeline({defaults:{ease:'expo.out'}})
+      .from('#wordmark .ch',{yPercent:110,duration:1.1,stagger:.045})
+      .from('#heroFoot .wrap > *',{y:24,opacity:0,duration:.9,stagger:.08},'-=.8')
+      .to(edge,{opacity:1,duration:.6},'-=.6');
+
+  /* Scrollen: KURZE RIPPE geht raus, BOX-CLUB AUS KÖLN kommt rein,
+     dann wird das Bild von links nach rechts freigelegt */
+  gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'+=220%',scrub:.6,pin:true,anticipatePin:1}})
+      .to('#heroHint',{opacity:0,duration:.06},0)
+      .to('#wordmark .ch',{yPercent:-115,ease:'power2.in',duration:.16,stagger:.008},0)
+      .to('#wordmark2 .ch',{yPercent:0,ease:'power3.out',duration:.18,stagger:.008},.16)
+      .fromTo(heroImg,{clipPath:'inset(0% 100% 0% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',ease:'none',duration:.6},.4)
+      .fromTo(edge,{left:'0%'},{left:'100%',ease:'none',duration:.6},.4)
+      .to(edge,{opacity:0,duration:.05},.95)
+      .fromTo('#heroImg img',{scale:1.12,xPercent:-3},{scale:1,xPercent:0,ease:'none',duration:.6},.4)
+      .to('#wordmark2',{scale:1.08,opacity:0,ease:'power1.in',duration:.15},.85);
+
+  /* Trainer: horizontal scrollen, während die Sektion steht (nur Desktop).
+     Vor allen späteren Triggern angelegt, damit deren Positionen den Pin kennen. */
+  ScrollTrigger.matchMedia({
+    '(min-width: 901px)': function(){
+      var track=document.getElementById('teamTrack');
+      var dist=function(){return Math.max(0, track.scrollWidth - window.innerWidth)};
+      gsap.to(track,{x:function(){return -dist()},ease:'none',scrollTrigger:{trigger:'#team',start:'center center',end:function(){return '+='+dist()},scrub:.6,pin:'#trainer',invalidateOnRefresh:true,anticipatePin:1}});
+    }
+  });
+
+  /* Statement */
+  ScrollTrigger.create({trigger:st,start:'top 80%',end:'bottom 45%',scrub:true,onUpdate:function(s){
+    var n=Math.round(s.progress*words.length); words.forEach(function(w,i){w.classList.toggle('on',i<n)});
+  }});
+
+  /* Kapitel: Bild zoomt leicht */
+  gsap.utils.toArray('.chapter').forEach(function(ch){
+    gsap.fromTo(ch.querySelector('img'),{scale:1.18},{scale:1,ease:'none',scrollTrigger:{trigger:ch,start:'top bottom',end:'top top',scrub:true}});
+  });
+  /* Parallax-Band und Merch-Foto */
+  gsap.utils.toArray('.band .para').forEach(function(img){
+    gsap.fromTo(img,{yPercent:-12},{yPercent:12,ease:'none',scrollTrigger:{trigger:img.parentNode,start:'top bottom',end:'bottom top',scrub:true}});
+  });
+  gsap.fromTo('.merch figure img:first-child',{scale:1.15},{scale:1,ease:'none',scrollTrigger:{trigger:'.merch',start:'top bottom',end:'bottom top',scrub:true}});
+
+  /* Reveals per IntersectionObserver: unabhängig von Pin-Berechnungen,
+     was beim Laden schon im Bild ist, bleibt einfach stehen */
+  if('IntersectionObserver' in window){
+    var targets=[].slice.call(document.querySelectorAll('.reveal, .head-row h2, .plan-top h2, .faq h2, .merch h2, .chapter .wrap > *'));
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.remove('pre'); io.unobserve(e.target); } });
+    },{rootMargin:'0px 0px -10% 0px'});
+    targets.forEach(function(el){
+      if(el.getBoundingClientRect().top < window.innerHeight) return;
+      var sib=[].slice.call(el.parentNode.children).filter(function(c){return targets.indexOf(c)>-1});
+      el.style.transitionDelay=(Math.max(0,sib.indexOf(el))*70)+'ms';
+      el.classList.add('rv','pre'); io.observe(el);
+    });
+  }
+
+  window.addEventListener('load',function(){ScrollTrigger.refresh()});
+})();
+</script>

@@ -87,7 +87,13 @@ section{position:relative}
 .wordmark{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;z-index:2}
 .wordmark h1{font-family:var(--f-stencil);font-size:clamp(78px,17.5vw,300px);line-height:.8;letter-spacing:.02em;text-align:center;color:var(--chalk);will-change:transform}
 .wordmark h1 .ch{display:inline-block;will-change:transform}
-.wordmark h1 .row{display:block;overflow:hidden;padding-block:.04em}
+.wordmark h1 .row,.wordmark .wm2 .row{display:block;overflow:hidden;padding-block:.04em}
+.wordmark > *{grid-area:1/1}
+.wordmark .wm2{font-family:var(--f-stencil);font-weight:900;text-transform:uppercase;font-size:clamp(70px,15vw,250px);line-height:.8;letter-spacing:.02em;text-align:center;color:var(--chalk);visibility:hidden}
+.js .wordmark .wm2{visibility:visible}
+.wordmark .wm2 .ch{display:inline-block;will-change:transform}
+.wordmark .wm2 .row{padding-top:.16em;margin-top:-.12em}
+.wordmark .wm2 .row:last-child{color:var(--glove)}
 .hero-foot{position:absolute;left:0;right:0;bottom:0;z-index:3;padding-bottom:max(36px,env(safe-area-inset-bottom,0px))}
 .hero-foot .wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;flex-wrap:wrap}
 .hero-foot p{font-size:clamp(17px,1.4vw,20px);max-width:36ch;color:#e3e0da}
@@ -228,6 +234,7 @@ section{position:relative}
 
 /* Miete unser Gym */
 .rent{background:var(--ink-2);border-top:1px solid var(--ink-3)}
+.rent.pad{padding-bottom:clamp(32px,3.5vw,48px)}
 .rent-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;grid-template-rows:auto auto;gap:16px;margin-top:56px}
 .use{position:relative;border-radius:18px;overflow:hidden;background:var(--ink);border:1px solid var(--ink-3);padding:26px;min-height:220px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;isolation:isolate;transition:transform 320ms var(--ease-out),border-color 240ms ease}
 .use h3{font-size:clamp(28px,2.4vw,36px)}
@@ -243,8 +250,8 @@ section{position:relative}
 @media (max-width:620px){.rent-grid{grid-template-columns:1fr}.use.feature{grid-column:auto}}
 
 /* Bekannt aus */
-.press{overflow:hidden;padding-block:clamp(56px,7vw,96px);background:var(--ink-2);border-bottom:1px solid var(--ink-3)}
-.press .label{margin-bottom:28px}
+.press{overflow:hidden;padding-block:0 clamp(56px,7vw,96px);background:var(--ink-2);border-bottom:1px solid var(--ink-3)}
+.press .label{margin-bottom:20px}
 .press .row{display:flex;width:max-content;animation:tick 60s linear infinite}
 .press .row.rev{animation-direction:reverse;animation-duration:70s}
 .press .row span{font:900 clamp(48px,7vw,104px)/1.05 var(--f-display);text-transform:uppercase;padding-inline:26px;white-space:nowrap;color:transparent;-webkit-text-stroke:1.5px #4a4642;transition:color 300ms ease,-webkit-text-stroke-color 300ms ease}
@@ -348,7 +355,7 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
   <section class="hero" id="hero">
     <div class="wipe-edge" id="wipeEdge" aria-hidden="true"></div>
     <div class="hero-img" id="heroImg"><img src="img/hero.webp" alt="Der Ring in der Weyerstraße, ein Boxer sitzt in der Ecke"></div>
-    <div class="wordmark"><h1 id="wordmark" aria-label="Kurze Rippe"><span class="row">Kurze</span><span class="row">Rippe</span></h1></div>
+    <div class="wordmark"><h1 id="wordmark" aria-label="Kurze Rippe Box-Club aus Köln"><span class="row">Kurze</span><span class="row">Rippe</span></h1><div class="wm2" id="wordmark2" aria-hidden="true"><span class="row">Box-Club</span><span class="row">aus Köln</span></div></div>
     <div class="hero-foot" id="heroFoot">
       <div class="wrap">
         <p>Kölns Kultboxclub mit Old-School-Vibe. Echtes Boxen von Leuten, die selbst im Ring standen. Für jeden, der reinkommt.</p>
@@ -696,23 +703,27 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
 
   /* Intro: Buchstaben fallen ein */
   var wm=document.getElementById('wordmark');
-  wm.querySelectorAll('.row').forEach(function(r){
-    r.innerHTML = r.textContent.split('').map(function(c){return '<span class="ch">'+c+'</span>'}).join('');
+  document.querySelectorAll('#wordmark .row, #wordmark2 .row').forEach(function(r){
+    r.innerHTML = r.textContent.split('').map(function(c){return c===' '?'<span class="ch">&nbsp;</span>':'<span class="ch">'+c+'</span>'}).join('');
   });
+  gsap.set('#wordmark2 .ch',{yPercent:160});
   var heroImg=document.getElementById('heroImg'), edge=document.getElementById('wipeEdge');
   gsap.timeline({defaults:{ease:'expo.out'}})
       .from('#wordmark .ch',{yPercent:110,duration:1.1,stagger:.045})
       .from('#heroFoot .wrap > *',{y:24,opacity:0,duration:.9,stagger:.08},'-=.8')
       .to(edge,{opacity:1,duration:.6},'-=.6');
 
-  /* Beim Scrollen wird das Bild von links nach rechts freigelegt */
-  gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'+=130%',scrub:.6,pin:true,anticipatePin:1}})
-      .fromTo(heroImg,{clipPath:'inset(0% 100% 0% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',ease:'none',duration:1},0)
-      .fromTo(edge,{left:'0%'},{left:'100%',ease:'none',duration:1},0)
-      .to(edge,{opacity:0,duration:.08},.92)
-      .fromTo('#heroImg img',{scale:1.12,xPercent:-3},{scale:1,xPercent:0,ease:'none',duration:1},0)
-      .to('#heroHint',{opacity:0,duration:.15},0)
-      .to('#wordmark',{scale:1.12,opacity:0,ease:'power1.in',duration:.35},.65);
+  /* Scrollen: KURZE RIPPE geht raus, BOX-CLUB AUS KÖLN kommt rein,
+     dann wird das Bild von links nach rechts freigelegt */
+  gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'+=220%',scrub:.6,pin:true,anticipatePin:1}})
+      .to('#heroHint',{opacity:0,duration:.06},0)
+      .to('#wordmark .ch',{yPercent:-115,ease:'power2.in',duration:.16,stagger:.008},0)
+      .to('#wordmark2 .ch',{yPercent:0,ease:'power3.out',duration:.18,stagger:.008},.16)
+      .fromTo(heroImg,{clipPath:'inset(0% 100% 0% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',ease:'none',duration:.6},.4)
+      .fromTo(edge,{left:'0%'},{left:'100%',ease:'none',duration:.6},.4)
+      .to(edge,{opacity:0,duration:.05},.95)
+      .fromTo('#heroImg img',{scale:1.12,xPercent:-3},{scale:1,xPercent:0,ease:'none',duration:.6},.4)
+      .to('#wordmark2',{scale:1.08,opacity:0,ease:'power1.in',duration:.15},.85);
 
   /* Trainer: horizontal scrollen, während die Sektion steht (nur Desktop).
      Vor allen späteren Triggern angelegt, damit deren Positionen den Pin kennen. */

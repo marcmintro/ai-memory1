@@ -24,3 +24,15 @@ Live-Vorschau (privat, Marc): https://claude.ai/artifact/TcLmmx3zTFKxWbyVsXSZxP
   Anfrage, danach das Laufband „Hier wurde schon gedreht“.
 - Überschneidung von „Fragen? Schreib uns.“ mit den Standort-Karten behoben
   (Reveals laufen jetzt über IntersectionObserver statt über ScrollTrigger).
+
+## Änderungen v1.2 (2026-11-13, Marcs Feedback)
+
+- Intro: Beim Scrollen geht „KURZE RIPPE“ raus, „BOX-CLUB AUS KÖLN“ kommt rein,
+  danach wird das Bild von links nach rechts freigelegt.
+- Abstand zwischen Gym-Anfrage und „Hier wurde schon gedreht“ verkleinert.
+- Neue Variante `blau.html` mit verblasstem Blau (#4f7396) statt Rot und
+  bläulich getönten Fotos, weil viel Branding-Material bläulich ist. Nur die
+  Trainer-Sektion „Ecke Rot“ bleibt rot. Vorschau:
+  https://claude.ai/artifact/VX5CzCTyAVogeDwT57MSoB
+- Rote Variante: https://claude.ai/artifact/TcLmmx3zTFKxWbyVsXSZxP
+- Offen: Marc entscheidet zwischen Rot und Blau.
