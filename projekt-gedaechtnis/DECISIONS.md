@@ -105,7 +105,7 @@ Vorlage:
 - Entscheidung: Statt des grauen Liquids ein weißes, realistischeres Liquid,
   das zum A wird; darunter erscheint die Schrift (ALREADY GONE. / The good will
   last.).
-- Status: gültig, Umsetzung offen
+- Status: gültig, Entwurf am 2026-11-13 gebaut (`Logo_Liquid_Weiss_2026-11-13`), Abnahme offen
 
 ## E-011: Bildstimmung Film / Retro
 - Datum: 2026-11-13

@@ -7,7 +7,7 @@ statt sie zu löschen.
 
 - [ ] Feed V5: Marc wählt A (Sunset) oder B (Hell), `Alrerady Gone./Instagram_Feed_V5_AB_2026-11-13/`
 - [ ] Optional: Foto-Cover 04/05/06/09/13/14 leicht mit Filmkorn angleichen
-- [ ] Logo-Animation: weißes Liquid, Claim „The good will last.“ korrigieren
+- [ ] Logo-Animation weiß (`Alrerady Gone./Logo_Liquid_Weiss_2026-11-13/`) von Marc abnehmen lassen
 
 - [ ] Weitere Kapitel der Markengeschichte (02 ff.) von Marc einholen und in
   `MARKE.md` eintragen
@@ -21,6 +21,8 @@ statt sie zu löschen.
   `LOGO_ENTWICKLUNG/PLOT.ai`, die Markenfilme
 
 ## Erledigt
+
+- [x] 2026-11-13: Logo-Animation in weißem Liquid gebaut, Claim „The good will last.“ korrigiert
 
 - [x] 2026-11-13: Feed V5 produktlastig mit Schwarz-Weiß-Regel, als A/B gebaut
 

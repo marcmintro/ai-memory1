@@ -3,6 +3,13 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-13 – Claude (Logo-Animation weiß)
+- Neue Logo-Animation nach E-010: weiße, glänzende Tropfen fließen zum originalen
+  A, dann flaches weißes A, „ALREADY GONE.“ in Inter Bold und „The good will
+  last.“ in Inter Medium. 9 s, Feed 4:5 und Reel 9:16, leichtes Filmkorn.
+- Ohne Mac/Metal gebaut: Python-Renderer `liquid_white.py` + ffmpeg, Quellen im Paket.
+- Abgelegt: `Alrerady Gone./Logo_Liquid_Weiss_2026-11-13/`. ProRes nicht übertragen (zu groß).
+
 ## 2026-11-13 – Claude (Feed V5 A/B)
 - Marc wollte mehr Produkt (Socken) im Feed und ein Schwarz-Weiß-Element (E-012).
 - Feed V5 gebaut, je 15 Posts in A (Sunset) und B (heller Codex-Verlauf), gleiche
