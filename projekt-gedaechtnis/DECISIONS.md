@@ -114,3 +114,13 @@ Vorlage:
   Retro-Look: Schwarz, Petrol-Blau, Rot-Orange-Horizont, schwarz-bläulich-rosa
   Wolken, Lichtlecks und Lichtstreifen wie auf analogem Film.
 - Status: gültig
+
+## E-012: Feed produktlastiger, Schwarz-Weiß für Menschenfotos
+- Datum: 2026-11-13
+- Entschieden von: Marc
+- Entscheidung: Mehr Fotos, auf denen die Socken klar zu sehen sind (Anna,
+  Basketball-Spieler, tätowierte Leute); das Cap-und-Balkon-Foto bleibt.
+  Reine Produktfotos bleiben farbig, Fotos mit Menschen werden teilweise
+  schwarz-weiß. Der Feed wird als A (Sunset, dunkel) und B (heller
+  Pastellverlauf aus Codex) zum Vergleich gebaut.
+- Status: gültig, Wahl zwischen A und B offen

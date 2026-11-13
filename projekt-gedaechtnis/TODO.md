@@ -5,7 +5,7 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Feed V4 (`Alrerady Gone./Instagram_Feed_V4_2026-11-13/`) von Marc abnehmen lassen
+- [ ] Feed V5: Marc wählt A (Sunset) oder B (Hell), `Alrerady Gone./Instagram_Feed_V5_AB_2026-11-13/`
 - [ ] Optional: Foto-Cover 04/05/06/09/13/14 leicht mit Filmkorn angleichen
 - [ ] Logo-Animation: weißes Liquid, Claim „The good will last.“ korrigieren
 
@@ -21,6 +21,8 @@ statt sie zu löschen.
   `LOGO_ENTWICKLUNG/PLOT.ai`, die Markenfilme
 
 ## Erledigt
+
+- [x] 2026-11-13: Feed V5 produktlastig mit Schwarz-Weiß-Regel, als A/B gebaut
 
 - [x] 2026-11-13: 3 Teaser-Posts im Film-Look von Marc freigegeben
       (`Teaser_Sunset_V2_2026-11-13`), Feed V4 mit allen Verlaufsmotiven gebaut

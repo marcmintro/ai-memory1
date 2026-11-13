@@ -3,6 +3,15 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-13 – Claude (Feed V5 A/B)
+- Marc wollte mehr Produkt (Socken) im Feed und ein Schwarz-Weiß-Element (E-012).
+- Feed V5 gebaut, je 15 Posts in A (Sunset) und B (heller Codex-Verlauf), gleiche
+  Fotos und Texte. Neue Sockenfotos: Anna (cozy-74, cozy-65), Basketball (BBall-7,
+  BBall-10), Tattoo-Street (Street-33, -54, -72), Cap/Balkon (Palmero-6) bleibt.
+  Schwarz-weiß: 06, 09, 10, 14. Farbig: Produktfotos 05, 12, 13.
+- Abgelegt: `Alrerady Gone./Instagram_Feed_V5_AB_2026-11-13/` mit Vergleichsbild.
+- Offen: Wahl A oder B, danach weiße Logo-Animation.
+
 ## 2026-11-13 – Claude (Feed V4)
 - Marc: „Feed ist super jetzt“ → Teaser freigegeben, Nanum Pen Script bleibt.
 - Feed V4 gebaut: Motive 07, 08, 10, 11, 12, 15 im Film-Look, Raster-Vorschau.
