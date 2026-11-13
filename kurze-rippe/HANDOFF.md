@@ -1,6 +1,6 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-13 von Claude.
+Zuletzt aktualisiert: 2026-11-13 (Website-Entwurf) von Claude.
 
 ## Stand
 
@@ -16,6 +16,9 @@ Zuletzt aktualisiert: 2026-11-13 von Claude.
       `context/briefing-geschaeftsfuehrung-2026-11-13.md` (hat Vorrang vor Website)
 - [x] Angebot, Branding, Content-Säulen auf v2 gebracht (inkl. Kursplan,
       Merch, Familiengeschichte, Gym-Miete, mögliche Tarife ab 01.01)
+- [x] Website-Entwurf v1 → `arbeit/website-entwurf/` (Vorbilder Fenriz Gym +
+      Monument, Live-Vorschau im README)
+- [ ] Feedback von Marc zum Website-Entwurf
 - [ ] Freigabe der Entwürfe v2 durch Marc
 - [ ] Instagram-Ist-Stand prüfen (@kurze_rippe_boxclub)
 - [ ] Templates gestalten, ersten Monat planen
