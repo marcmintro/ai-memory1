@@ -36,3 +36,9 @@ Live-Vorschau (privat, Marc): https://claude.ai/artifact/TcLmmx3zTFKxWbyVsXSZxP
   https://claude.ai/artifact/VX5CzCTyAVogeDwT57MSoB
 - Rote Variante: https://claude.ai/artifact/TcLmmx3zTFKxWbyVsXSZxP
 - Offen: Marc entscheidet zwischen Rot und Blau.
+
+## Änderungen v1.3 (2026-11-13, Marcs Feedback)
+
+- Zweite Intro-Zeile heißt jetzt „KULT / BOX CLUB / AUS KÖLN“ (drei Zeilen,
+  ohne Bindestrich). Die Ö-Punkte ragen nicht mehr in die Zeile darüber, weil
+  „AUS KÖLN“ mehr Abstand nach oben bekommt. Gilt für Rot und Blau.
