@@ -5,9 +5,8 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Bis Mo 16.11.: 3 Teaser-Posts freigeben (Entwurf Sunset liegt in
-      `Alrerady Gone./Teaser_Sunset_2026-11-13/`)
-- [ ] Feed V3: übrige Verlaufsmotive auf Sunset-Farben umstellen
+- [ ] Feed V4 (`Alrerady Gone./Instagram_Feed_V4_2026-11-13/`) von Marc abnehmen lassen
+- [ ] Optional: Foto-Cover 04/05/06/09/13/14 leicht mit Filmkorn angleichen
 - [ ] Logo-Animation: weißes Liquid, Claim „The good will last.“ korrigieren
 
 - [ ] Weitere Kapitel der Markengeschichte (02 ff.) von Marc einholen und in
@@ -22,6 +21,9 @@ statt sie zu löschen.
   `LOGO_ENTWICKLUNG/PLOT.ai`, die Markenfilme
 
 ## Erledigt
+
+- [x] 2026-11-13: 3 Teaser-Posts im Film-Look von Marc freigegeben
+      (`Teaser_Sunset_V2_2026-11-13`), Feed V4 mit allen Verlaufsmotiven gebaut
 
 - [x] 2026-11-10: Referenzordner „Already Gone“ gesichtet (Pitch, Flyer,
   Logos), Ergebnis in `REFERENZ.md`

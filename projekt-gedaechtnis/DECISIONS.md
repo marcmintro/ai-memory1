@@ -97,7 +97,7 @@ Vorlage:
   Dazu eine lizenzfreie Handschrift für Akzente. Marc will Filzstift-Charakter
   (gut lesbar, nicht Graffiti, nicht zu dick) statt Kuli; Vorschlag jetzt
   „Nanum Pen Script“ (OFL), Alternativen Kalam und Marck Script.
-- Status: vorgeschlagen
+- Status: gültig (Teaser freigegeben am 2026-11-13 mit Nanum Pen Script)
 
 ## E-010: Logo-Animation in echtem Weiß
 - Datum: 2026-11-13

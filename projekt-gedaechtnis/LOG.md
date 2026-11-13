@@ -3,6 +3,11 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-13 – Claude (Feed V4)
+- Marc: „Feed ist super jetzt“ → Teaser freigegeben, Nanum Pen Script bleibt.
+- Feed V4 gebaut: Motive 07, 08, 10, 11, 12, 15 im Film-Look, Raster-Vorschau.
+  Ablage `Alrerady Gone./Instagram_Feed_V4_2026-11-13/`.
+
 ## 2026-11-13 – Claude (Teaser Sunset V2)
 - Nach Marcs Referenzbildern: Teaser mit Filmkorn, Lichtlecks, Petrol-Blau und
   Rot-Orange neu gerendert, Handschrift auf Filzstift (Nanum Pen Script).
