@@ -67,3 +67,20 @@ kein Instagram-Feed auf der Startseite.
 - Facebook: https://www.facebook.com/KurzeRippe/
 - Inhalt und Zustand der Kanäle sind **noch nicht geprüft** (Hosts in der
   Cloud-Umgebung nicht freigeschaltet).
+
+## Nachtrag 2026-11-13: Abgleich mit dem Briefing der Geschäftsführerin
+
+Für den Relaunch zusätzlich zu ändern (Quelle:
+`context/briefing-geschaeftsfuehrung-2026-11-13.md`):
+
+- Zweiter Standort heißt jetzt **Kurze Rippe Boxclub city-nord** (früher
+  Worthoff Boxing). Website nennt noch „Worthoff Boxing Ltd.“.
+- Kinderalter einheitlich **ca. 6–12 Jahre** (Website sagt teils 7–12).
+- Standard-Tarif gilt ab ca. 12–13 Jahren, steht nirgends auf der Website.
+- Merch (eigene Handschuhe, Bandagen, Kleidung) fehlt komplett auf der Website.
+- Gym-Miete auch für Schulklassen, AGs und Junggesellenabschiede, nicht nur
+  für Drehs. Referenzliste um Loredana, Snipes-Shooting und Köln 50667 ergänzen.
+- Familiengeschichte (ca. 40 Jahre Boxsport, zwei Generationen) fehlt als
+  „Über uns“.
+- Neun Trainer laut GF, Lukas fehlt auf der Trainerseite.
+- Falls ab 01.01 neue Tarife kommen, Preise auf Mitgliedschaft und FAQ anpassen.

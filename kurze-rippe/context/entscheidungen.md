@@ -2,6 +2,15 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-13: Eine Marke, zwei Standorte; Briefing hat Vorrang
+
+Der zweite Standort heißt „Kurze Rippe Boxclub city-nord“ (früher Worthoff
+Boxing), der erste „Kurze Rippe Boxclub city“. Kommuniziert wird nur noch
+„Kurze Rippe“. Das Briefing der Geschäftsführerin vom 13.11. gilt vor der
+Website. Mögliche neue Tarife ab 01.01 werden erst kommuniziert, wenn sie
+beschlossen sind.
+**Grund:** Angaben der Geschäftsführerin (über Marc), Website ist teils veraltet.
+
 ## 2026-11-11: Domain ist kurze-rippe.de, Farbwelt schwarz-weiß + Rot (Vorschlag)
 
 Die Website liegt unter kurze-rippe.de (nicht kurz-rippe.de). Für Social
