@@ -3,6 +3,12 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-13 – Claude (Teaser Sunset)
+- Marc: V3 gilt, Farben Richtung Sonnenuntergang, Claim „The good will last.“,
+  Logo-Animation weiß, ALREADY GONE in Bold / Rest Medium, Handschrift als Akzent.
+- 3 Teaser-Posts (Anmoderieren, Droppen, Explain) neu gestaltet, abgelegt in
+  `Alrerady Gone./Teaser_Sunset_2026-11-13/`. E-007 bis E-010 eingetragen.
+
 ## 2026-11-13 – Claude (Codex-Ergebnisse)
 - Codex-Arbeit vom 10.–12.11. im Desktop-Ordner `Alrerady Gone.` gefunden
   (Instagram-Feed V1–V3, animierte Pins, Launchplan, zwei Logo-Motions).

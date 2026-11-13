@@ -74,3 +74,34 @@ Vorlage:
   Auswertung steht in `REFERENZ.md`; die Dateien bleiben auf dem Mac.
 - Begründung: Dort liegt die bisherige Markenarbeit gesammelt.
 - Status: gültig
+
+## E-007: Feed V3 gilt, Farbwelt „Sonnenuntergang“
+- Datum: 2026-11-13
+- Entschieden von: Marc
+- Entscheidung: Der Codex-Feed **V3 („Photo stories“)** ist die Basis. Die
+  Pastell-Verläufe werden ersetzt durch Sonnenuntergang: Orange, Rot, Lila mit
+  etwas Schwarz.
+- Status: gültig
+
+## E-008: Claim bleibt „The good will last.“
+- Datum: 2026-11-13
+- Entschieden von: Marc
+- Entscheidung: Richtig ist „The good will last.“. „So Good Will Last“ in der
+  3D-Logo-Animation war ein Fehler und wird korrigiert.
+- Status: gültig
+
+## E-009: Typo-Hierarchie
+- Datum: 2026-11-13
+- Entschieden von: Marc (Schrift-Vorschlag Claude)
+- Entscheidung: **ALREADY GONE** immer in Bold, Nebentexte in Medium (Inter).
+  Dazu eine lizenzfreie Handschrift für Akzente; Vorschlag: „Homemade Apple“
+  (Apache 2.0). Wartet auf Marcs Okay.
+- Status: vorgeschlagen
+
+## E-010: Logo-Animation in echtem Weiß
+- Datum: 2026-11-13
+- Entschieden von: Marc
+- Entscheidung: Statt des grauen Liquids ein weißes, realistischeres Liquid,
+  das zum A wird; darunter erscheint die Schrift (ALREADY GONE. / The good will
+  last.).
+- Status: gültig, Umsetzung offen

@@ -5,6 +5,11 @@ statt sie zu löschen.
 
 ## Offen
 
+- [ ] Bis Mo 16.11.: 3 Teaser-Posts freigeben (Entwurf Sunset liegt in
+      `Alrerady Gone./Teaser_Sunset_2026-11-13/`)
+- [ ] Feed V3: übrige Verlaufsmotive auf Sunset-Farben umstellen
+- [ ] Logo-Animation: weißes Liquid, Claim „The good will last.“ korrigieren
+
 - [ ] Weitere Kapitel der Markengeschichte (02 ff.) von Marc einholen und in
   `MARKE.md` eintragen
 - [ ] Erste Brandbuilding-Aufgaben festlegen und hier eintragen (zum Beispiel
