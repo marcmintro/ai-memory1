@@ -1,6 +1,6 @@
-# Angebot an den Boxclub: Social Media + Website (Entwurf v2)
+# Angebot an den Boxclub: Social Media + Website (Entwurf v3)
 
-Stand: 2026-11-13, v2 nach Marcs Feedback zu v1. Wird später von Marc als PDF
+Stand: 2026-11-13, v3 nach Marcs Feedback zu v1 und v2. Wird später von Marc als PDF
 in seinem Stil gesetzt. Preise sind neu kalkuliert und noch **Vorschlag**, bis
 Marc sie bestätigt.
 
@@ -15,6 +15,18 @@ Marc sie bestätigt.
 - Das Angebot berechnet nur Betreuung: Erstellen, Posten, Organisieren.
 - Vorlagen (wiederkehrende Schrift und Layout je Content-Säule) sind echter
   Aufwand und im Start-Paket höher bewertet.
+
+## Änderungen v3 (Marcs Feedback, 13.11.)
+
+- **TikTok kommt dazu** (neben Instagram und Facebook). Ziel: jüngeres
+  Publikum. Dafür braucht es mehr Video, gern vom Handy und ungeschliffener.
+  Das ist auch der Grund für die teureren Mediatage.
+- **Website-Relaunch steckt im Start-Paket**, kein eigenes Angebot. Die Seite
+  ist eine reine Visitenkarte (kein Shop, nur ein paar Shirts), der Entwurf
+  steht schon in zwei Farbvarianten. Online schon **Dezember/Januar** möglich.
+- Dazu kommt eine **Präsentation (PDF)** für die Geschäftsführerin, die
+  Website und Konzept zeigt.
+- Start-Paket höher, weil Zeit und Kreativität bezahlt werden müssen.
 
 ## Marcs Vorgaben (13.11.)
 
@@ -62,9 +74,15 @@ befähigen, selbst weiterzumachen.
 | Vorlagen | Wiederkehrende Schrift und Layout je Content-Säule und Serie (Ecke Rot, Technik-Tipp, Erste Runde, Kursplan-Story, Rippe-Gear), als Feed-, Reel-Cover- und Story-Variante |
 | Material-Sichtung | Vorhandene Fotos/Videos des Clubs und Branding-Fotos sichten, sortieren, nutzbare Motive markieren |
 | Einwilligungen | Vorlage für Foto-/Video-Einwilligung von Mitgliedern und Eltern |
+| TikTok | Account einrichten bzw. übernehmen, Profil, Formate an TikTok anpassen |
+| Website-Relaunch | Entwurf in der gewählten Farbe fertigstellen: Inhalte prüfen, Texte, Bilder, Handy-Ansicht, Go-live bis Dezember/Januar |
+| Präsentation | Schönes PDF für die Geschäftsführerin mit Website, Konzept, Formaten und Zeitplan |
 
-Aufwand ca. 16–18 Stunden (Strategie 4, Profil 2, Vorlagen 8–10,
-Sichtung 2, Einwilligung 1). Vorschlag: **990 €** einmalig.
+Aufwand ca. 35 Stunden (Strategie 4, Profil 2, Vorlagen 8–10, Sichtung 2,
+Einwilligung 1, TikTok 1,5, Website 12, Präsentation 5), plus die kreative
+Konzeptarbeit. Vorschlag: **1.890 €** einmalig.
+
+Nicht enthalten: Domain- und Hosting-Kosten (trägt der Club).
 
 ### 2. Mediatage (separat, nicht im Angebot)
 
@@ -88,9 +106,9 @@ Monat).
 
 | Phase | Monate | Feed-Posts | Storys | Aufwand/Monat | Vorschlag/Monat |
 |---|---|---|---|---|---|
-| **Aufbau** | Dez – Feb | 4–5 (1 pro Woche) | Kursplan-Vorlagen, die der Club selbst postet | ca. 10 Std. | **590 €** |
-| **Anmeldesaison** | Mär – Mai | 10–12 (2–3 pro Woche) | 2–3 betreute Story-Serien pro Woche, Probetraining-Aktion | ca. 20 Std. | **1.190 €** |
-| **Übergabe** | ab Jun | 2 Reels von Marc, Rest postet der Club | Club selbst, mit Vorlagen | ca. 6–7 Std. | **390 €** |
+| **Aufbau** | Dez – Feb | 4–5 (1 pro Woche), Videos auch auf TikTok | Kursplan-Vorlagen, die der Club selbst postet | ca. 11 Std. | **650 €** |
+| **Anmeldesaison** | Mär – Mai | 10–12 (2–3 pro Woche), Videos auch auf TikTok | 2–3 betreute Story-Serien pro Woche, Probetraining-Aktion | ca. 22–23 Std. | **1.290 €** |
+| **Übergabe** | ab Jun | 2 Reels/TikToks von Marc, Rest postet der Club | Club selbst, mit Vorlagen | ca. 7–8 Std. | **450 €** |
 
 So kommen die Stunden zustande (interne Kalkulation, nicht fürs PDF):
 
@@ -98,10 +116,11 @@ So kommen die Stunden zustande (interne Kalkulation, nicht fürs PDF):
 |---|---|---|---|
 | Posts erstellen (Schnitt, Untertitel, Design, Caption), ca. 1,2–1,5 Std. pro Post | 7 | 13 | 5 (2 Reels) |
 | Storys | – | 3 | – |
+| TikTok-Fassung (Format, Sound, Text, Posten), ca. 20 Min. pro Video | 1 | 2,5 | 0,5 |
 | Redaktionsplan, Planen, Veröffentlichen | 1 | 2 | 1 |
 | Austausch und Freigabe mit dem Club | 1,5 | 1,5 | 0,5 |
 | Monatsbericht | 0,5 | 0,5 | 0,5 |
-| **Summe** | **ca. 10** | **ca. 20** | **ca. 7** |
+| **Summe** | **ca. 11** | **ca. 22,5** | **ca. 7,5** |
 
 Das entspricht rund 55–60 € pro Stunde.
 
@@ -109,17 +128,17 @@ In jeder Phase enthalten:
 - Monatlicher Redaktionsplan mit Captions und Hashtags zur Freigabe
 - Schnitt, Untertitel, Design im Kurze-Rippe-Look
 - Planen und Veröffentlichen
-- Kurzer Monatsbericht: Reichweite, Follower, **Probetrainings über Instagram**
+- Kurzer Monatsbericht: Reichweite, Follower, **Probetrainings über Instagram und TikTok**
 
 Nicht enthalten: Community-Management rund um die Uhr (Kommentare und DMs
 beantwortet der Club, Marc liefert Antwortvorlagen), Werbeanzeigen-Budget.
 
-### 4. Website-Relaunch (separat)
+### 4. Website-Relaunch (im Start-Paket)
 
 Neue Website auf Basis des Entwurfs (Intro, Kurse, Preise, Kursplan, Trainer,
-Gym mieten, FAQ). Ziel: online bis spätestens **Ende Februar**, vor der
-Anmeldesaison. Als eigenes Angebot kalkulieren, nicht in der Monatspauschale.
-Preis: offen, mit Marc festlegen.
+Gym mieten, FAQ). Ziel: online im **Dezember/Januar**, lange vor der
+Anmeldesaison. Kein eigenes Angebot, weil die Seite eine Visitenkarte ist und
+der Entwurf schon steht.
 
 ## Die Formate (was im Feed passiert)
 
@@ -152,16 +171,16 @@ Club vor der Kamera.
 
 | Posten | Betrag |
 |---|---|
-| Start-Paket | 990 € einmalig |
-| Aufbau Dez–Feb | 3 × 590 € = 1.770 € |
-| Anmeldesaison Mär–Mai | 3 × 1.190 € = 3.570 € |
-| **Summe Dez–Mai** | **6.330 €** (ca. 1.055 € im Monat) |
-| Danach Übergabe | 390 € / Monat |
+| Start-Paket inkl. Website und Präsentation | 1.890 € einmalig |
+| Aufbau Dez–Feb | 3 × 650 € = 1.950 € |
+| Anmeldesaison Mär–Mai | 3 × 1.290 € = 3.870 € |
+| **Summe Dez–Mai** | **7.710 €** (ca. 1.285 € im Monat) |
+| Danach Übergabe | 450 € / Monat |
 | Mediatage (separat, nach Sichtung) | ca. 1.800 € pro Tag |
 
 Rechnung für den Club: Ein neues Mitglied bringt bei 49 € im Jahr 588 €.
-**11 neue Mitglieder**, die ein Jahr bleiben, bezahlen die komplette Betreuung
-von Dezember bis Mai (11 × 588 € = 6.468 €).
+**14 neue Mitglieder**, die ein Jahr bleiben, bezahlen Website und komplette
+Betreuung von Dezember bis Mai (14 × 588 € = 8.232 €).
 
 Fairness-Punkte:
 - Laufzeit in Phasen von je 3 Monaten, danach monatlich kündbar.
@@ -176,12 +195,13 @@ Fairness-Punkte:
 - Posts innerhalb von 48 Stunden freigeben.
 - Kommentare und Nachrichten selbst beantworten (mit Marcs Vorlagen).
 - Bei der Anmeldung per QR-Code fragen: „Wie hast du von uns erfahren?“ So
-  sehen wir, was Instagram wirklich bringt.
+  sehen wir, was Instagram und TikTok wirklich bringen.
 
 ## Offene Punkte für Marc
 
-- Preise v2 prüfen: 990 € Start, 590 / 1.190 / 390 € im Monat?
+- Preise v3 prüfen: 1.890 € Start, 650 / 1.290 / 450 € im Monat?
 - Mediatage: nach Sichtung des Materials mit der GF klären (Richtwert 1.800 €/Tag).
-- Website-Relaunch: eigener Preis, und ist Ende Februar realistisch?
-- TikTok zusätzlich, oder nur Instagram + Facebook?
+- Website: Wer setzt technisch um und wo wird gehostet (bisher WordPress von
+  bit-worker.com)? Rot oder Blau?
+- Hat der Club schon einen TikTok-Account?
 - Bist du umsatzsteuerpflichtig (Brutto/Netto im PDF)?

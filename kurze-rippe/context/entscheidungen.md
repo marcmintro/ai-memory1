@@ -37,3 +37,12 @@ Richtwert ca. 1.800 € pro Tag (professionell gefilmt plus Handy-Content).
 Monatspreise höher als in v1 (390 € war zu knapp kalkuliert).
 **Grund:** Marc will erst das vorhandene Material des Clubs sichten und mit
 der Geschäftsführerin besprechen, ob und wie viele Mediatage nötig sind.
+
+## 2026-11-13: TikTok dazu, Website im Start-Paket
+
+**Entscheidung (Marc):** TikTok wird neben Instagram/Facebook bespielt
+(jüngeres Publikum, mehr Handy-Video). Der Website-Relaunch ist kein eigenes
+Angebot, sondern steckt im Start-Paket, zusammen mit einer Präsentation (PDF)
+für die Geschäftsführerin. Go-live Dezember/Januar statt Ende Februar.
+**Grund:** Die Website ist eine reine Visitenkarte und der Entwurf steht
+schon. Das Start-Paket muss Zeit und Kreativität abbilden, daher höher.
