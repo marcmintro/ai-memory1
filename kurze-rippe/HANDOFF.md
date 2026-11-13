@@ -22,7 +22,9 @@ Zuletzt aktualisiert: 2026-11-13 (Angebotspaket) von Claude.
       (3 Phasen Dez–Mai inkl. TikTok, Website im Start-Paket, 7.710 €; Mediatage separat; PDF in
       Marcs Stil folgt später)
 - [ ] Feedback von Marc zum Website-Entwurf (Rot oder Blau?)
-- [ ] Marc bestätigt Preise des Angebotspakets, dann PDF
+- [x] Preise bestätigt (13.11.): Start-Paket 1.890 €, Betreuung 650 €/Monat
+- [x] Angebotstext für die GF in Marcs Ton → `arbeit/angebot-text.md`
+- [ ] Marc schlägt PDF-Layout vor, dann Angebot als PDF setzen
 - [ ] Freigabe der Entwürfe v2 durch Marc
 - [ ] Instagram-Ist-Stand prüfen (@kurze_rippe_boxclub)
 - [ ] Templates gestalten, ersten Monat planen
@@ -44,8 +46,8 @@ freigeschaltet) und den ersten Monat konkret mit Caption-Entwürfen planen.
 - Pro Trainer Fokus/Stil, Infos zu Fatih und Lukas.
 - Merch: Preise, nur vor Ort oder online?
 - Tarife ab 01.01: beschlossen? Was gilt für Bestandsmitglieder?
-- Angebotspaket v3: passen 1.890 € Start (inkl. Website + Präsentation),
-  650/1.290/450 €/Monat (inkl. TikTok)? Umsatzsteuerpflichtig (netto/brutto)?
+- Angebot: „Mehr Gas“ 1.290 €/Monat ok? Umsatzsteuerpflichtig (netto/brutto)?
+  Ansprache im Angebot „ihr“ ok?
 - Website: technische Umsetzung und Hosting? TikTok-Account vorhanden?
 - Mediatage (ca. 1.800 €/Tag) separat: Marc entscheidet nach Sichtung des
   Club-Materials und Gespräch mit der GF.

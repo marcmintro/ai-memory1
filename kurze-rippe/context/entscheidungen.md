@@ -46,3 +46,11 @@ Angebot, sondern steckt im Start-Paket, zusammen mit einer Präsentation (PDF)
 für die Geschäftsführerin. Go-live Dezember/Januar statt Ende Februar.
 **Grund:** Die Website ist eine reine Visitenkarte und der Entwurf steht
 schon. Das Start-Paket muss Zeit und Kreativität abbilden, daher höher.
+
+## 2026-11-13: Preise Start-Paket und Betreuung
+
+**Entscheidung (Marc):** Start-Paket 1.890 € einmalig ist ok. Betreuung
+650 €/Monat, aber nur für das Posten mit dem vorhandenen, gesichteten
+Material. Mediatage klärt Marc nach der Vorstellung der Content-Säulen mit
+der GF. Erhöhung zum Frühling oder schon ab Januar (Neujahr) als Option.
+**Grund:** Guter Einstieg für den Club, um das in Fahrt zu bringen.
