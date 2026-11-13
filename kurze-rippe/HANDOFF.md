@@ -1,6 +1,6 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-13 (Website-Entwurf) von Claude.
+Zuletzt aktualisiert: 2026-11-13 (Angebotspaket) von Claude.
 
 ## Stand
 
@@ -18,7 +18,11 @@ Zuletzt aktualisiert: 2026-11-13 (Website-Entwurf) von Claude.
       Merch, Familiengeschichte, Gym-Miete, mögliche Tarife ab 01.01)
 - [x] Website-Entwurf v1 → `arbeit/website-entwurf/` (Vorbilder Fenriz Gym +
       Monument, Live-Vorschau im README)
-- [ ] Feedback von Marc zum Website-Entwurf
+- [x] Angebotspaket Social Media Entwurf v1 → `arbeit/angebot-paket.md`
+      (3 Phasen Dez–Mai, 2 Mediatage, Preise nur als Vorschlag; PDF in
+      Marcs Stil folgt später)
+- [ ] Feedback von Marc zum Website-Entwurf (Rot oder Blau?)
+- [ ] Marc bestätigt Preise des Angebotspakets, dann PDF
 - [ ] Freigabe der Entwürfe v2 durch Marc
 - [ ] Instagram-Ist-Stand prüfen (@kurze_rippe_boxclub)
 - [ ] Templates gestalten, ersten Monat planen
@@ -41,6 +45,8 @@ freigeschaltet) und den ersten Monat konkret mit Caption-Entwürfen planen.
 - Pro Trainer Fokus/Stil, Infos zu Fatih und Lukas.
 - Merch: Preise, nur vor Ort oder online?
 - Tarife ab 01.01: beschlossen? Was gilt für Bestandsmitglieder?
+- Angebotspaket: passen 490 € Start, 450 €/Mediatag, 390/690/250 €/Monat?
+  Preis Website-Relaunch? Umsatzsteuerpflichtig (netto/brutto)?
 
 ## So geht es in Codex weiter
 
