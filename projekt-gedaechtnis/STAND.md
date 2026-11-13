@@ -1,6 +1,6 @@
 # Aktueller Stand
 
-*Zuletzt aktualisiert: 2026-11-10*
+*Zuletzt aktualisiert: 2026-11-13*
 
 **Projekt:** ALREADY-GONE
 **Marke:** Already Gone (vorher arrel)
@@ -23,6 +23,9 @@ bekommt eine neue Stimme. Details und Markentexte stehen in
 - Der Referenzordner auf Marcs Schreibtisch ist gesichtet (`REFERENZ.md`):
   Claim „The good will last.“, organisches „A“ als Logo, unscharfe, filmische
   Bildsprache, Ankündigungs-Flyer liegt als Entwurf vor.
+- In Codex sind vom 10.–12.11. Instagram-Feed-Entwürfe (V1–V3), ein
+  Launchplan zum 01.12. und zwei Logo-Animationen entstanden, siehe
+  [`CODEX-ERGEBNISSE.md`](CODEX-ERGEBNISSE.md).
 - Die Nummerierung „01“ deutet auf weitere Kapitel hin, die noch fehlen.
 
 ## Nächster Schritt

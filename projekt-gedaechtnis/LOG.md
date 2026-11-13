@@ -3,6 +3,11 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-13 – Claude (Codex-Ergebnisse)
+- Codex-Arbeit vom 10.–12.11. im Desktop-Ordner `Alrerady Gone.` gefunden
+  (Instagram-Feed V1–V3, animierte Pins, Launchplan, zwei Logo-Motions).
+  Übersicht in `CODEX-ERGEBNISSE.md`. Im Repo hatte Codex nichts committet.
+
 ## JJJJ-MM-TT – Wer (Claude / Codex / Marc)
 - Was wurde gemacht?
 - Was ist offen oder wo geht es weiter?
