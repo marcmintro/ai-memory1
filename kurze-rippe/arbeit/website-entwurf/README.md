@@ -15,3 +15,12 @@ Live-Vorschau (privat, Marc): https://claude.ai/artifact/TcLmmx3zTFKxWbyVsXSZxP
   (Marcs Wunsch „Apple-like“).
 - Inhalte aus `../angebot.md` und dem Briefing der Geschäftsführerin.
   Neue Tarife ab 01.01 sind bewusst **nicht** eingebaut.
+
+## Änderungen v1.1 (2026-11-13, Marcs Feedback)
+
+- Intro: Bild wird beim Scrollen von links nach rechts freigelegt (rote Kante
+  läuft mit), Schriftzug bleibt und blendet am Ende aus.
+- „Miete unser Gym“ als eigene, große Sektion mit fünf Anlässen und klarer
+  Anfrage, danach das Laufband „Hier wurde schon gedreht“.
+- Überschneidung von „Fragen? Schreib uns.“ mit den Standort-Karten behoben
+  (Reveals laufen jetzt über IntersectionObserver statt über ScrollTrigger).

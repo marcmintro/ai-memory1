@@ -92,6 +92,10 @@ section{position:relative}
 .hero-foot .wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;flex-wrap:wrap}
 .hero-foot p{font-size:clamp(17px,1.4vw,20px);max-width:36ch;color:#e3e0da}
 .hero-foot .cta{display:flex;gap:12px;flex-wrap:wrap}
+.js .hero-img{clip-path:inset(0 100% 0 0)}
+.wipe-edge{position:absolute;top:0;bottom:0;left:0;width:2px;background:var(--glove);z-index:2;box-shadow:0 0 24px 2px rgba(208,28,47,.55);opacity:0;pointer-events:none;will-change:transform}
+.hero-hint{position:absolute;left:50%;bottom:84px;transform:translateX(-50%);z-index:3;font:600 12px/1 var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--concrete)}
+@media (max-width:700px){.hero-hint{display:none}}
 .scroll-hint{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:3;width:1px;height:46px;background:linear-gradient(var(--chalk),transparent);opacity:.5}
 @media (max-width:700px){.scroll-hint{display:none}}
 
@@ -222,15 +226,29 @@ section{position:relative}
 @media (max-width:900px){.team{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}.team::-webkit-scrollbar{display:none}.coach{scroll-snap-align:start}.team-track{transform:none!important}}
 .team-intro{margin-bottom:56px}
 
+/* Miete unser Gym */
+.rent{background:var(--ink-2);border-top:1px solid var(--ink-3)}
+.rent-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;grid-template-rows:auto auto;gap:16px;margin-top:56px}
+.use{position:relative;border-radius:18px;overflow:hidden;background:var(--ink);border:1px solid var(--ink-3);padding:26px;min-height:220px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;isolation:isolate;transition:transform 320ms var(--ease-out),border-color 240ms ease}
+.use h3{font-size:clamp(28px,2.4vw,36px)}
+.use p{font-size:15px;color:#c9c6c0}
+.use.feature{grid-row:span 2;min-height:480px;border:0}
+.use.feature img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;filter:grayscale(1) brightness(.55);transition:transform 700ms var(--ease-out)}
+.use.feature::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(13,12,11,0) 35%,rgba(13,12,11,.9))}
+.use .ico{position:absolute;top:24px;left:26px;font:900 15px/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--glove)}
+@media (hover:hover) and (pointer:fine){.use:hover{transform:translateY(-5px);border-color:#3a3733}.use.feature:hover img{transform:scale(1.05)}}
+.rent-foot{margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;border-radius:18px;padding:24px 28px;background:var(--ink);border:1px solid var(--ink-3)}
+.rent-foot p{font-size:17px}
+@media (max-width:980px){.rent-grid{grid-template-columns:1fr 1fr}.use.feature{grid-column:span 2;grid-row:auto;min-height:380px}}
+@media (max-width:620px){.rent-grid{grid-template-columns:1fr}.use.feature{grid-column:auto}}
+
 /* Bekannt aus */
-.press{overflow:hidden;padding-block:clamp(64px,8vw,110px);border-block:1px solid var(--ink-3)}
+.press{overflow:hidden;padding-block:clamp(56px,7vw,96px);background:var(--ink-2);border-bottom:1px solid var(--ink-3)}
+.press .label{margin-bottom:28px}
 .press .row{display:flex;width:max-content;animation:tick 60s linear infinite}
 .press .row.rev{animation-direction:reverse;animation-duration:70s}
 .press .row span{font:900 clamp(48px,7vw,104px)/1.05 var(--f-display);text-transform:uppercase;padding-inline:26px;white-space:nowrap;color:transparent;-webkit-text-stroke:1.5px #4a4642;transition:color 300ms ease,-webkit-text-stroke-color 300ms ease}
 .press .row span:nth-child(3n+1){color:var(--chalk);-webkit-text-stroke-color:transparent}
-.press-cta{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;margin-top:56px}
-.uses{display:flex;flex-wrap:wrap;gap:10px}
-.uses span{padding:10px 15px;border-radius:999px;background:var(--ink-2);border:1px solid var(--ink-3);font:500 15px/1 var(--f-body)}
 
 /* Merch */
 .merch{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,80px);align-items:center}
@@ -266,7 +284,7 @@ section{position:relative}
 .spot address{font-style:normal;font-size:18px;line-height:1.5}
 .spot .note{font-size:14px;color:var(--concrete)}
 @media (hover:hover) and (pointer:fine){.spot:hover{transform:translateY(-4px)}}
-.contact-row{margin-top:16px;border-radius:22px;padding:clamp(28px,3vw,40px);background:var(--chalk);color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.contact-row{margin-top:24px;border-radius:22px;padding:clamp(28px,3vw,40px);background:var(--chalk);color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
 .contact-row .big{font:900 clamp(34px,4vw,56px)/1 var(--f-display);text-transform:uppercase}
 .contact-row .lines{display:grid;gap:6px;font:600 18px/1.3 var(--f-body)}
 .contact-row .lines span{user-select:all}
@@ -291,7 +309,10 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
 .dock .btn{width:100%;justify-content:center;box-shadow:0 16px 40px -12px rgba(0,0,0,.9)}
 @media (max-width:700px){.dock{display:block}}
 
-/* Reveal: Grundzustand ist sichtbar, JS animiert nur nach */
+/* Reveal: Grundzustand ist sichtbar; nur Elemente unterhalb des Bildschirms
+   werden kurz vorbereitet und gleiten beim Erreichen hoch */
+.rv{transition:transform 900ms var(--ease-out),opacity 900ms var(--ease-out)}
+.rv.pre{opacity:0;transform:translateY(48px)}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition-duration:1ms!important;scroll-behavior:auto!important}
 }
@@ -325,6 +346,7 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
 <main id="top">
   <!-- Intro: Schriftzug, dann zieht das Bild auf -->
   <section class="hero" id="hero">
+    <div class="wipe-edge" id="wipeEdge" aria-hidden="true"></div>
     <div class="hero-img" id="heroImg"><img src="img/hero.webp" alt="Der Ring in der Weyerstraße, ein Boxer sitzt in der Ecke"></div>
     <div class="wordmark"><h1 id="wordmark" aria-label="Kurze Rippe"><span class="row">Kurze</span><span class="row">Rippe</span></h1></div>
     <div class="hero-foot" id="heroFoot">
@@ -336,8 +358,10 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
         </div>
       </div>
     </div>
+    <span class="hero-hint" id="heroHint" aria-hidden="true">Scrollen</span>
     <div class="scroll-hint" aria-hidden="true"></div>
   </section>
+  <script>if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('js')}</script>
 
   <div class="ticker" aria-hidden="true"><div class="ticker-track">
     <span>14 Tage Probetraining gratis</span><span>49 € im Monat</span><span>2 Standorte in Köln</span><span>6 Tage die Woche</span><span>Keine Anmeldegebühr</span><span>Kids ab ca. 6 Jahren</span>
@@ -483,18 +507,31 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
     </div>
   </section>
 
-  <!-- Bekannt aus / Gym mieten -->
-  <section class="press" id="gym-mieten">
+  <!-- Miete unser Gym -->
+  <section class="rent pad" id="gym-mieten">
+    <div class="wrap">
+      <div class="head-row" style="margin-bottom:0">
+        <div><span class="eyebrow">Location</span><h2>Miete unser Gym</h2></div>
+        <p class="lead">Echter Ring, rote Sandsäcke, abgeschabte Wände. Außerhalb der Trainingszeiten kannst du die Halle für Drehs, Shootings und Events buchen.</p>
+      </div>
+      <div class="rent-grid">
+        <div class="use feature reveal"><img src="img/hero.webp" alt="" loading="lazy"><span class="ico">Film &amp; TV</span><h3>Dreh&shy;location</h3><p>Für Film, Fernsehen, Musikvideos und YouTube. Hier drehten schon der WDR, Kollegah und die Knallerfrauen.</p></div>
+        <div class="use reveal"><span class="ico">Shooting</span><h3>Fotoshootings</h3><p>Der Ring als Kulisse für Marken und Fotografen, zuletzt für ein Snipes-Shooting.</p></div>
+        <div class="use reveal"><span class="ico">Schule</span><h3>Schulklassen &amp; AGs</h3><p>Boxen als Projekttag oder AG, mit Fokus auf Respekt und Fairness.</p></div>
+        <div class="use reveal"><span class="ico">Feiern</span><h3>Junggesellen&shy;abschied</h3><p>Einmal richtig in den Ring. Mit Trainer, Handschuhen und viel Spaß.</p></div>
+        <div class="use reveal"><span class="ico">Team</span><h3>Firmen-Events</h3><p>Ein Teamtraining, das mehr zusammenschweißt als jeder Workshop.</p></div>
+      </div>
+      <div class="rent-foot reveal">
+        <p>Anfragen per WhatsApp an <strong>0171 5286751</strong> oder an <strong>worthoff@t-online.de</strong></p>
+        <a class="btn" href="#kontakt">Gym anfragen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="press" aria-label="Hier wurde schon gedreht">
+    <div class="wrap label"><span class="eyebrow">Hier wurde schon gedreht</span></div>
     <div class="row" aria-hidden="true"><span>WDR Lokalzeit</span><span>Kollegah</span><span>Loredana</span><span>Knallerfrauen</span><span>Köln 50667</span><span>Y-Titty</span><span>Snipes</span><span>WDR Lokalzeit</span><span>Kollegah</span><span>Loredana</span><span>Knallerfrauen</span><span>Köln 50667</span><span>Y-Titty</span><span>Snipes</span></div>
     <div class="row rev" aria-hidden="true"><span>Filow &amp; Zarbex</span><span>Leeroy</span><span>Agit Kabayel</span><span>Martina Hill</span><span>Rebell Comedy</span><span>Filow &amp; Zarbex</span><span>Leeroy</span><span>Agit Kabayel</span><span>Martina Hill</span><span>Rebell Comedy</span></div>
-    <div class="wrap press-cta">
-      <div style="display:grid;gap:18px;max-width:640px">
-        <span class="eyebrow">Miete unser Gym</span>
-        <p class="lead">Hier wurde schon für TV, Musikvideos und YouTube gedreht. Außerhalb der Trainingszeiten kannst du die Halle mieten.</p>
-        <div class="uses"><span>Film &amp; YouTube</span><span>Fotoshootings</span><span>Schulklassen &amp; AGs</span><span>Junggesellenabschied</span><span>Firmen-Events</span></div>
-      </div>
-      <a class="btn ghost" href="#kontakt">Anfrage per WhatsApp</a>
-    </div>
   </section>
 
   <!-- Merch -->
@@ -654,7 +691,7 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
   var words=[].slice.call(st.querySelectorAll('.w'));
   if(reduce || !window.gsap){ words.forEach(function(w){w.classList.add('on')}); }
 
-  if(!window.gsap || reduce) return;
+  if(!window.gsap || reduce){ document.documentElement.classList.remove('js'); return; }
   gsap.registerPlugin(ScrollTrigger);
 
   /* Intro: Buchstaben fallen ein */
@@ -662,50 +699,23 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
   wm.querySelectorAll('.row').forEach(function(r){
     r.innerHTML = r.textContent.split('').map(function(c){return '<span class="ch">'+c+'</span>'}).join('');
   });
-  var heroImg=document.getElementById('heroImg');
-  var intro=gsap.timeline({defaults:{ease:'expo.out'}});
-  intro.from('#wordmark .ch',{yPercent:110,duration:1.1,stagger:.045})
-       .fromTo(heroImg,{clipPath:'inset(36% 34% 36% 34% round 22px)'},{clipPath:'inset(30% 28% 30% 28% round 22px)',duration:1.2},'-=.7')
-       .from('#heroFoot .wrap > *',{y:24,opacity:0,duration:.9,stagger:.08},'-=.8');
+  var heroImg=document.getElementById('heroImg'), edge=document.getElementById('wipeEdge');
+  gsap.timeline({defaults:{ease:'expo.out'}})
+      .from('#wordmark .ch',{yPercent:110,duration:1.1,stagger:.045})
+      .from('#heroFoot .wrap > *',{y:24,opacity:0,duration:.9,stagger:.08},'-=.8')
+      .to(edge,{opacity:1,duration:.6},'-=.6');
 
-  /* Beim Scrollen zieht das Bild auf volle Breite auf, der Schriftzug wächst und blendet aus */
-  var heroTl=gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'+=120%',scrub:.6,pin:true,anticipatePin:1}});
-  heroTl.to(heroImg,{clipPath:'inset(0% 0% 0% 0% round 0px)',ease:'none'},0)
-        .to('#heroImg img',{scale:1,ease:'none'},0)
-        .to('#wordmark',{scale:1.35,opacity:0,ease:'power1.in'},0);
+  /* Beim Scrollen wird das Bild von links nach rechts freigelegt */
+  gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'+=130%',scrub:.6,pin:true,anticipatePin:1}})
+      .fromTo(heroImg,{clipPath:'inset(0% 100% 0% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',ease:'none',duration:1},0)
+      .fromTo(edge,{left:'0%'},{left:'100%',ease:'none',duration:1},0)
+      .to(edge,{opacity:0,duration:.08},.92)
+      .fromTo('#heroImg img',{scale:1.12,xPercent:-3},{scale:1,xPercent:0,ease:'none',duration:1},0)
+      .to('#heroHint',{opacity:0,duration:.15},0)
+      .to('#wordmark',{scale:1.12,opacity:0,ease:'power1.in',duration:.35},.65);
 
-  /* Statement */
-  ScrollTrigger.create({trigger:st,start:'top 80%',end:'bottom 45%',scrub:true,onUpdate:function(s){
-    var n=Math.round(s.progress*words.length); words.forEach(function(w,i){w.classList.toggle('on',i<n)});
-  }});
-
-  /* Karten heben sich gestaffelt ins Bild */
-  gsap.utils.toArray('.courses, .steps, .prices, .spots').forEach(function(g){
-    gsap.from(g.querySelectorAll('.reveal'),{y:60,opacity:0,duration:1,ease:'expo.out',stagger:.08,scrollTrigger:{trigger:g,start:'top 85%',once:true}});
-  });
-  gsap.utils.toArray('.contact-row.reveal, .merch figure').forEach(function(el){
-    gsap.from(el,{y:50,opacity:0,duration:1,ease:'expo.out',scrollTrigger:{trigger:el,start:'top 88%',once:true}});
-  });
-  /* Bildband: Merch-Foto öffnet sich von unten */
-  gsap.fromTo('.merch figure img:first-child',{scale:1.15},{scale:1,ease:'none',scrollTrigger:{trigger:'.merch',start:'top bottom',end:'bottom top',scrub:true}});
-
-  /* Kapitel: Bild zoomt leicht, Text kommt hoch */
-  gsap.utils.toArray('.chapter').forEach(function(ch){
-    gsap.fromTo(ch.querySelector('img'),{scale:1.18},{scale:1,ease:'none',scrollTrigger:{trigger:ch,start:'top bottom',end:'top top',scrub:true}});
-    gsap.from(ch.querySelectorAll('.wrap > *'),{y:50,opacity:0,stagger:.08,duration:1,ease:'expo.out',scrollTrigger:{trigger:ch,start:'top 45%',once:true}});
-  });
-
-  /* Parallax-Band */
-  gsap.utils.toArray('.band .para').forEach(function(img){
-    gsap.fromTo(img,{yPercent:-12},{yPercent:12,ease:'none',scrollTrigger:{trigger:img.parentNode,start:'top bottom',end:'bottom top',scrub:true}});
-  });
-
-  /* Überschriften: Zeilen gleiten aus einer Maske */
-  gsap.utils.toArray('.head-row h2, .plan-top h2, .faq h2, .merch h2').forEach(function(h){
-    gsap.from(h,{yPercent:30,opacity:0,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:h,start:'top 88%',once:true}});
-  });
-
-  /* Trainer: horizontal scrollen, während die Sektion steht (nur Desktop) */
+  /* Trainer: horizontal scrollen, während die Sektion steht (nur Desktop).
+     Vor allen späteren Triggern angelegt, damit deren Positionen den Pin kennen. */
   ScrollTrigger.matchMedia({
     '(min-width: 901px)': function(){
       var track=document.getElementById('teamTrack');
@@ -713,6 +723,36 @@ footer{padding-block:72px 40px;border-top:1px solid var(--ink-3)}
       gsap.to(track,{x:function(){return -dist()},ease:'none',scrollTrigger:{trigger:'#team',start:'center center',end:function(){return '+='+dist()},scrub:.6,pin:'#trainer',invalidateOnRefresh:true,anticipatePin:1}});
     }
   });
+
+  /* Statement */
+  ScrollTrigger.create({trigger:st,start:'top 80%',end:'bottom 45%',scrub:true,onUpdate:function(s){
+    var n=Math.round(s.progress*words.length); words.forEach(function(w,i){w.classList.toggle('on',i<n)});
+  }});
+
+  /* Kapitel: Bild zoomt leicht */
+  gsap.utils.toArray('.chapter').forEach(function(ch){
+    gsap.fromTo(ch.querySelector('img'),{scale:1.18},{scale:1,ease:'none',scrollTrigger:{trigger:ch,start:'top bottom',end:'top top',scrub:true}});
+  });
+  /* Parallax-Band und Merch-Foto */
+  gsap.utils.toArray('.band .para').forEach(function(img){
+    gsap.fromTo(img,{yPercent:-12},{yPercent:12,ease:'none',scrollTrigger:{trigger:img.parentNode,start:'top bottom',end:'bottom top',scrub:true}});
+  });
+  gsap.fromTo('.merch figure img:first-child',{scale:1.15},{scale:1,ease:'none',scrollTrigger:{trigger:'.merch',start:'top bottom',end:'bottom top',scrub:true}});
+
+  /* Reveals per IntersectionObserver: unabhängig von Pin-Berechnungen,
+     was beim Laden schon im Bild ist, bleibt einfach stehen */
+  if('IntersectionObserver' in window){
+    var targets=[].slice.call(document.querySelectorAll('.reveal, .head-row h2, .plan-top h2, .faq h2, .merch h2, .chapter .wrap > *'));
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.remove('pre'); io.unobserve(e.target); } });
+    },{rootMargin:'0px 0px -10% 0px'});
+    targets.forEach(function(el){
+      if(el.getBoundingClientRect().top < window.innerHeight) return;
+      var sib=[].slice.call(el.parentNode.children).filter(function(c){return targets.indexOf(c)>-1});
+      el.style.transitionDelay=(Math.max(0,sib.indexOf(el))*70)+'ms';
+      el.classList.add('rv','pre'); io.observe(el);
+    });
+  }
 
   window.addEventListener('load',function(){ScrollTrigger.refresh()});
 })();
