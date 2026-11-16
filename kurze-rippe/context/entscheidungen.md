@@ -2,6 +2,11 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-16: Blau für den ersten Launch- und Präsentationsentwurf
+
+**Entscheidung (Marc, Codex-Chat):** Blaue Website-Variante als Grundlage, etwa 15 Sekunden Hochkant-Teaser zum Website-Relaunch und eine Präsentation für die Geschäftsführung. Marc bestätigt die vorgeschlagene Kombination ausdrücklich.
+**Grund:** Teaser und Präsentation sollen sich am schon erarbeiteten Weblayout orientieren. Zunächst einen Entwurf zur gemeinsamen Durchsicht bauen. Das ist keine Freigabe zur Veröffentlichung und kein verbindliches Launch-Datum.
+
 ## 2026-11-13: Eine Marke, zwei Standorte; Briefing hat Vorrang
 
 Der zweite Standort heißt „Kurze Rippe Boxclub city-nord“ (früher Worthoff

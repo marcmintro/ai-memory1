@@ -1,8 +1,11 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-13 (Angebotspaket) von Claude.
+Zuletzt aktualisiert: 2026-11-16 (Launch-Entwurf v1) von Codex.
 
 ## Stand
+
+- [x] 16.11.: Launch-Entwurf v1 in Blau nach Marcs Bestätigung: 15-Sekunden-MP4 im Hochformat mit Ton und neun Folien für die Geschäftsführung → `arbeit/launch-entwurf-v1/`.
+- [ ] Marc prüft Teaser (Tempo, Bilder, Sound) und Präsentation. Noch kein fester Launch-Termin und keine Veröffentlichungsfreigabe.
 
 - [x] Arbeitsbereich und Übergabe-Regeln angelegt (`AGENTS.md`, `CLAUDE.md`,
       `.ai-memory.toml`, `context/`).
@@ -30,6 +33,11 @@ Zuletzt aktualisiert: 2026-11-13 (Angebotspaket) von Claude.
 - [ ] Templates gestalten, ersten Monat planen
 
 ## Nächster Schritt
+
+Zuerst Marcs Feedback zum neuen Teaser und zur Präsentation einarbeiten.
+Die bearbeitbare Präsentation liegt als Live-Artefakt im Codex-Chat „Kurze Rippe“ (`artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`); Quelle, Übersicht und Video liegen unter `arbeit/launch-entwurf-v1/`. Vorlage für den Entwurf ist die blaue Website. Die finale Website-Farbentscheidung ist dadurch nicht pauschal freigegeben.
+
+Danach mit den bisherigen Aufgaben weitermachen:
 
 Marcs Feedback zu Branding und Content-Säulen v2 einarbeiten. Danach den
 Instagram-Kanal prüfen (instagram.com ist in der Cloud-Umgebung noch nicht

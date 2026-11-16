@@ -1,0 +1,54 @@
+<!doctype html><html lang="de"><meta charset="utf-8"><title>Kurze Rippe – Relaunch-Teaser</title>
+<style>
+@font-face{font-family:Stencil;src:url('assets/fonts/stencil0.ttf');font-weight:900}
+@font-face{font-family:Display;src:url('assets/fonts/display0.ttf');font-weight:900}
+@font-face{font-family:Body;src:url('assets/fonts/body1.ttf');font-weight:600}
+*{box-sizing:border-box}html,body{margin:0;background:#0b0d10;color:#e9edf1;width:1080px;height:1920px;overflow:hidden}
+:root{--blue:#4f7396;--light:#7d9fc0}
+#stage{position:relative;width:1080px;height:1920px;background:#0b0d10;overflow:hidden;font-family:Body,Arial,sans-serif}
+.scene{position:absolute;inset:0;overflow:hidden;opacity:0}
+.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) sepia(.35) hue-rotate(175deg) saturate(1.6) contrast(1.12) brightness(.72)}
+#reveal{position:absolute;inset:0}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,13,16,.16),rgba(11,13,16,.02) 35%,rgba(11,13,16,.82))}
+.big{font:900 276px/.83 Stencil,Impact,sans-serif;letter-spacing:.005em;text-transform:uppercase;margin:0}
+.line{display:block;position:relative;overflow:hidden;padding:.065em .03em .08em;margin:-.015em -.03em}
+.line b{font:inherit;display:block}
+.label{font:600 24px/1.4 Body,Arial,sans-serif;letter-spacing:.17em;text-transform:uppercase}
+.top{position:absolute;top:142px;left:92px;right:120px;display:flex;justify-content:space-between;color:#8a939d}
+.bottom{position:absolute;bottom:262px;left:92px;right:142px}
+.brandtitle{position:absolute;left:92px;top:660px}
+.thin{position:absolute;left:0;top:0;width:7px;height:100%;background:var(--blue)}
+.kult{position:absolute;left:92px;top:510px;font-size:221px}
+.kult .blue{color:var(--light);padding-top:.2em}
+#s1 .photo{object-position:67% center}
+#s2 .photo{object-position:60% center}
+.tagline{position:absolute;left:92px;top:990px;font-size:235px}
+.web-shot{position:absolute;width:930px;height:auto;top:560px;left:152px;box-shadow:0 40px 100px #0009;transform:rotate(-4deg);border:1px solid #ffffff25}
+.web-cover{position:absolute;inset:0;background:linear-gradient(180deg,#0b0d10 11%,transparent 44%,#0b0d10 96%)}
+.newtitle{position:absolute;left:92px;top:300px;font-size:221px}
+.endtitle{position:absolute;left:92px;top:650px;font-size:235px}
+.logo{position:absolute;left:90px;top:290px;width:180px;height:auto}
+.url{font:600 41px/1.2 Body,Arial,sans-serif;letter-spacing:-.01em}
+.progress{position:absolute;bottom:0;left:0;height:7px;background:var(--blue);z-index:99}
+</style>
+<div id="stage">
+ <section id="s0" class="scene"><div class="thin"></div><div class="top label"><span>Boxclub</span><span>Köln</span></div><div class="big brandtitle"><span class="line"><b>KURZE</b></span><span class="line"><b>RIPPE</b></span></div><div class="bottom label">Die nächste Runde</div></section>
+ <section id="s1" class="scene"><div id="reveal"><img class="photo" src="../website-entwurf/img/hero.webp"><div class="shade"></div></div><div class="big kult"><span class="line"><b>KULT</b></span><span class="line"><b>BOX CLUB</b></span><span class="line blue"><b>AUS KÖLN</b></span></div><div class="bottom label">Kurze Rippe</div></section>
+ <section id="s2" class="scene"><img class="photo" src="../website-entwurf/img/hands.webp"><div class="shade"></div><div class="top label"><span>Respekt im Ring</span></div><div class="big tagline"><span class="line"><b>ECHTES</b></span><span class="line"><b>BOXEN.</b></span></div></section>
+ <section id="s3" class="scene"><img id="website" class="web-shot" src="assets/website-mobile.png"><div class="web-cover"></div><div class="top label"><span>Die neue Website</span></div><div class="big newtitle"><span class="line"><b>NEUER</b></span><span class="line" style="color:var(--light)"><b>AUFTRITT.</b></span></div><div class="bottom label">Die nächste Runde im Netz</div></section>
+ <section id="s4" class="scene"><div class="thin"></div><img class="logo" src="../website-entwurf/img/logo.png"><div class="big endtitle"><span class="line"><b>BALD</b></span><span class="line" style="color:var(--light)"><b>ONLINE.</b></span></div><div class="bottom"><div class="url">kurze-rippe.de</div><div class="label" style="margin-top:32px;color:#8a939d">Der neue Webauftritt</div></div></section>
+ <div id="progress" class="progress"></div>
+</div>
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));const ease=x=>1-Math.pow(1-clamp(x),4);const scenes=[s0,s1,s2,s3,s4];const bounds=[0,2.3,5,7.4,11.3,15];
+window.seek=function(t){
+ const idx=Math.min(4,bounds.findIndex((v,i)=>i<5&&t>=v&&t<bounds[i+1]));
+ scenes.forEach((s,i)=>{s.style.opacity=i===idx?1:0;s.querySelectorAll('.line b').forEach((b,j)=>{const u=ease((t-bounds[i]-j*.095)/.55);b.style.transform=`translateY(${(1-u)*115}%)`;});});
+ const a=clamp((t-2.65)/1.15);reveal.style.clipPath=`inset(0 ${(1-ease(a))*100}% 0 0)`;
+ s1.querySelector('img').style.transform=`scale(${1.13-.07*clamp((t-2.3)/2.7)})`;
+ s2.querySelector('img').style.transform=`scale(${1.05+.06*clamp((t-5)/2.4)}) translateX(${-1.2*clamp((t-5)/2.4)}%)`;
+ website.style.transform=`rotate(-4deg) translateY(${-120*ease((t-7.4)/3.9)}px) scale(${.95+.07*clamp((t-7.4)/3.9)})`;
+ progress.style.width=(clamp(t/15)*100)+'%';
+};window.seek(.8);
+if(!location.search.includes('render')){let start;function tick(n){start??=n;window.seek(((n-start)/1000)%15);requestAnimationFrame(tick)}requestAnimationFrame(tick)}
+</script></html>
