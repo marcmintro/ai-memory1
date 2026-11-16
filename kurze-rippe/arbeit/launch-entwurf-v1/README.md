@@ -6,7 +6,7 @@ Marc bestätigt im Codex-Chat die Richtung: blaue Website-Variante, rund 15 Seku
 
 - `kurze-rippe-relaunch-teaser-v1.mp4`: 15 Sekunden, 1080 × 1920, 30 fps, H.264 und AAC. Bewegte Typografie, Bild-Reveal, Fotofahrten, Website-Blick, Abschluss „Bald online“. Kein festes Launch-Datum.
 - Originaler synthetischer Percussion-Entwurf aus `sound.py`, ohne Voiceover und ohne Fremdmusik.
-- Bearbeitbare Live-Präsentation im Codex-Chat „Kurze Rippe“, Artifact-Referenz `artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`.
+- Bearbeitbare Live-Präsentation im Codex-Chat „Kurze Rippe“ (zeigt jeweils den aktuellen Überarbeitungsstand), Artifact-Referenz `artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`.
 - `praesentation-vorschau.png`: Übersicht der neun Folien.
 - `deck.mjs`: rekonstruierbare Folienquelle für die Artifact Session. Überschriften Impact, Fließtext Arial. Der Teaser nutzt die Original-Webschriften Big Shoulders Stencil Display und Inter Tight.
 

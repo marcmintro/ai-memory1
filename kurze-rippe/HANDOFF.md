@@ -1,11 +1,14 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-16 (Launch-Entwurf v1) von Codex.
+Zuletzt aktualisiert: 2026-11-16 (Websitefilm und Präsentation v2) von Codex.
 
 ## Stand
 
+- [x] 16.11. v2: Marcs Präzisierung umgesetzt: Websitefilm für die GF in 16:9 (32 Sekunden, Full HD) statt des zunächst angenommenen Hochkant-Teasers als Hauptfilm. Zehn Folien mit neuer Säulengrafik und Unterthemen nach der Übersicht → `arbeit/launch-entwurf-v2/`.
+- [ ] Marc prüft den neuen 16:9-Film und die zusätzliche Säulenfolie.
+
 - [x] 16.11.: Launch-Entwurf v1 in Blau nach Marcs Bestätigung: 15-Sekunden-MP4 im Hochformat mit Ton und neun Folien für die Geschäftsführung → `arbeit/launch-entwurf-v1/`.
-- [ ] Marc prüft Teaser (Tempo, Bilder, Sound) und Präsentation. Noch kein fester Launch-Termin und keine Veröffentlichungsfreigabe.
+- [x] Marc findet den ersten Look grundsätzlich gut und hat den Videozweck präzisiert. Noch kein fester Launch-Termin und keine Veröffentlichungsfreigabe für den Club.
 
 - [x] Arbeitsbereich und Übergabe-Regeln angelegt (`AGENTS.md`, `CLAUDE.md`,
       `.ai-memory.toml`, `context/`).
@@ -34,8 +37,8 @@ Zuletzt aktualisiert: 2026-11-16 (Launch-Entwurf v1) von Codex.
 
 ## Nächster Schritt
 
-Zuerst Marcs Feedback zum neuen Teaser und zur Präsentation einarbeiten.
-Die bearbeitbare Präsentation liegt als Live-Artefakt im Codex-Chat „Kurze Rippe“ (`artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`); Quelle, Übersicht und Video liegen unter `arbeit/launch-entwurf-v1/`. Vorlage für den Entwurf ist die blaue Website. Die finale Website-Farbentscheidung ist dadurch nicht pauschal freigegeben.
+Zuerst Marcs Feedback zum neuen 16:9-Websitefilm und zur Säulenfolie einarbeiten.
+Die aktuelle Live-Präsentation (zehn Folien) liegt im Codex-Chat „Kurze Rippe“ unter `artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`. Quelle, Übersicht und Film liegen unter `arbeit/launch-entwurf-v2/`. Der ältere Hochkantentwurf bleibt in `arbeit/launch-entwurf-v1/` dokumentiert.
 
 Danach mit den bisherigen Aufgaben weitermachen:
 

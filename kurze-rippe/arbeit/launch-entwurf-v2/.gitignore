@@ -1,0 +1,10 @@
+assets/
+frames/
+node_modules
+swift-cache/
+website-film.html
+sound.wav
+silent.mp4
+encode
+verify
+audio.m4a

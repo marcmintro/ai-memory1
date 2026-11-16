@@ -2,6 +2,11 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-16: Websitefilm für die GF im Format 16:9, Säulen mit Unterthemen
+
+**Präzisierung (Marc):** Mit dem Launch-Video war die Vorstellung der Internetseite für die Geschäftsführung im Format 16:9 gemeint. Die frühere Annahme eines Hochkant-Social-Teasers ist damit für den Hauptfilm überholt. Marc findet die bisherige Gestaltung gut. In der Präsentation folgt auf die Übersicht eine weitere Folie mit fünf sichtbaren Säulen und Unterthemen für die Verständlichkeit.
+**Grund:** Der Film soll den Webentwurf zeigen. Die Säulendarstellung soll verdeutlichen, welche konkreten Themen in jeder Säule stecken.
+
 ## 2026-11-16: Blau für den ersten Launch- und Präsentationsentwurf
 
 **Entscheidung (Marc, Codex-Chat):** Blaue Website-Variante als Grundlage, etwa 15 Sekunden Hochkant-Teaser zum Website-Relaunch und eine Präsentation für die Geschäftsführung. Marc bestätigt die vorgeschlagene Kombination ausdrücklich.
