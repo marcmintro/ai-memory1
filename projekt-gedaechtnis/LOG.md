@@ -3,6 +3,11 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-19 – Claude (Feed V6 Schwarz überarbeitet)
+- Marc: Schwarz-Variante war zu schwarz. Jetzt kräftiger Violett-Rot-Orange-Verlauf,
+  Schwarz nur als Band/Akzent (gemessen im Mittel rund 33 % dunkle Fläche).
+- `B_Schwarz/` im V6-Paket ersetzt, Vergleichsbild neu.
+
 ## 2026-11-19 – Claude (Feed V6)
 - Runde hat Feed B (hell) gewählt, mit Korn; nur das Grün soll raus (E-013).
 - Feed V6 gebaut: Variante Warm (Off-White, Violett, Rot, Orange, dunkle Schrift)
