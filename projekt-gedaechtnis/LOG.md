@@ -3,6 +3,11 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-19 – Claude (Feed V6 Midnight Blue)
+- Marc: Variante Schwarz aus dem Dreiervergleich mit Midnight Blue statt Schwarz.
+  Gebaut als `E_MidnightBlue/` (#141d46 / #0e1640 statt Schwarz), Vergleich
+  `Feed_V6_Schwarz_vs_Midnight.jpg`.
+
 ## 2026-11-19 – Claude (Feed V6 Warm mit weißer Schrift)
 - Auf Marcs Wunsch Variante Warm unverändert, nur mit weißer Schrift (`D_Warm_WeisseSchrift/`).
   Auf Off-White-Flächen (Post 03, 08, kleine Labels) kaum lesbar, auf Farbe gut.
