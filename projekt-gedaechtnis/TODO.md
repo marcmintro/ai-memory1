@@ -5,7 +5,7 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Feed V5: Marc wählt A (Sunset) oder B (Hell), `Alrerady Gone./Instagram_Feed_V5_AB_2026-11-13/`
+- [ ] Feed V6: Marc wählt Warm oder Schwarz, `Alrerady Gone./Instagram_Feed_V6_Hell_2026-11-19/`, danach finales Feed-Branding festhalten
 - [ ] Optional: Foto-Cover 04/05/06/09/13/14 leicht mit Filmkorn angleichen
 - [ ] Logo-Animation weiß (`Alrerady Gone./Logo_Liquid_Weiss_2026-11-13/`) von Marc abnehmen lassen
 
@@ -21,6 +21,8 @@ statt sie zu löschen.
   `LOGO_ENTWICKLUNG/PLOT.ai`, die Markenfilme
 
 ## Erledigt
+
+- [x] 2026-11-19: Feed B gewählt; V6 ohne Grün in zwei Varianten (Warm, Schwarz) gebaut
 
 - [x] 2026-11-13: Logo-Animation in weißem Liquid gebaut, Claim „The good will last.“ korrigiert
 

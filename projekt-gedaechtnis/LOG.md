@@ -3,6 +3,13 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-19 – Claude (Feed V6)
+- Runde hat Feed B (hell) gewählt, mit Korn; nur das Grün soll raus (E-013).
+- Feed V6 gebaut: Variante Warm (Off-White, Violett, Rot, Orange, dunkle Schrift)
+  und Variante Schwarz (Schwarz statt Grün, weiße Schrift). Fotos und Texte wie V5.
+- Abgelegt: `Alrerady Gone./Instagram_Feed_V6_Hell_2026-11-19/` mit Vergleichsbild.
+- Offen: Wahl Warm oder Schwarz, Abnahme der weißen Logo-Animation.
+
 ## 2026-11-13 – Claude (Logo-Animation weiß)
 - Neue Logo-Animation nach E-010: weiße, glänzende Tropfen fließen zum originalen
   A, dann flaches weißes A, „ALREADY GONE.“ in Inter Bold und „The good will

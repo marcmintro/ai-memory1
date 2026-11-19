@@ -123,4 +123,13 @@ Vorlage:
   Reine Produktfotos bleiben farbig, Fotos mit Menschen werden teilweise
   schwarz-weiß. Der Feed wird als A (Sunset, dunkel) und B (heller
   Pastellverlauf aus Codex) zum Vergleich gebaut.
-- Status: gültig, Wahl zwischen A und B offen
+- Status: gültig. Am 2026-11-19 in der Runde entschieden: B (heller Verlauf) gilt, siehe E-013
+
+## E-013: Heller Feed B als Basis, Grün raus
+- Datum: 2026-11-19
+- Entschieden von: Marc mit Team
+- Entscheidung: Hintergrund aus dem hellen Feed B mit Noise/Korn. Das Grün/Mint
+  im Verlauf fällt weg. Zum Vergleich gebaut (Feed V6): Warm-Verlauf aus
+  Off-White, Violett, Rot, Orange mit dunkler Schrift, und Schwarz statt Grün mit
+  weißer Schrift. Daraus entsteht das finale Feed-Branding.
+- Status: gültig, Wahl zwischen Warm und Schwarz offen
