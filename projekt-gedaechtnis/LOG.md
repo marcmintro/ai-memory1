@@ -3,6 +3,12 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-19 – Claude (Feed V6 Hell mit weißer Schrift)
+- Marc wollte den hellen Feed auch mit weißer Schrift. Dritte Variante `C_Hell_Weiss/`:
+  warmer Verlauf abgedunkelt (Mauve statt Off-White, kräftigeres Violett/Rot/Orange),
+  mittlere Helligkeit ca. 115–130 von 255, weiße Schrift gut lesbar.
+- `Feed_V6_Vergleich_3.jpg` zeigt alle drei Varianten nebeneinander.
+
 ## 2026-11-19 – Claude (Feed V6 Schwarz überarbeitet)
 - Marc: Schwarz-Variante war zu schwarz. Jetzt kräftiger Violett-Rot-Orange-Verlauf,
   Schwarz nur als Band/Akzent (gemessen im Mittel rund 33 % dunkle Fläche).

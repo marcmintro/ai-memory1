@@ -5,7 +5,7 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Feed V6: Marc wählt Warm oder Schwarz, `Alrerady Gone./Instagram_Feed_V6_Hell_2026-11-19/`, danach finales Feed-Branding festhalten
+- [ ] Feed V6: Marc wählt Warm, Hell mit weißer Schrift oder Schwarz, `Alrerady Gone./Instagram_Feed_V6_Hell_2026-11-19/`, danach finales Feed-Branding festhalten
 - [ ] Optional: Foto-Cover 04/05/06/09/13/14 leicht mit Filmkorn angleichen
 - [ ] Logo-Animation weiß (`Alrerady Gone./Logo_Liquid_Weiss_2026-11-13/`) von Marc abnehmen lassen
 
