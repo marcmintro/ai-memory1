@@ -3,6 +3,10 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-19 – Claude (Feed V6 Warm mit weißer Schrift)
+- Auf Marcs Wunsch Variante Warm unverändert, nur mit weißer Schrift (`D_Warm_WeisseSchrift/`).
+  Auf Off-White-Flächen (Post 03, 08, kleine Labels) kaum lesbar, auf Farbe gut.
+
 ## 2026-11-19 – Claude (Feed V6 Hell mit weißer Schrift)
 - Marc wollte den hellen Feed auch mit weißer Schrift. Dritte Variante `C_Hell_Weiss/`:
   warmer Verlauf abgedunkelt (Mauve statt Off-White, kräftigeres Violett/Rot/Orange),
