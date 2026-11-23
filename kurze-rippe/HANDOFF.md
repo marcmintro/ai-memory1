@@ -4,6 +4,8 @@ Zuletzt aktualisiert: 2026-11-23 (Präsentation v3 mit Produktionswegen) von Cod
 
 ## Stand
 
+- [x] 23.11. Ergänzung: 850 €/Monat ausdrücklich beibehalten. Auf Honorarseite und im Produktionsablauf deutlich ergänzt, dass fehlendes Material vorab neu produziert werden muss; Mediatag separat, möglicher Vorrat für etwa 2–3 Monate je nach Themenplan.
+
 - [x] 23.11. v3: Präsentation auf 14 Folien erweitert: allgemeiner Produktionsweg und fünf konkrete Produktionsfolien für alle Unterthemen. Material-Neuproduktion erklärt, monatliches Honorar 850 €, Start mit Website-Relaunch im Januar 2027, Ankündigung nach Weihnachten 2026. Filmfolie entfernt → `arbeit/praesentation-v3/`.
 - [ ] Marc prüft die Produktionswege und die Verteilung zwischen Club-Handyaufnahmen und separatem Drehtermin.
 

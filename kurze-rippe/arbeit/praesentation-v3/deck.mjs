@@ -42,12 +42,13 @@ function workflow(p){
  const s=blank(p,4);head(s,'WIE DAS MATERIAL ENTSTEHT',64,53,1152,95,65);
  txt(s,'Ein Beitrag pro Woche. Die Säulen liefern den Themenvorrat.\nFehlende Aufnahmen entstehen gezielt für die ausgewählten Themen.',68,161,1120,70,26,C.light);
  const steps=[
-  ['BEDARF FESTLEGEN','Wir stimmen die Themen ab und geben pro Beitrag Fragen, Motive und eine kurze Aufnahmeliste vor.'],
-  ['NEU AUFNEHMEN','Der Club filmt kurze Handyaufnahmen nach Briefing. Alternativ dreht Marc an einem separat kalkulierten Termin.'],
+  ['BEDARF FESTLEGEN','Wir sichten vorhandene Fotos und Clips. Für fehlende Motive legen wir fest, welche neuen Aufnahmen die geplanten Beiträge brauchen.'],
+  ['NEU AUFNEHMEN','Fehlende Fotos und Clips produzieren wir bei Bedarf an einem separat angebotenen Mediatag. Ergänzend liefert der Club kurze Handyaufnahmen nach Briefing.'],
   ['BEITRÄGE PRODUZIEREN','Wir wählen aus, schneiden die Clips und erstellen Untertitel, Gestaltung und Texte.'],
   ['PRÜFEN UND VERÖFFENTLICHEN','Der Club bestätigt Inhalte und Einwilligungen. Wir planen die freigegebenen Beiträge ein.']
  ];
- steps.forEach(([a,b],i)=>{const y=254+i*102;head(s,String(i+1).padStart(2,'0'),68,y-4,72,66,46,C.light);head(s,a,168,y,386,78,31);txt(s,b,566,y+1,650,86,24)});
+ steps.forEach(([a,b],i)=>{const y=254+i*102;head(s,String(i+1).padStart(2,'0'),68,y-4,72,66,46,C.light);head(s,a,168,y,386,78,31);txt(s,b,566,y+1,650,92,24)});
+ txt(s,'Ziel eines Mediatags: Materialvorrat für etwa 2–3 Monate, abhängig vom Themenplan.',68,680,1090,26,17,C.muted);
  return s;
 }
 function production(p,data,index){
@@ -82,7 +83,8 @@ function drawOffer(s){
  txt(s,'Website und Relaunchvorbereitung\nContent-Konzept und Vorlagen\nMaterialsichtung und Produktionsplan\nProfile und Präsentation',72,410,530,186,24);
  head(s,'850 €',688,205,500,120,100,C.light);txt(s,'Betreuung pro Monat',692,337,490,40,26);
  txt(s,'Betreuung ab Januar 2027\nEin Beitrag pro Woche\nAufnahmebriefings, Schnitt und Gestaltung\nTexte, Planung und Veröffentlichung\nAbstimmung und Monatsauswertung',692,410,524,186,24);
- txt(s,'Kurze Handyaufnahmen liefert der Club nach Briefing. Drehtage separat nach Angebot.\nDomain und Hosting über den Club. Umsatzsteuerangabe vor finalem Angebot klären.',72,625,1120,61,18,C.muted);
+ txt(s,'Fehlendes Foto- und Videomaterial produzieren wir gezielt vorab.\nEin Mediatag zur Materialproduktion kommt als separates Angebot dazu.',72,594,1120,66,23,C.light);
+ txt(s,'Domain und Hosting über den Club. Umsatzsteuerangabe vor finalem Angebot klären.',72,674,1090,27,17,C.muted);
  s.speakerNotes.text=sources+' 850 Euro ist das neue monatliche Betreuungshonorar ab Januar. Das Start-Paket bleibt bei den bereits bestätigten 1.890 Euro. Vor-Ort-Drehtage sind nicht pauschal im Monatshonorar enthalten. Steuerliche Preisangabe vor finalem Angebot klären.';
 }
 export async function revise(p){

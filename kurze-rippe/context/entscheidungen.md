@@ -2,6 +2,11 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-23: 850 €/Monat bleiben, fehlendes Material vorab produzieren
+
+**Präzisierung (Marc):** Trotz der früheren 650-€-Kalkulation bleibt das Honorar bei 850 €/Monat. Das Angebot soll ausdrücklich erwähnen, dass nicht vorhandenes Foto- und Videomaterial neu erstellt werden muss. Ein Mediatag ist weiterhin ein separater Posten; als Planungsziel kann dabei Material für etwa zwei bis drei Monate entstehen. Das ist abhängig vom abgestimmten Themenplan und keine pauschale Liefergarantie.
+**Umsetzung:** Sichtbarer Hinweis auf der Honorarseite und im allgemeinen Produktionsablauf. Die monatliche Betreuung deckt Aufbereitung und Veröffentlichung ab, separate Aufnahmeproduktion kommt bei Bedarf als eigenes Angebot hinzu.
+
 ## 2026-11-23: Produktionswege erklären, Start Januar, Honorar 850 €/Monat
 
 **Entscheidung (Marc, Codex-Chat):** Die Präsentation erklärt für die Unterthemen jeder Säule, wie wir Beiträge produzieren, wenn Ausgangsmaterial fehlt. Regelmäßiger Start im Januar 2027 gemeinsam mit dem Website-Relaunch; Anmoderation nach Weihnachten 2026. Die Filmfolie entfällt. Marc wählt 850 € Honorar, im bisherigen Angebotskontext als monatliche Betreuung umgesetzt. Das Start-Paket bleibt bei 1.890 €.

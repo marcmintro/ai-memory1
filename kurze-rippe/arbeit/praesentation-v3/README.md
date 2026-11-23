@@ -21,6 +21,8 @@ Trainerporträts, Mitgliederstimmen und Trainerempfehlungen entstehen aus neuen 
 
 Diese Aufnahmewege sind ein Vorschlag zur Abstimmung. Vor-Ort-Drehtage sind wie zuvor nicht pauschal im monatlichen Betreuungshonorar enthalten.
 
+**Marcs ausdrückliche Ergänzung vom 23.11.:** Das Monatshonorar bleibt bei 850 €. Fehlendes Foto- und Videomaterial produzieren wir gezielt vorab. Dafür planen wir bei Bedarf einen separat angebotenen Mediatag. Planungsziel kann ein Materialvorrat für etwa zwei bis drei Monate sein, abhängig von Themenplan und Aufnahmeumfang. Die monatliche Betreuung umfasst die anschließende Aufbereitung und Veröffentlichung. Dieser Hinweis steht gut sichtbar auf der Honorarseite und im Produktionsablauf.
+
 ## Zeit und Honorar
 
 Nach Weihnachten 2026 kündigen wir den Relaunch an. Im Januar 2027 starten Website und regelmäßige Betreuung gemeinsam. Ab Februar führen wir die Formate fort und stimmen neue Themen und Aufnahmen monatlich ab. Ein konkreter Veröffentlichungstag bleibt offen.
