@@ -1,8 +1,10 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-23 (Honorarseite und Aufnahmeweg gestrafft) von Codex.
+Zuletzt aktualisiert: 2026-11-23 (PDF mit eingebetteten Bildern exportiert) von Codex.
 
 ## Stand
+
+- [x] 23.11. PDF-Export mit allen 15 Folien und fest eingebetteten Bildern erstellt und geprüft → `arbeit/praesentation-pdf/`. Marc meldet fehlende erste Bilder im PowerPoint-Export. Die PDF nutzt geprüfte hochauflösende Folienansichten und benötigt keine externen Bilddateien. Editierbarer Stand bleibt in der Live-Präsentation; PowerPoint wurde nicht repariert.
 
 - [x] 23.11. Auf Marcs Wunsch Domain-/Hosting- und Umsatzsteuerhinweis von der Honorarseite entfernt. Aufnahmeweg auf allen fünf Säulenfolien jetzt „Handy-Content oder professionelle Kamera, je nach Format“, allgemeiner Produktionsablauf entsprechend angepasst. Honorar 850 €/Monat und Hinweis auf separat angebotene Materialproduktion bleiben bestehen. Live-Präsentation weiterhin 15 Folien.
 

@@ -2,6 +2,11 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-23: PDF mit vollständig eingebetteten Folienbildern
+
+**Wunsch (Marc):** Präsentation als PDF exportieren, einschließlich aller Bilder. Im bisherigen PowerPoint-Export fehlen ihm die ersten Bilder.
+**Umsetzung:** Aktuellen Stand mit 15 Folien als hochauflösende Bild-PDF exportiert. Alle Folienbilder sind fest eingebettet, die ersten Bildseiten und das Instagram-Grid wurden aus der fertigen PDF geprüft. Die Live-Präsentation bleibt editierbar. Der PDF-Export repariert den PowerPoint-Export nicht.
+
 ## 2026-11-23: Honorarseite straffen und Aufnahmeweg neutral formulieren
 
 **Wunsch (Marc):** Hinweis zu Domain und Umsatzsteuer unten auf der Honorarseite entfernen. Statt „Club-Handy“ den Aufnahmeweg als Handy-Content oder richtige Kamera je nach Format beschreiben.
