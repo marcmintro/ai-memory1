@@ -5,7 +5,10 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Feed V6: Marc wählt Warm, Hell mit weißer Schrift oder Schwarz, `Alrerady Gone./Instagram_Feed_V6_Hell_2026-11-19/`, danach finales Feed-Branding festhalten
+- [ ] Feed V7 Midnight von Marc abnehmen lassen (`Alrerady Gone./Instagram_Feed_V7_Midnight_2026-11-23/`)
+- [ ] Klären: EMOTION Teil 3 enthält „Aus arrel wird ALREADY GONE.“, deshalb nach Weihnachten eingeplant (oder Zeile rausschneiden)
+- [ ] Reels EMOTION 1–3 und ANWALT: echte Cover bauen, sobald Marc geschnitten hat
+- [ ] Phase nach Weihnachten gestalten: EMOTION Teil 3 und Logo-Animation (ca. 27.12.), alte/neue Marke mit Socken 082–085 (ca. 29.12.), EMOTION ganz (ca. 02.01.), Launch 05.01.
 - [ ] Optional: Foto-Cover 04/05/06/09/13/14 leicht mit Filmkorn angleichen
 - [ ] Logo-Animation weiß (`Alrerady Gone./Logo_Liquid_Weiss_2026-11-13/`) von Marc abnehmen lassen
 
@@ -21,6 +24,8 @@ statt sie zu löschen.
   `LOGO_ENTWICKLUNG/PLOT.ai`, die Markenfilme
 
 ## Erledigt
+
+- [x] 2026-11-23: Midnight gewählt; Pins angepasst und 12 Posts (25.11.–18.12.) ohne Namen/Logo als Feed V7 gebaut
 
 - [x] 2026-11-19: Feed B gewählt; V6 ohne Grün in zwei Varianten (Warm, Schwarz) gebaut
 

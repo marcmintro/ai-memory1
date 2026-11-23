@@ -132,4 +132,24 @@ Vorlage:
   im Verlauf fällt weg. Zum Vergleich gebaut (Feed V6): Warm-Verlauf aus
   Off-White, Violett, Rot, Orange mit dunkler Schrift, und Schwarz statt Grün mit
   weißer Schrift. Daraus entsteht das finale Feed-Branding.
-- Status: gültig, Wahl zwischen Warm und Schwarz offen
+- Status: gültig. Am 2026-11-23 gewählt: Variante Midnight Blue, siehe E-014
+
+## E-014: Midnight-Feed, Launch 05.01., Name erst nach Weihnachten
+- Datum: 2026-11-23
+- Entschieden von: Marc
+- Entscheidung:
+  - Feed-Look ist die Midnight-Blue-Variante aus V6.
+  - Website-Launch am 05.01.2027.
+  - Kernzeilen: „ALREADY GONE“, „The good will last.“, „Gleiche Werte.
+    Gleiche Haltung. Neuer Name.“ (Haltung statt Struktur).
+  - 12 Teaser-Posts vom 25.11. bis 18.12. deuten an, dass sich etwas ändert.
+    Name ALREADY GONE und Logo erscheinen erst nach Weihnachten.
+  - Drei fixierte Pins: links Datum 05.01.; Mitte nur handschriftlich „The good
+    will last.“; rechts nur „Gleiche Werte. Gleiche Haltung. Neuer Name.“
+    (unterer Teil weg).
+  - Reels: drei Teile, die zusammen den Film „EMOTION“ ergeben (am Ende als
+    Ganzes posten), dazu ein Reel „ANWALT“. Alles Platzhalter, bis Marc
+    geschnitten hat.
+  - Neue Fotos (Gründer, alte/neue Marke, Karte schreiben):
+    LaCie `alreadygone-1/LR_AG-PEOPZ`.
+- Status: gültig. Umsetzung als Feed V7 Midnight (2026-11-23), Abnahme offen

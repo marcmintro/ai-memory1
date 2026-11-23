@@ -1,6 +1,6 @@
 # Aktueller Stand
 
-*Zuletzt aktualisiert: 2026-11-13*
+*Zuletzt aktualisiert: 2026-11-23*
 
 **Projekt:** ALREADY-GONE
 **Marke:** Already Gone (vorher arrel)
@@ -27,6 +27,11 @@ bekommt eine neue Stimme. Details und Markentexte stehen in
   Launchplan zum 01.12. und zwei Logo-Animationen entstanden, siehe
   [`CODEX-ERGEBNISSE.md`](CODEX-ERGEBNISSE.md).
 - Die Nummerierung „01“ deutet auf weitere Kapitel hin, die noch fehlen.
+- Stand 2026-11-23: Feed-Look „Midnight“ gewählt. Website-Launch ist am
+  **05.01.2027** (nicht mehr 01.12.). Bis Weihnachten 12 Posts (25.11.–18.12.)
+  ohne Namen und Logo, Absender weiter „arrel“. Name und Logo erst nach
+  Weihnachten. Paket: `Alrerady Gone./Instagram_Feed_V7_Midnight_2026-11-23/`
+  (siehe E-014).
 
 ## Nächster Schritt
 

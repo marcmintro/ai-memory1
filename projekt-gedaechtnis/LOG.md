@@ -3,6 +3,18 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-23 – Claude (Feed V7 Midnight, 12 Posts bis 18.12.)
+- Marc: Midnight gewählt, Launch 05.01., Name und Logo erst nach Weihnachten,
+  12 Posts vom 25.11. bis 18.12. Neue Fotos von der LaCie (`LR_AG-PEOPZ`) und
+  Frames aus EMOTION Teil 1–3 gesichtet.
+- Pins neu: links 05.01., Mitte nur handschriftlich „The good will last.“,
+  rechts „Gleiche Werte. Gleiche Haltung. Neuer Name.“ ohne unteren Teil.
+- 12 Posts gebaut (3 Reels, 3 Textposts, Gründerfotos, Karussell, Produkte),
+  Reel-Cover zusätzlich in 9:16. Foto 081: Kartentext unscharf, weil Name und
+  Logo darauf stehen. Paket mit LIESMICH und Posting-Plan:
+  `Alrerady Gone./Instagram_Feed_V7_Midnight_2026-11-23/`.
+- Offen: Abnahme, EMOTION Teil 3 (zeigt den Namen), echte Reel-Cover.
+
 ## 2026-11-19 – Claude (Feed V6 Midnight Blue)
 - Marc: Variante Schwarz aus dem Dreiervergleich mit Midnight Blue statt Schwarz.
   Gebaut als `E_MidnightBlue/` (#141d46 / #0e1640 statt Schwarz), Vergleich
