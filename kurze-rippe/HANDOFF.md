@@ -1,8 +1,11 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-23 (Präsentation v3 mit Produktionswegen) von Codex.
+Zuletzt aktualisiert: 2026-11-23 (Instagram-Grid als zusätzliche Folie) von Codex.
 
 ## Stand
+
+- [x] 23.11. Instagram-Grid Entwurf 01 aus Marcs Lightroom-Ordner: 343 Dateien gesichtet, sechs Motive ausgewählt, 3×3-Raster mit sechs Foto- und drei Typografie-Posts gestaltet. Website-Schriften und Blau übernommen. Als neue Folie 6 nach den Säulen ergänzt, Präsentation jetzt 15 Folien. Quellen, Einzelmotive und Vorschauen → `arbeit/instagram-grid-v1/`.
+- [ ] Marc prüft den Grid-Look. Aktuelle Trainerporträts, Aussagen und konkrete Informationsbeiträge brauchen weiterhin gezielte neue Aufnahmen und bestätigte Fakten.
 
 - [x] 23.11. Ergänzung: 850 €/Monat ausdrücklich beibehalten. Auf Honorarseite und im Produktionsablauf deutlich ergänzt, dass fehlendes Material vorab neu produziert werden muss; Mediatag separat, möglicher Vorrat für etwa 2–3 Monate je nach Themenplan.
 
@@ -42,8 +45,8 @@ Zuletzt aktualisiert: 2026-11-23 (Präsentation v3 mit Produktionswegen) von Cod
 
 ## Nächster Schritt
 
-Zuerst Marcs Feedback zur Präsentation v3 einarbeiten, insbesondere zur konkreten Materialproduktion und zur Aufgabenverteilung. Danach die ersten Januar-Themen auswählen und dafür Aufnahmebriefings erstellen.
-Aktuelle Live-Präsentation: 14 Folien, `artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`. Quelle und Vorschau unter `arbeit/praesentation-v3/`. Maßgeblich sind jetzt Januar 2027 als gemeinsamer Website- und Betreuungsstart, Ankündigung nach Weihnachten 2026 und 850 €/Monat. Das einmalige Start-Paket bleibt 1.890 €. Drehtage bleiben separat. Frühere Versionen sind Verlauf.
+Zuerst Marcs Feedback zum Instagram-Grid und zur Materialproduktion einarbeiten. Danach die ersten Januar-Themen auswählen und dafür Aufnahmebriefings erstellen.
+Aktuelle Live-Präsentation: 15 Folien, `artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`. Neueste Ergänzung und Vorschau unter `arbeit/instagram-grid-v1/`, baut auf `arbeit/praesentation-v3/` auf. Maßgeblich sind Januar 2027 als gemeinsamer Website- und Betreuungsstart, Ankündigung nach Weihnachten 2026 und 850 €/Monat. Das einmalige Start-Paket bleibt 1.890 €. Drehtage bleiben separat. Frühere Versionen sind Verlauf.
 
 Danach mit den bisherigen Aufgaben weitermachen:
 

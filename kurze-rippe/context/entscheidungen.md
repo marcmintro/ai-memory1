@@ -2,6 +2,12 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-23: Instagram-Grid als Gestaltungsentwurf
+
+**Auftrag (Marc):** Den Lightroom-Ordner erneut sichten, die geplante Social-Media-Arbeit mit einem Instagram-Grid visualisieren und dieses als Folie in die Präsentation einfügen. Kurz Typografie und Layout vorschlagen.
+**Entwurf (Codex, noch zur Abstimmung):** 3×3-Raster, sechs Fotomotive und drei Typografie-Beiträge. Big Shoulders Stencil Display / Big Shoulders Display und Inter Tight aus dem bestehenden blauen Website-Entwurf, dazu Blau, Schwarz und gebrochenes Weiß. Alle fünf Säulen erscheinen als wiederkehrende Seriennamen. Neue Folie 6, insgesamt 15 Folien.
+**Materialbefund:** 343 JPEG-Dateien einschließlich 62 Web-Exporten, viele Varianten eines inszenierten Shootings. Sechs ausgewählte Aufnahmen aus März/April 2020 tragen den Look, ersetzen aber keine aktuellen Trainerporträts, O-Töne und Fakten. Die bisher geplante Neuproduktion bleibt erforderlich. Kein verbindlicher Redaktionsplan und keine Veröffentlichungsfreigabe.
+
 ## 2026-11-23: 850 €/Monat bleiben, fehlendes Material vorab produzieren
 
 **Präzisierung (Marc):** Trotz der früheren 650-€-Kalkulation bleibt das Honorar bei 850 €/Monat. Das Angebot soll ausdrücklich erwähnen, dass nicht vorhandenes Foto- und Videomaterial neu erstellt werden muss. Ein Mediatag ist weiterhin ein separater Posten; als Planungsziel kann dabei Material für etwa zwei bis drei Monate entstehen. Das ist abhängig vom abgestimmten Themenplan und keine pauschale Liefergarantie.

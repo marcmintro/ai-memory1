@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Kurze Rippe · Instagram Grid · Entwurf 01</title>
+<style>
+@font-face{font-family:Stencil;src:url('assets/fonts/stencil0.ttf');font-weight:900}
+@font-face{font-family:Display;src:url('assets/fonts/display0.ttf');font-weight:900}
+@font-face{font-family:Inter;src:url('assets/fonts/body0.ttf');font-weight:400}
+@font-face{font-family:Inter;src:url('assets/fonts/body1.ttf');font-weight:600}
+:root{--ink:#0b0d10;--chalk:#e9edf1;--blue:#4f7396;--light:#7d9fc0}
+*{box-sizing:border-box}html,body{margin:0;background:var(--ink);color:var(--chalk)}
+body{font-family:Inter,Arial,sans-serif}
+#grid{display:grid;grid-template-columns:repeat(3,540px);gap:6px;width:1632px}
+.post{position:relative;width:540px;height:720px;overflow:hidden;background:var(--ink)}
+.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,13,16,.32),transparent 34%,rgba(11,13,16,.12) 48%,rgba(11,13,16,.86))}
+.eyebrow{position:absolute;top:32px;left:30px;font-size:14px;font-weight:600;letter-spacing:2px;text-transform:uppercase}
+.foot{position:absolute;bottom:30px;left:30px;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:1.7px;text-transform:uppercase}
+.corner{position:absolute;bottom:29px;right:30px;width:72px;height:53px;object-fit:contain}
+.headline{position:absolute;left:29px;right:24px;margin:0;font:900 105px/.9 Stencil,sans-serif;letter-spacing:-1.5px;text-transform:uppercase}
+.bottom{bottom:112px}
+.small-title{position:absolute;left:30px;bottom:104px;margin:0;font:900 67px/.95 Display,sans-serif;text-transform:uppercase}
+.blue{background:var(--blue)}.chalk{background:var(--chalk);color:var(--ink)}
+.entry .headline{top:152px;font-size:125px;line-height:.94}
+.entry .subline{position:absolute;left:32px;bottom:115px;font-size:23px;line-height:1.35}
+.detail .photo{object-position:53% center}.detail .small-title{bottom:107px}
+.technique .photo{object-position:center 29%}.technique .headline{font-size:104px}
+.brand .headline{top:147px;font-size:125px;line-height:.96;color:var(--light);white-space:nowrap}
+.brand .brand-word{position:absolute;left:32px;bottom:107px;margin:0;font:900 46px/.9 Display,sans-serif;letter-spacing:1px}
+.training .photo{object-position:51% center}.training .small-title{font-size:68px}
+.gym .photo{object-position:49% center}.gym .headline{font-size:102px}
+.ring .photo{object-position:50% center}.ring .headline{top:108px;bottom:auto;font-size:108px}
+.relaunch .headline{top:155px;font-size:114px;line-height:.95}
+.relaunch .foot{font-size:16px;line-height:1.6;letter-spacing:1px}
+.relaunch .corner{filter:invert(1)}
+@media print{body{print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<main id="grid" aria-label="Entwurf eines Instagram-Grids mit neun Beiträgen">
+ <article class="post faces" data-id="01-gesichter">
+  <img class="photo" src="assets/KR-110.jpg" alt="Boxer im blauen Licht im Ring">
+  <div class="shade"></div><div class="eyebrow">Die Gesichter</div>
+  <h2 class="headline bottom">In deiner<br>Ecke</h2>
+  <div class="foot">Menschen im Club</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post blue entry" data-id="02-einstieg">
+  <div class="eyebrow">Dein Einstieg</div><h2 class="headline">Deine<br>erste<br>Runde</h2>
+  <div class="subline">Was dich beim<br>Probetraining erwartet.</div>
+  <div class="foot">Fragen vor dem Start</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post detail" data-id="03-gymdetail">
+  <img class="photo" src="assets/KR-179.jpg" alt="Boxbirne als Detail im Gym"><div class="shade"></div>
+  <div class="eyebrow">Kult &amp; Old School</div><h2 class="small-title">Unser Gym</h2>
+  <div class="foot">Ein Blick ins Detail</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post technique" data-id="04-boxen">
+  <img class="photo" src="assets/KR-146.jpg" alt="Boxer mit erhobenen Händen im Ring"><div class="shade"></div>
+  <div class="eyebrow">Echtes Boxen</div><h2 class="headline bottom">Deckung<br>hoch</h2>
+  <div class="foot">Technik im Fokus</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post brand" data-id="05-marke">
+  <div class="eyebrow">Kurze Rippe</div><h2 class="headline">Kult<br>Box Club<br>aus Köln</h2>
+  <p class="brand-word">KURZE RIPPE BOXCLUB</p>
+  <div class="foot">Boxen verbindet</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post training" data-id="06-training">
+  <img class="photo" src="assets/KR-231.jpg" alt="Training an der Boxbirne"><div class="shade"></div>
+  <div class="eyebrow">Echtes Boxen</div><h2 class="small-title">Rhythmus<br>finden</h2>
+  <div class="foot">Einblick ins Training</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post gym" data-id="07-club">
+  <img class="photo" src="assets/KR-1.jpg" alt="Blick in den Boxclub"><div class="shade"></div>
+  <div class="eyebrow">Kult &amp; Old School</div><h2 class="headline bottom">Boxen<br>in Köln</h2>
+  <div class="foot">Zu Hause im Gym</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post ring" data-id="08-ring">
+  <img class="photo" src="assets/KR-36.jpg" alt="Boxer als Silhouette im Ring"><div class="shade"></div>
+  <div class="eyebrow">Ring frei</div><h2 class="headline">Runde<br>für Runde</h2>
+  <div class="foot">Sport im Mittelpunkt</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+ <article class="post chalk relaunch" data-id="09-relaunch">
+  <div class="eyebrow">Website-Relaunch</div><h2 class="headline">Unser<br>neuer<br>Auftritt</h2>
+  <div class="foot">Januar 2027<br>kurze-rippe.de</div><img class="corner" src="assets/logo.png" alt="Kurze Rippe">
+ </article>
+</main>
+</body>
+</html>

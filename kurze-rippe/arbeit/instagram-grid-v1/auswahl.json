@@ -1,0 +1,56 @@
+[
+  {
+    "name": "KR-110.jpg",
+    "relative": "Neuer Ordner/KR-110.jpg",
+    "size": [
+      7952,
+      4472
+    ],
+    "capture_date": "2020:03:12 15:46:37"
+  },
+  {
+    "name": "KR-179.jpg",
+    "relative": "Neuer Ordner/KR-179.jpg",
+    "size": [
+      7952,
+      4472
+    ],
+    "capture_date": "2020:03:12 15:49:32"
+  },
+  {
+    "name": "KR-146.jpg",
+    "relative": "Neuer Ordner/KR-146.jpg",
+    "size": [
+      4472,
+      7952
+    ],
+    "capture_date": "2020:03:12 15:48:13"
+  },
+  {
+    "name": "KR-231.jpg",
+    "relative": "KR-231.jpg",
+    "size": [
+      4472,
+      7952
+    ],
+    "capture_date": "2020:03:12 15:51:51"
+  },
+  {
+    "name": "KR-1.jpg",
+    "relative": "Neuer Ordner/KR-1.jpg",
+    "size": [
+      7952,
+      4472
+    ],
+    "capture_date": "2020:03:12 15:41:58"
+  },
+  {
+    "name": "KR-36.jpg",
+    "relative": "Neuer Ordner/KR-36.jpg",
+    "size": [
+      4472,
+      7952
+    ],
+    "capture_date": "2020:03:12 15:43:15"
+  }
+]
