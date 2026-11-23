@@ -1,11 +1,14 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-16 (Websitefilm und Präsentation v2) von Codex.
+Zuletzt aktualisiert: 2026-11-23 (Präsentation v3 mit Produktionswegen) von Codex.
 
 ## Stand
 
+- [x] 23.11. v3: Präsentation auf 14 Folien erweitert: allgemeiner Produktionsweg und fünf konkrete Produktionsfolien für alle Unterthemen. Material-Neuproduktion erklärt, monatliches Honorar 850 €, Start mit Website-Relaunch im Januar 2027, Ankündigung nach Weihnachten 2026. Filmfolie entfernt → `arbeit/praesentation-v3/`.
+- [ ] Marc prüft die Produktionswege und die Verteilung zwischen Club-Handyaufnahmen und separatem Drehtermin.
+
 - [x] 16.11. v2: Marcs Präzisierung umgesetzt: Websitefilm für die GF in 16:9 (32 Sekunden, Full HD) statt des zunächst angenommenen Hochkant-Teasers als Hauptfilm. Zehn Folien mit neuer Säulengrafik und Unterthemen nach der Übersicht → `arbeit/launch-entwurf-v2/`.
-- [ ] Marc prüft den neuen 16:9-Film und die zusätzliche Säulenfolie.
+- [x] Weiteres Präsentationsfeedback von Marc am 23.11. in v3 eingearbeitet; Filmfolie wird nicht mehr benötigt.
 
 - [x] 16.11.: Launch-Entwurf v1 in Blau nach Marcs Bestätigung: 15-Sekunden-MP4 im Hochformat mit Ton und neun Folien für die Geschäftsführung → `arbeit/launch-entwurf-v1/`.
 - [x] Marc findet den ersten Look grundsätzlich gut und hat den Videozweck präzisiert. Noch kein fester Launch-Termin und keine Veröffentlichungsfreigabe für den Club.
@@ -37,8 +40,8 @@ Zuletzt aktualisiert: 2026-11-16 (Websitefilm und Präsentation v2) von Codex.
 
 ## Nächster Schritt
 
-Zuerst Marcs Feedback zum neuen 16:9-Websitefilm und zur Säulenfolie einarbeiten.
-Die aktuelle Live-Präsentation (zehn Folien) liegt im Codex-Chat „Kurze Rippe“ unter `artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`. Quelle, Übersicht und Film liegen unter `arbeit/launch-entwurf-v2/`. Der ältere Hochkantentwurf bleibt in `arbeit/launch-entwurf-v1/` dokumentiert.
+Zuerst Marcs Feedback zur Präsentation v3 einarbeiten, insbesondere zur konkreten Materialproduktion und zur Aufgabenverteilung. Danach die ersten Januar-Themen auswählen und dafür Aufnahmebriefings erstellen.
+Aktuelle Live-Präsentation: 14 Folien, `artifact_jovCuWh78XphC34tnPPeePoirWFQg5xb`. Quelle und Vorschau unter `arbeit/praesentation-v3/`. Maßgeblich sind jetzt Januar 2027 als gemeinsamer Website- und Betreuungsstart, Ankündigung nach Weihnachten 2026 und 850 €/Monat. Das einmalige Start-Paket bleibt 1.890 €. Drehtage bleiben separat. Frühere Versionen sind Verlauf.
 
 Danach mit den bisherigen Aufgaben weitermachen:
 

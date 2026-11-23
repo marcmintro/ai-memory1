@@ -2,6 +2,12 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-23: Produktionswege erklären, Start Januar, Honorar 850 €/Monat
+
+**Entscheidung (Marc, Codex-Chat):** Die Präsentation erklärt für die Unterthemen jeder Säule, wie wir Beiträge produzieren, wenn Ausgangsmaterial fehlt. Regelmäßiger Start im Januar 2027 gemeinsam mit dem Website-Relaunch; Anmoderation nach Weihnachten 2026. Die Filmfolie entfällt. Marc wählt 850 € Honorar, im bisherigen Angebotskontext als monatliche Betreuung umgesetzt. Das Start-Paket bleibt bei 1.890 €.
+**Umsetzung:** Materialbedarf, Aufnahmebriefings, neue Club-Handyaufnahmen oder separat kalkulierter Drehtermin, anschließend Bearbeitung und Freigabe. Pro Woche ein ausgewählter Beitrag; die Säulen bilden den Themenvorrat. Diese konkrete Verteilung der Neuaufnahmen ist ein Vorschlag zur Abstimmung mit Marc und dem Club. Die bisherige Trennung von Betreuung und separaten Mediatagen bleibt bestehen.
+**Überholt:** Betreuung für 650 €/Monat und der frühere regelmäßige Start im Dezember. Die früheren Einträge bleiben als Verlauf erhalten.
+
 ## 2026-11-16: Websitefilm für die GF im Format 16:9, Säulen mit Unterthemen
 
 **Präzisierung (Marc):** Mit dem Launch-Video war die Vorstellung der Internetseite für die Geschäftsführung im Format 16:9 gemeint. Die frühere Annahme eines Hochkant-Social-Teasers ist damit für den Hauptfilm überholt. Marc findet die bisherige Gestaltung gut. In der Präsentation folgt auf die Übersicht eine weitere Folie mit fünf sichtbaren Säulen und Unterthemen für die Verständlichkeit.
