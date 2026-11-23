@@ -2,6 +2,11 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-23: Drei Grid-Motive durch angehängte Bilder ersetzen
+
+**Wunsch (Marc):** Die Bilder bei „Rhythmus finden“, „Deckung hoch“ und „Boxen in Köln“ austauschen, dabei gerne ein rotes Motiv und die Umkleide verwenden.
+**Umsetzung:** KR-135 für „Deckung hoch“, KR-256 für „Rhythmus finden“, KR-6 für „Boxen in Köln“. Typografie und Grundlayout bleiben erhalten. Blau bleibt die gestalterische Basis, die Originalfarben der neuen Fotos ergänzen Rot und warme Brauntöne. Grid und Folie 6 gemeinsam aktualisiert.
+
 ## 2026-11-23: Instagram-Grid als Gestaltungsentwurf
 
 **Auftrag (Marc):** Den Lightroom-Ordner erneut sichten, die geplante Social-Media-Arbeit mit einem Instagram-Grid visualisieren und dieses als Folie in die Präsentation einfügen. Kurz Typografie und Layout vorschlagen.

@@ -1,8 +1,10 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-23 (Instagram-Grid als zusätzliche Folie) von Codex.
+Zuletzt aktualisiert: 2026-11-23 (Instagram-Grid mit neuer Bildauswahl) von Codex.
 
 ## Stand
+
+- [x] 23.11. Grid Entwurf 02: Auf Marcs Wunsch drei Motive ausgetauscht. Deckung hoch → rotes Ringfoto KR-135, Rhythmus finden → KR-256, Boxen in Köln → Umkleide KR-6. Folie 6, Gesamtansicht, Einzelmotive und Vorlagen aktualisiert. Typografie und übriges Raster bleiben erhalten.
 
 - [x] 23.11. Instagram-Grid Entwurf 01 aus Marcs Lightroom-Ordner: 343 Dateien gesichtet, sechs Motive ausgewählt, 3×3-Raster mit sechs Foto- und drei Typografie-Posts gestaltet. Website-Schriften und Blau übernommen. Als neue Folie 6 nach den Säulen ergänzt, Präsentation jetzt 15 Folien. Quellen, Einzelmotive und Vorschauen → `arbeit/instagram-grid-v1/`.
 - [ ] Marc prüft den Grid-Look. Aktuelle Trainerporträts, Aussagen und konkrete Informationsbeiträge brauchen weiterhin gezielte neue Aufnahmen und bestätigte Fakten.
