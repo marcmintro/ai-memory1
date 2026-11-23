@@ -43,7 +43,7 @@ function workflow(p){
  txt(s,'Ein Beitrag pro Woche. Die Säulen liefern den Themenvorrat.\nFehlende Aufnahmen entstehen gezielt für die ausgewählten Themen.',68,161,1120,70,26,C.light);
  const steps=[
   ['BEDARF FESTLEGEN','Wir sichten vorhandene Fotos und Clips. Für fehlende Motive legen wir fest, welche neuen Aufnahmen die geplanten Beiträge brauchen.'],
-  ['NEU AUFNEHMEN','Fehlende Fotos und Clips produzieren wir bei Bedarf an einem separat angebotenen Mediatag. Ergänzend liefert der Club kurze Handyaufnahmen nach Briefing.'],
+  ['NEU AUFNEHMEN','Fehlende Fotos und Clips produzieren wir bei Bedarf an einem separat angebotenen Mediatag. Handy-Content oder professionelle Kamera, je nach Format.'],
   ['BEITRÄGE PRODUZIEREN','Wir wählen aus, schneiden die Clips und erstellen Untertitel, Gestaltung und Texte.'],
   ['PRÜFEN UND VERÖFFENTLICHEN','Der Club bestätigt Inhalte und Einwilligungen. Wir planen die freigegebenen Beiträge ein.']
  ];
@@ -63,7 +63,7 @@ function production(p,data,index){
   const cell=table.getCell(r,c);cell.fill=C.ink;
   cell.text.style={fontSize:r===0?18:(c===0?29:23),typeface:r>0&&c===0?'Impact':'Arial',bold:r===0,color:r===0?C.light:C.chalk,verticalAlignment:'top',wrap:'square',autoFit:'none'};
  }
- txt(s,'Aufnahmeweg: Club-Handy nach Briefing oder separat gebuchter Drehtermin.',68,680,1090,26,17,C.muted);
+ txt(s,'Aufnahmeweg: Handy-Content oder professionelle Kamera, je nach Format.',68,680,1090,26,17,C.muted);
  return s;
 }
 function drawTimeline(s){
@@ -84,8 +84,7 @@ function drawOffer(s){
  head(s,'850 €',688,205,500,120,100,C.light);txt(s,'Betreuung pro Monat',692,337,490,40,26);
  txt(s,'Betreuung ab Januar 2027\nEin Beitrag pro Woche\nAufnahmebriefings, Schnitt und Gestaltung\nTexte, Planung und Veröffentlichung\nAbstimmung und Monatsauswertung',692,410,524,186,24);
  txt(s,'Fehlendes Foto- und Videomaterial produzieren wir gezielt vorab.\nEin Mediatag zur Materialproduktion kommt als separates Angebot dazu.',72,594,1120,66,23,C.light);
- txt(s,'Domain und Hosting über den Club. Umsatzsteuerangabe vor finalem Angebot klären.',72,674,1090,27,17,C.muted);
- s.speakerNotes.text=sources+' 850 Euro ist das neue monatliche Betreuungshonorar ab Januar. Das Start-Paket bleibt bei den bereits bestätigten 1.890 Euro. Vor-Ort-Drehtage sind nicht pauschal im Monatshonorar enthalten. Steuerliche Preisangabe vor finalem Angebot klären.';
+ s.speakerNotes.text=sources+' 850 Euro ist das neue monatliche Betreuungshonorar ab Januar. Das Start-Paket bleibt bei den bereits bestätigten 1.890 Euro. Vor-Ort-Drehtage sind nicht pauschal im Monatshonorar enthalten.';
 }
 export async function revise(p){
  if(p.slides.items.length!==10)throw new Error('Diese Überarbeitung erwartet den verifizierten Stand v2 mit zehn Folien.');
@@ -105,3 +104,21 @@ export async function revise(p){
  return {slides:p.slides.items.length,productionPages:[7,8,9,10,11]};
 }
 export async function build(p){await buildV2(p);return revise(p)}
+export async function refreshWording(p){
+ const oldFooter='Aufnahmeweg: Club-Handy nach Briefing oder separat gebuchter Drehtermin.';
+ const newFooter='Aufnahmeweg: Handy-Content oder professionelle Kamera, je nach Format.';
+ const oldWorkflow='Fehlende Fotos und Clips produzieren wir bei Bedarf an einem separat angebotenen Mediatag. Ergänzend liefert der Club kurze Handyaufnahmen nach Briefing.';
+ const newWorkflow='Fehlende Fotos und Clips produzieren wir bei Bedarf an einem separat angebotenen Mediatag. Handy-Content oder professionelle Kamera, je nach Format.';
+ const obsolete='Domain und Hosting über den Club. Umsatzsteuerangabe vor finalem Angebot klären.';
+ const snap=await p.inspect({select:'$.slides[*].elements[*]',include:['id','text']});
+ const toDelete=snap.records.filter(x=>x.text===obsolete);
+ const footers=snap.records.filter(x=>x.text===oldFooter);
+ const workflow=snap.records.filter(x=>x.text===oldWorkflow);
+ if(toDelete.length!==1||footers.length!==5||workflow.length!==1)throw new Error('Erwartete Textstellen nicht eindeutig.');
+ p.delete(toDelete.map(x=>x.id));
+ for(const s of p.slides.items){
+  for(const sh of s.shapes.items){const t=sh.text.toString();if(t===oldFooter)sh.text=newFooter;else if(t===oldWorkflow)sh.text=newWorkflow;}
+  s.speakerNotes.text=String(s.speakerNotes.text).replace(' Steuerliche Preisangabe vor finalem Angebot klären.','');
+ }
+ return {slides:p.slides.items.length,updatedFooters:footers.length,updatedWorkflow:workflow.length,removedOfferFooter:toDelete.length};
+}

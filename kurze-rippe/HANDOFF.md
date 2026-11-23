@@ -1,8 +1,10 @@
 # HANDOFF: Kurze Rippe
 
-Zuletzt aktualisiert: 2026-11-23 (Instagram-Grid mit neuer Bildauswahl) von Codex.
+Zuletzt aktualisiert: 2026-11-23 (Honorarseite und Aufnahmeweg gestrafft) von Codex.
 
 ## Stand
+
+- [x] 23.11. Auf Marcs Wunsch Domain-/Hosting- und Umsatzsteuerhinweis von der Honorarseite entfernt. Aufnahmeweg auf allen fünf Säulenfolien jetzt „Handy-Content oder professionelle Kamera, je nach Format“, allgemeiner Produktionsablauf entsprechend angepasst. Honorar 850 €/Monat und Hinweis auf separat angebotene Materialproduktion bleiben bestehen. Live-Präsentation weiterhin 15 Folien.
 
 - [x] 23.11. Grid Entwurf 02: Auf Marcs Wunsch drei Motive ausgetauscht. Deckung hoch → rotes Ringfoto KR-135, Rhythmus finden → KR-256, Boxen in Köln → Umkleide KR-6. Folie 6, Gesamtansicht, Einzelmotive und Vorlagen aktualisiert. Typografie und übriges Raster bleiben erhalten.
 

@@ -2,6 +2,8 @@
 
 Stand: 23.11.2026. Gestaltungsvorschlag zur Abstimmung, keine Veröffentlichung.
 
+Präsentationsfeinschliff: Domain-/Hosting-/Umsatzsteuerhinweis von der Honorarseite entfernt. Der Aufnahmeweg heißt jetzt „Handy-Content oder professionelle Kamera, je nach Format“. Die Produktionsquellen in `../praesentation-v3/deck.mjs` und die aktuelle Gesamtvorschau bilden diesen Stand ab.
+
 Auf Marcs Wunsch drei Bilder ersetzt: „Deckung hoch“ mit dem roten Ringfoto KR-135, „Rhythmus finden“ mit KR-256 und „Boxen in Köln“ mit der Umkleide KR-6. Typografie und Raster bleiben erhalten. Die roten und warmen Motive ergänzen die blaue Basis.
 
 ## Gestaltung

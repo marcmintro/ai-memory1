@@ -2,6 +2,11 @@
 
 Neueste oben. Format: Datum, Entscheidung, Grund.
 
+## 2026-11-23: Honorarseite straffen und Aufnahmeweg neutral formulieren
+
+**Wunsch (Marc):** Hinweis zu Domain und Umsatzsteuer unten auf der Honorarseite entfernen. Statt „Club-Handy“ den Aufnahmeweg als Handy-Content oder richtige Kamera je nach Format beschreiben.
+**Umsetzung:** Domain-/Hosting-/Umsatzsteuer-Zeile entfernt. Auf allen fünf Säulenfolien steht „Aufnahmeweg: Handy-Content oder professionelle Kamera, je nach Format.“ Der allgemeine Produktionsablauf nutzt dieselbe Formulierung. Das monatliche Honorar bleibt 850 €, die separate Materialproduktion bleibt erläutert.
+
 ## 2026-11-23: Drei Grid-Motive durch angehängte Bilder ersetzen
 
 **Wunsch (Marc):** Die Bilder bei „Rhythmus finden“, „Deckung hoch“ und „Boxen in Köln“ austauschen, dabei gerne ein rotes Motiv und die Umkleide verwenden.
