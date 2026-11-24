@@ -1,6 +1,6 @@
 # Aktueller Stand
 
-*Zuletzt aktualisiert: 2026-11-23*
+*Zuletzt aktualisiert: 2026-11-24*
 
 **Projekt:** ALREADY-GONE
 **Marke:** Already Gone (vorher arrel)
@@ -31,7 +31,8 @@ bekommt eine neue Stimme. Details und Markentexte stehen in
   **05.01.2027** (nicht mehr 01.12.). Bis Weihnachten 12 Posts (25.11.–18.12.)
   ohne Namen und Logo, Absender weiter „arrel“. Name und Logo erst nach
   Weihnachten. Paket: `Alrerady Gone./Instagram_Feed_V7_Midnight_2026-11-23/`
-  (siehe E-014).
+  (siehe E-014). Aktueller Stand: Feed V8 vom 24.11. mit 15 Posts
+  (`Instagram_Feed_V8_Midnight_2026-11-24/`, siehe E-015).
 
 ## Nächster Schritt
 

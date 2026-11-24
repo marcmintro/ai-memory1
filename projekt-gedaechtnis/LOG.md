@@ -3,6 +3,15 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-24 – Claude (Feed V8 Midnight)
+- Marcs Rückmeldung zu V7 umgesetzt:
+  - Pin Mitte jetzt einzeilig und kleiner.
+  - Drei Gründer-Posts mit je zwei Slides (Porträts 009/017, 038/031, 047/054). Namen sind noch Platzhalter.
+  - Sockenfoto 083 vor Weihnachten mit unscharfem neuem Etikett, danach scharf.
+  - Die 9 Codex-Karussells aus V3 sind im Midnight-Stil neu gebaut (Logo raus, „ALREADY GONE.“ aus den Captions gestrichen).
+- Plan jetzt 15 Posts (25.11.–18.12.). Drei Karussells sind eingeplant, sechs liegen in der Reserve.
+- Paket: `Alrerady Gone./Instagram_Feed_V8_Midnight_2026-11-24/`, mit Ablageordner für Marcs Reels.
+
 ## 2026-11-23 – Claude (Feed V7 Midnight, 12 Posts bis 18.12.)
 - Marc: Midnight gewählt, Launch 05.01., Name und Logo erst nach Weihnachten,
   12 Posts vom 25.11. bis 18.12. Neue Fotos von der LaCie (`LR_AG-PEOPZ`) und

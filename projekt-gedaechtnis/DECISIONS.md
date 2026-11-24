@@ -153,3 +153,18 @@ Vorlage:
   - Neue Fotos (Gründer, alte/neue Marke, Karte schreiben):
     LaCie `alreadygone-1/LR_AG-PEOPZ`.
 - Status: gültig. Umsetzung als Feed V7 Midnight (2026-11-23), Abnahme offen
+
+## E-015: Gründer einzeln, Socken-Teaser, Codex-Karussells im Midnight-Stil
+- Datum: 2026-11-24
+- Entschieden von: Marc
+- Entscheidung:
+  - Mittlerer Pin: „The good will last.“ einzeilig, kleiner, mittig.
+  - Die drei Gründer werden einzeln vorgestellt, mit Porträts aus `LR_AG-PEOPZ`.
+  - Das Foto mit drei Sockenvarianten und Etiketten (AG-PEOPZ-083) kommt in
+    den Feed. Vor Weihnachten ist das neue Etikett unscharf, nach Weihnachten
+    folgt die scharfe Fassung.
+  - Die 9 Codex-Karussells (V3) werden in den Midnight-Stil übertragen.
+- Umsetzung (Claude, Vorschlag): 15 Posts bis 18.12., davon drei Karussells
+  (Take it slow, Good company, Keep the good in play). Die anderen sechs
+  liegen als Reserve bereit. Paket `Instagram_Feed_V8_Midnight_2026-11-24`.
+- Status: gültig, Plan mit 15 Posts und Gründer-Namen von Marc noch offen

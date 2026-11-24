@@ -5,7 +5,9 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Feed V7 Midnight von Marc abnehmen lassen (`Alrerady Gone./Instagram_Feed_V7_Midnight_2026-11-23/`)
+- [ ] Feed V8 Midnight von Marc abnehmen lassen (`Alrerady Gone./Instagram_Feed_V8_Midnight_2026-11-24/`), Plan mit 15 statt 12 Posts bestätigen
+- [ ] Namen, Wurzeln und einen Satz je Gründer von Marc einholen und in die Gründer-Posts einsetzen (`v8.html`, Platzhalter `[Name]`)
+- [ ] Reels von Marc aus `00_Reels_hier_ablegen` übernehmen und Cover anpassen
 - [ ] Klären: EMOTION Teil 3 enthält „Aus arrel wird ALREADY GONE.“, deshalb nach Weihnachten eingeplant (oder Zeile rausschneiden)
 - [ ] Reels EMOTION 1–3 und ANWALT: echte Cover bauen, sobald Marc geschnitten hat
 - [ ] Phase nach Weihnachten gestalten: EMOTION Teil 3 und Logo-Animation (ca. 27.12.), alte/neue Marke mit Socken 082–085 (ca. 29.12.), EMOTION ganz (ca. 02.01.), Launch 05.01.
@@ -24,6 +26,8 @@ statt sie zu löschen.
   `LOGO_ENTWICKLUNG/PLOT.ai`, die Markenfilme
 
 ## Erledigt
+
+- [x] 2026-11-24: Feed V8 gebaut: Pin Mitte einzeilig, Gründer einzeln, Socken-Teaser, 9 Codex-Karussells im Midnight-Stil
 
 - [x] 2026-11-23: Midnight gewählt; Pins angepasst und 12 Posts (25.11.–18.12.) ohne Namen/Logo als Feed V7 gebaut
 
