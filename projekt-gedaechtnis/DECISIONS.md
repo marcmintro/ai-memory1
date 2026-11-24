@@ -167,4 +167,4 @@ Vorlage:
 - Umsetzung (Claude, Vorschlag): 15 Posts bis 18.12., davon drei Karussells
   (Take it slow, Good company, Keep the good in play). Die anderen sechs
   liegen als Reserve bereit. Paket `Instagram_Feed_V8_Midnight_2026-11-24`.
-- Status: gültig, Plan mit 15 Posts und Gründer-Namen von Marc noch offen
+- Status: gültig. Am 2026-11-24 bestätigt: 15 Posts bis 18.12., sechs Karussells als Reserve für Januar. Gründer-Namen von Marc noch offen

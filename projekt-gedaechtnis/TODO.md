@@ -5,7 +5,7 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Feed V8 Midnight von Marc abnehmen lassen (`Alrerady Gone./Instagram_Feed_V8_Midnight_2026-11-24/`), Plan mit 15 statt 12 Posts bestätigen
+- [ ] Feed V8 Midnight von Marc abnehmen lassen (`Alrerady Gone./Instagram_Feed_V8_Midnight_2026-11-24/`)
 - [ ] Namen, Wurzeln und einen Satz je Gründer von Marc einholen und in die Gründer-Posts einsetzen (`v8.html`, Platzhalter `[Name]`)
 - [ ] Reels von Marc aus `00_Reels_hier_ablegen` übernehmen und Cover anpassen
 - [ ] Klären: EMOTION Teil 3 enthält „Aus arrel wird ALREADY GONE.“, deshalb nach Weihnachten eingeplant (oder Zeile rausschneiden)
