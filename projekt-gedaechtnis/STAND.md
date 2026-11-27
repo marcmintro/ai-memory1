@@ -1,6 +1,6 @@
 # Aktueller Stand
 
-*Zuletzt aktualisiert: 2026-11-24*
+*Zuletzt aktualisiert: 2026-11-27*
 
 **Projekt:** ALREADY-GONE
 **Marke:** Already Gone (vorher arrel)
@@ -33,6 +33,13 @@ bekommt eine neue Stimme. Details und Markentexte stehen in
   Weihnachten. Paket: `Alrerady Gone./Instagram_Feed_V7_Midnight_2026-11-23/`
   (siehe E-014). Aktueller Stand: Feed V8 vom 24.11. mit 15 Posts
   (`Instagram_Feed_V8_Midnight_2026-11-24/`, siehe E-015).
+- Stand 2026-11-27 (E-016): Der Name fällt **vor Weihnachten** am 16.12.
+  (Reel EMOTION 3). Kein „arrel“ mehr in Posts. Gründer: Zoran (Kroatien),
+  Hyon (Südkorea), Markus (Deutschland). Verbindlich ist jetzt der Postingplan
+  `Alrerady Gone./Instagram_Postingplan_2026-11-27/`: Pins am 28.11., dann
+  täglich bis 18.12., danach 27.12., 29.12., 02.01. und Website am 05.01.
+  Quellen (v9.html, teaser7.html, render9.cjs, plan9.py) liegen in den
+  Projektdateien unter `already-gone/_Quellen_V9/`.
 
 ## Nächster Schritt
 

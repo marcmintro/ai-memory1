@@ -5,13 +5,9 @@ statt sie zu löschen.
 
 ## Offen
 
-- [ ] Feed V8 Midnight von Marc abnehmen lassen (`Alrerady Gone./Instagram_Feed_V8_Midnight_2026-11-24/`)
-- [ ] Namen, Wurzeln und einen Satz je Gründer von Marc einholen und in die Gründer-Posts einsetzen (`v8.html`, Platzhalter `[Name]`)
-- [ ] Reels von Marc aus `00_Reels_hier_ablegen` übernehmen und Cover anpassen
-- [ ] Klären: EMOTION Teil 3 enthält „Aus arrel wird ALREADY GONE.“, deshalb nach Weihnachten eingeplant (oder Zeile rausschneiden)
-- [ ] Reels EMOTION 1–3 und ANWALT: echte Cover bauen, sobald Marc geschnitten hat
-- [ ] Phase nach Weihnachten gestalten: EMOTION Teil 3 und Logo-Animation (ca. 27.12.), alte/neue Marke mit Socken 082–085 (ca. 29.12.), EMOTION ganz (ca. 02.01.), Launch 05.01.
-- [ ] Optional: Foto-Cover 04/05/06/09/13/14 leicht mit Filmkorn angleichen
+- [ ] Postingplan `Alrerady Gone./Instagram_Postingplan_2026-11-27/` von Marc abnehmen lassen
+- [ ] ANWALT Teil 2 (13.12.) und Teil 3 (27.12.): Video von Marc übernehmen, Cover bauen, Platzhalter ersetzen
+- [ ] Klären: EMOTION 1 und 3 enthalten „arrel“ im Untertitel/Bild; ANWALT 1 zeigt bei 6–10 s das ALREADY-GONE-Etikett vor dem Drop; Socken-Foto 085 zeigt das alte arrel-Etikett
 - [ ] Logo-Animation weiß (`Alrerady Gone./Logo_Liquid_Weiss_2026-11-13/`) von Marc abnehmen lassen
 
 - [ ] Weitere Kapitel der Markengeschichte (02 ff.) von Marc einholen und in
@@ -26,6 +22,8 @@ statt sie zu löschen.
   `LOGO_ENTWICKLUNG/PLOT.ai`, die Markenfilme
 
 ## Erledigt
+
+- [x] 2026-11-27: Postingplan bis 05.01. mit Namens-Drop am 16.12., Gründernamen, echten Reel-Covern, S/W-Karussell und Produkt-Karussell gebaut
 
 - [x] 2026-11-24: Feed V8 gebaut: Pin Mitte einzeilig, Gründer einzeln, Socken-Teaser, 9 Codex-Karussells im Midnight-Stil
 

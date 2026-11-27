@@ -167,4 +167,33 @@ Vorlage:
 - Umsetzung (Claude, Vorschlag): 15 Posts bis 18.12., davon drei Karussells
   (Take it slow, Good company, Keep the good in play). Die anderen sechs
   liegen als Reserve bereit. Paket `Instagram_Feed_V8_Midnight_2026-11-24`.
-- Status: gültig. Am 2026-11-24 bestätigt: 15 Posts bis 18.12., sechs Karussells als Reserve für Januar. Gründer-Namen von Marc noch offen
+- Status: gültig. Am 2026-11-24 bestätigt: 15 Posts bis 18.12., sechs Karussells als Reserve für Januar. Gründer-Namen am 2026-11-27 geliefert. Teilweise ersetzt durch E-016 (Socken-Teaser entfällt, Namens-Drop vor Weihnachten)
+
+## E-016: Namens-Drop vor Weihnachten, kein „arrel“ mehr, Postingplan für die Jungs
+- Datum: 2026-11-27
+- Entschieden von: Marc
+- Entscheidung:
+  - Gründer (Reihenfolge im Raster von oben nach unten): Zoran, Wurzeln Kroatien;
+    Hyon, Wurzeln Südkorea; Markus, Deutschland.
+  - Der Name ALREADY GONE fällt **vor Weihnachten** mit EMOTION Teil 3
+    („was bleibt“), nicht erst danach. Website bleibt am 05.01.
+  - Chronologie der Reels: EMOTION 1 „Wo alles angefangen hat“ (Cover: Kind
+    aus dem Video, nicht die Frau), EMOTION 2 (was verloren ging / was die
+    Jungs beobachtet haben), EMOTION 3 (was bleibt + Name).
+  - ANWALT: Aussage ist „Wir haben Post bekommen“ (sie wurden geprüft, nicht
+    umgekehrt). Drei Teile: Teil 1 fertig, Teil 2 vor dem 18.12., Teil 3 nach
+    Weihnachten (Hyon erklärt, wie sie darauf gekommen sind). Teil 2 und 3 als
+    benannte Platzhalter.
+  - Nirgends mehr „arrel“ schreiben (rechtlich). Bis zum Drop bleibt es namenlos.
+  - Immer weiße Schrift. Kein Korn auf gerahmten Fotos (Polaroids).
+  - Post „a letter is coming“ (unscharfe Karte) fällt weg.
+  - Socken mit drei Anhängern erst nach dem Drop (der neue Name ist sichtbar).
+  - Schwarz-Weiß-Motive aus früheren Feeds wieder rein, mehr Produkte, mehr
+    Posts im Zeitraum. Gründer-Fokus bleibt. Lachende Gruppenfotos („same
+    people“) nach Weihnachten.
+- Umsetzung (Claude): Paket `Alrerady Gone./Instagram_Postingplan_2026-11-27/`
+  mit einem Ordner pro Tag (Bilder, Caption.txt, Video), LIESMICH, PDF und
+  Feed-Vorschau. Pins 28.11., dann täglich 29.11.–18.12. (20 Posts), Drop am
+  16.12., nach Weihnachten 27.12./29.12./02.01./05.01., sieben Karussells als
+  Reserve für Januar.
+- Status: gültig, Abnahme durch Marc offen

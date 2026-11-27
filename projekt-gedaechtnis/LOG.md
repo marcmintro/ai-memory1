@@ -3,6 +3,22 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-27 – Claude (Postingplan für die Jungs)
+- Marcs Feedback zu V8 umgesetzt (E-016): Gründernamen eingesetzt, „arrel“
+  überall entfernt, weiße Schrift, Polaroids ohne Korn, Karten-Post raus.
+- Reels von Marc gesichtet. Neue Cover aus den Videos: EMOTION 1 (Kind),
+  EMOTION 2 (Auge), EMOTION 3 (Hände), ANWALT 1 (Zoran, „Wir haben Post
+  bekommen.“). ANWALT 2 und 3 sind benannte Platzhalter.
+- Neu: Produkt-Karussell „Made to last“, S/W-Karussell, Text „Morgen bekommt
+  das, was bleibt, einen Namen.“, Schluss-Post „ALREADY GONE.“ am 18.12.,
+  Socken mit Anhängern am 17.12., „Same people“ 29.12., ganzer Film 02.01.,
+  Website-Post 05.01.
+- Paket `Alrerady Gone./Instagram_Postingplan_2026-11-27/`: ein Ordner pro Tag
+  mit Bildern, Caption.txt und Video, dazu LIESMICH, Postingplan.pdf und
+  Feed-Vorschauen.
+- Offen: Abnahme; „arrel“ in den Videos EMOTION 1 und 3; ALREADY-GONE-Etikett
+  in ANWALT 1 vor dem Drop; altes Etikett auf Socken-Foto 085.
+
 ## 2026-11-24 – Claude (Feed V8 Midnight)
 - Marcs Rückmeldung zu V7 umgesetzt:
   - Pin Mitte jetzt einzeilig und kleiner.
