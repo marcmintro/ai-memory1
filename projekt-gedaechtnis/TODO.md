@@ -6,7 +6,8 @@ statt sie zu löschen.
 ## Offen
 
 - [ ] Postingplan `Alrerady Gone./Instagram_Postingplan_2026-11-27/` von Marc abnehmen lassen
-- [ ] ANWALT Teil 2 (13.12.) und Teil 3 (27.12.): Video von Marc übernehmen, Cover bauen, Platzhalter ersetzen
+- [ ] Gründer-Infos (Lieblingsprodukt, Statement, Eigenschaft, „wertvoll, weil“) von Marc: PSDs in `Gruender_Infoslides_Photoshop/`, danach Slide_2 im Postingplan ersetzen
+- [ ] Cover-Headlines Interview 2 („Und was jetzt?“) und 3 („Wie wir darauf gekommen sind.“) von Marc bestätigen lassen
 - [ ] Klären: EMOTION 1 und 3 enthalten „arrel“ im Untertitel/Bild; ANWALT 1 zeigt bei 6–10 s das ALREADY-GONE-Etikett vor dem Drop; Socken-Foto 085 zeigt das alte arrel-Etikett
 - [ ] Logo-Animation weiß (`Alrerady Gone./Logo_Liquid_Weiss_2026-11-13/`) von Marc abnehmen lassen
 

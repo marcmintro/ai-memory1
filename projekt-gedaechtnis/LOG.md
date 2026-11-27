@@ -3,6 +3,14 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-27 – Claude (Nachtrag abends)
+- Marcs Feedback umgesetzt (E-017): Reel-Labels, Palermo-Foto mit Marc raus,
+  Socken-Text neu, echte Cover für Interview 2 und 3, Endkarte „War das das
+  Ende?“ in ANWALT 1 geschnitten, Gründer-Infoslides als PSD.
+- Neue Videos von Marc (ANWALT 1 neu, 2, 3, EMOTION 3 neu) in die Tagesordner
+  verschoben. Alter Stand des Postingplans liegt im Archiv
+  `_Sichtung_Claude_2026-11-13/_alt_Postingplan_v1/`.
+
 ## 2026-11-27 – Claude (Postingplan für die Jungs)
 - Marcs Feedback zu V8 umgesetzt (E-016): Gründernamen eingesetzt, „arrel“
   überall entfernt, weiße Schrift, Polaroids ohne Korn, Karten-Post raus.

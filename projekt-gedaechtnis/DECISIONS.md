@@ -197,3 +197,23 @@ Vorlage:
   16.12., nach Weihnachten 27.12./29.12./02.01./05.01., sieben Karussells als
   Reserve für Januar.
 - Status: gültig, Abnahme durch Marc offen
+
+## E-017: Reel-Labels, Endkarte, Gründer-Infos (Nachtrag 27.11. abends)
+- Datum: 2026-11-27
+- Entschieden von: Marc
+- Entscheidung:
+  - Reel-Cover oben rechts „The Story“ (EMOTION) bzw. „The Interview“ (ANWALT),
+    keine Teilnummern und kein „Reel“ mehr. Unten links „The good will last.“,
+    unten rechts „Never lost.“
+  - Palermo-Foto mit Marc (115-Palmero-17) nicht verwenden. Marc will nicht
+    selbst im Feed zu sehen sein.
+  - Socken-Post: „Das, was war. Das, was kommt.“ + „und was für immer bleibt.“
+    statt „Gleiche Socken. Neuer Name.“
+  - ANWALT 1 endet mit bewegtem Midnight-Verlauf und „War das das Ende?“ statt
+    Schwarzbild.
+  - Gründer-Slide 2 bekommt: Wurzeln, Lieblingsprodukt, Lieblingsstatement,
+    wichtigste Eigenschaft, „wertvoll fürs Unternehmen, weil“. Marc füllt das
+    in Photoshop (PSDs in `Alrerady Gone./Gruender_Infoslides_Photoshop/`).
+- Vorschlag Claude (offen): Cover-Headlines „Und was jetzt?“ (Interview 2,
+  Markus) und „Wie wir darauf gekommen sind.“ (Interview 3, Hyon).
+- Status: gültig
