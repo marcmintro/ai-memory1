@@ -3,6 +3,12 @@
 Neue Einträge **oben** anfügen. Format:
 
 ```
+## 2026-11-27 – Claude (Nachtrag 23 Uhr, Street-Fotos)
+- Marc möchte Fotos aus der Street-Serie (`ARREL/LR_ARREL_Street/`) im Feed.
+  Zwei neue Karussells gebaut und als Zweit-Posts eingeplant (E-018):
+  10b Di 08.12. „Street“ (Street-32, 41, 26, 70) und 14b Sa 12.12. „Human.“
+  (Street-21, 85, 9, 36). Vorschau, LIESMICH und PDF neu, auf den Mac kopiert.
+
 ## 2026-11-27 – Claude (Nachtrag abends)
 - Marcs Feedback umgesetzt (E-017): Reel-Labels, Palermo-Foto mit Marc raus,
   Socken-Text neu, echte Cover für Interview 2 und 3, Endkarte „War das das

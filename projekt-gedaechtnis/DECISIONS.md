@@ -223,3 +223,16 @@ Vorlage:
 - Vorschlag Claude (offen): Cover-Headlines „Und was jetzt?“ (Interview 2,
   Markus) und „Wie wir darauf gekommen sind.“ (Interview 3, Hyon).
 - Status: gültig
+
+## E-018: Street-Fotos im Feed (27.11. spät)
+- Datum: 2026-11-27
+- Entschieden von: Marc (Wunsch), Umsetzung Claude
+- Entscheidung: Fotos aus `ARREL/LR_ARREL_Street/` kommen in den Feed, als
+  zwei 4er-Karussells im Midnight-Stil (Vollbild + Polaroid im Wechsel):
+  - 10b Di 08.12. „Street“: same streets / „Eigene Wege. Gleiche Haltung.“ /
+    liberté. égalité. / „Good company goes a long way.“
+  - 14b Sa 12.12. „Human.“: „Human first.“ / take a seat. / „Step by step.“ /
+    keep moving.
+  - Beide als zweiter Post am Tag (abends). Vor dem Namens-Drop, Label „05.01.“
+- Status: offen (Freigabe Marc). Weitere ausgewählte Street-Fotos (u. a. 17)
+  liegen als Reserve in `_Sichtung_Claude_2026-11-13/street_2811/`.
