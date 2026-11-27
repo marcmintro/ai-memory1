@@ -214,6 +214,12 @@ Vorlage:
   - Gründer-Slide 2 bekommt: Wurzeln, Lieblingsprodukt, Lieblingsstatement,
     wichtigste Eigenschaft, „wertvoll fürs Unternehmen, weil“. Marc füllt das
     in Photoshop (PSDs in `Alrerady Gone./Gruender_Infoslides_Photoshop/`).
+  - Texte (Nachtrag 20:50): Pin rechts „Gleiche Werte. Gleiche Haltung.
+    Gleiche Wurzeln.“; Produkt-Karussell „Gleiche Haltung. Gleiches
+    Engagement.“; Gründer-Karussell „Gleiche Werte. Verschiedene Menschen.“;
+    15.12. „Die Brand, die bleibt.“ (bewusst unkonkret); 18.12. „ALREADY
+    GONE.“, direkt darunter „the good will last.“, dann untereinander „Gleiche
+    Werte. Gleiche Haltung. Gleiche Wurzeln. Neuer Name.“ (ohne Weihnachtsgruß).
 - Vorschlag Claude (offen): Cover-Headlines „Und was jetzt?“ (Interview 2,
   Markus) und „Wie wir darauf gekommen sind.“ (Interview 3, Hyon).
 - Status: gültig
